@@ -133,7 +133,7 @@ font-size: 100%;line-height:26px;margin:0 1px; text-align: center}
 
 
 @media (max-width:1199px){
-#top .wrap{height:900px;}
+#top .wrap{/* height:900px; */}
 #comp {margin:150px 0 0 0;}
 
 }
