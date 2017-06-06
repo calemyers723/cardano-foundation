@@ -1,0 +1,31 @@
+---
+layout: page-center
+---
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="page single {{page.slug}}">
+
+    {% include header.html %}
+
+    <div id="main-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-24 col-md-24 text-center">
+                    <div class="post">
+                        <div class="entry" title="{{ page.title }}">
+                            {{content}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /#main-body -->
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

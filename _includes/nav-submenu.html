@@ -1,0 +1,56 @@
+
+<div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navside" aria-expanded="false">
+                    <span class="sr-only">Toggle library navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+
+
+
+<div id="navside" class="collapse navbar-collapse ">
+<ul class="navbar-side nav navbar-collapse scrolledtop">
+
+
+                      {% for anchor in include.item.anchors %}
+
+                      <li>
+                        {% if !anchor.tit %}
+                        <a class="nosearch" href="{{include.item.permalink}}#{{anchor.tit  | slugify}}">
+                          {{anchor.tit}}
+                        </a>
+                        {% endif %}
+
+                      {% if anchor.subanchors %}
+                      <ul>
+                      {% for subanchor in anchor.subanchors %}
+                      <li><a class="nosearch" href="{{include.item.permalink}}#{{subanchor.tit | slugify}}">{{subanchor.tit}}</a>
+
+
+                                      {% if subanchor.subanchors %}
+                                      <ul>
+                                      {% for subsubanchor in subanchor.subanchors %}
+                                      <li><a class="nosearch" href="{{include.item.permalink}}#{{subsubanchor.tit | slugify}}">{{subsubanchor.tit}}</a></li>
+                                      {% endfor %}
+                                      </ul>
+                                      {% endif %}
+
+
+
+                      </li>
+                      {% endfor %}
+                      </ul>
+                      {% endif %}
+
+                      {% if !anchor.subanchors %}
+                      </li>
+                      {% endif %}
+
+                      {% endfor %}
+
+</ul>
+</div>
+
+<br />

@@ -1,0 +1,231 @@
+---
+layout: page-home-new
+---
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div id="main-body">
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-24 col-md-24 text-center">
+              <div class="row">
+                <div class="col-lg-22 col-lg-offset-1 col-md-20 col-md-offset-2">
+
+                  <h2 class="uppercase title">{{ site.data.i18n[page.language].about_us }}</h2>
+                  <hr class="sm" />
+
+
+
+
+                {% if page.language == 'ja' %}
+
+                カルダノ財団はスイス・ツークに拠点を置くブロックチェーン及び暗号通貨組織です。<br>
+
+                私たちはカルダノ・プロトコル及び関連したエコシステムを客観的に監視する教育機関としての役割を担っており、また提言者が集まり活発なコラボレーションが行われる環境を創出することでカルダノ・コミュニティーに寄与しています。ブロックチェーン、及び暗号通貨分野における商業的、立法的ランドスケープを前進させ、発展させることも私たちの重要な役割のひとつであり、そのために政府や規制機関に対し積極的なアプローチを行い、企業やエンタープライズ、またその他オープンソース・プロジェクトなどと戦略的パートナーシップを構築することをストラテジーとしています。私たち財団の核となるミッションは、カルダノ・テクノロジーの規格化、保護、そして発展です。
+
+                {% else %}
+
+                                Cardano Foundation is a blockchain and cryptocurrency organisation based in Zug, Switzerland.
+                                The Cardano Foundation is dedicated to act as an objective, supervisory and educational body for the Cardano Protocol and its associated ecosystem; and also serve the Cardano community by creating an environment where advocates can aggregate and collaborate. <br>
+                                The Foundation aims to influence and progress the emerging commercial &amp; legislative landscape for blockchain technology and cryptocurrencies. It’s strategy is to pro-actively approach government and regulatory bodies and to form strategic partnerships with businesses, enterprises and other open-source projects.<br>
+
+                                The Foundation's core mission is to "standardise, protect and promote" the Cardano Protocol technology.
+
+
+                {% endif %}
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="margin0" />
+
+      <section id="news" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-24 col-md-24 text-center ">
+
+              <h2 class=" title">{{ site.data.i18n[page.language].subscribe_to_nl }}</h2>
+
+              <div class="row">
+                <br>
+                <div class="col-md-8 col-md-offset-8 col-sm-12 col-sm-offset-6">
+
+                  <iframe src="/newsletter/{% if page.language != 'en' %}{{ page.language }}/{% endif %}" border="0" style="border:0;" allowtransparency="true" width="100%" height="200"></iframe>
+
+                </div><!-- /.col-lg-12 -->
+              </div><!-- /.row -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="margin0" />
+
+      <section id="features" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-24 col-md-24 text-center">
+
+              <h2 class="uppercase title">{{ site.data.i18n[page.language].goals }}</h2>
+              <hr class="sm" />
+
+              <div class="row">
+                <div class="col-lg-10 col-lg-offset-2 col-sm-12 feature">
+                    <img src="{{ '/images/ic_globe.jpg' | prepend: site.baseurl }}" width="65" height="65" />
+                    <p class="bold">{{ site.data.i18n[page.language].goal_protect }}</p>
+                </div>
+                <div class="col-lg-10 col-sm-12 feature">
+                    <img src="{{ '/images/ic_logo.jpg' | prepend: site.baseurl }}" width="65" height="65" />
+                    <p class="bold">{{ site.data.i18n[page.language].goal_act }}</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-8 col-sm-8 feature">
+                    <img src="{{ '/images/ic_study.gif' | prepend: site.baseurl }}" width="65" height="65" />
+                    <p class="bold">{{ site.data.i18n[page.language].goal_study }}</p>
+                </div>
+                <div class="col-lg-8 col-sm-8 feature">
+                    <img src="{{ '/images/ic_serve.gif' | prepend: site.baseurl }}" width="65" height="65" />
+                    <p class="bold">{{ site.data.i18n[page.language].goal_serve }}</p>
+                </div>
+                <div class="col-lg-8 col-sm-8 feature">
+                    <img src="{{ '/images/ic_bulb.gif' | prepend: site.baseurl }}" width="65" height="65" />
+                    <p class="bold">{{ site.data.i18n[page.language].goal_educate }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="margin0" />
+
+      <section id="structure" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-24 col-md-24 text-center">
+              <div class="row">
+                <div class="col-lg-16 col-lg-offset-4 col-md-20 col-md-offset-2">
+
+                  <h2 class="uppercase title">{{ site.data.i18n[page.language].partnership_structure }}</h2>
+                  <hr class="sm" />
+
+                  <div class="tree">
+                      <div class="branch left"></div>
+                      <img src="{{ '/images/cf_label.gif' | prepend: site.baseurl }}" width="178" height="52" alt="" />
+                      <div class="branch right"></div>
+                  </div>
+
+                  <div class="row branches">
+
+                    <div class="col-sm-9">
+                      <img src="{{ '/images/ic_logo_2.gif' | prepend: site.baseurl }}" width="70" height="70" />
+                      <h3>Cardano Gaming Group</h3>
+
+                      <!--<p>{{ site.data.i18n[page.language].structure_gaming_desc }}</p>-->
+                    </div>
+
+                    <div class="col-sm-6">
+                      <div class="branch"></div>
+                      <br />
+                      <img src="{{ '/images/ic_iohk.gif' | prepend: site.baseurl }}" width="125" height="90" />
+
+                     <h3>Input Output</h3>
+                      <!--<p>{{ site.data.i18n[page.language].structure_io_desc }}</p>-->
+                    </div>
+
+                    <div class="col-sm-9 col-attain">
+                      <img src="{{ '/images/ic_shield.gif' | prepend: site.baseurl }}" width="70" height="70" />
+
+                      <h3>Attain Corporation  {% if page.language == 'ja' %}<br>
+株式会社アテインコーポレーション
+                {% endif %}</h3>
+                      <!--<p>{{ site.data.i18n[page.language].structure_attain_desc }}</p>-->
+
+
+
+
+
+
+                    </div>
+                  </div>
+
+                  <br><br>
+                  <p class="bigger light">{{ site.data.i18n[page.language].becoming_partner }}</p>
+                  <a href="/#contact" class="btn btn-default btn-sm uppercase c_fff bg_trans">&nbsp; &nbsp; {{ site.data.i18n[page.language].contact_us }} &nbsp; &nbsp;</a><br><br>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="margin0" />
+
+      <section id="team" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-24 col-md-24 text-center">
+
+              <h2 class="uppercase title">
+
+                {% if page.language == 'en' %}
+                Cardano Foundation Council Members &amp; Organisation
+                {% else %}
+                カルダノ財団理事員&amp;組織
+                {% endif %}
+
+              </h2>
+              <hr class="sm" />
+              {% include block-team-new.html %}
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="margin0" />
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-24 col-md-24 ">
+              <div class="map_label">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h4 class="uppercase">{{ site.data.i18n[page.language].visit_us }}</h4>
+                    Cardano Foundation<br> Gubelstrasse 11<br> 6300 Zug<br> Switzerland <br> <br>
+                  </div>
+                  <div class="col-lg-12">
+                    <h4 class="uppercase">{{ site.data.i18n[page.language].contact }}</h4>
+                    <a href="#">info@cardanofoundation.org</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div><!-- /#main-body -->
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

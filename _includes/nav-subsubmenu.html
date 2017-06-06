@@ -1,0 +1,27 @@
+<ul class="navbar-side nav navbar-collapse ">
+
+
+                      {% for anchor in include.item.anchors %}
+
+                      <li>
+                        {% if !anchor.tit %}
+                        <a class="nosearch" href="{{include.item.permalink}}#{{anchor.tit  | slugify}}">
+                          {{anchor.tit}}
+                        </a>
+                        {% endif %}
+
+                      {% if anchor.subanchors %}
+                      <ul>
+                      {% for subanchor in anchor.subanchors %}
+                      <li><a class="nosearch" href="{{include.item.permalink}}#{{subanchor.tit | slugify}}">{{subanchor.tit}}</a></li>
+                      {% endfor %}
+                      </ul>
+                      {% endif %}
+
+                      {% if !anchor.subanchors %}
+                      </li>
+                      {% endif %}
+
+                      {% endfor %}
+
+</ul>
