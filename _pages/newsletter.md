@@ -1,5 +1,5 @@
 ---
-layout: form-nl
+layout: form-nl-new
 title: newsletter
 language: en
 permalink: /newsletter/

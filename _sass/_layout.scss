@@ -1,0 +1,99 @@
+#navhider {
+  ul {
+    li {
+      a {
+          font-family: Rubik;
+          font-size: 14.0px;
+          font-style: normal;
+          font-weight: 500;
+      }
+    }
+  }
+}
+
+
+#footer {
+  h4 {
+    color: #8c8c8c;
+    font-family: Quicksand;
+    font-size: 16.0px;
+    font-weight: 500;
+    margin: 0 0 26px;
+  }
+  a {
+    color: #246dd3;
+    font-family: Quicksand;
+    font-size: 17.0px;
+    font-weight: 700;
+  }
+  .social_icons{
+    margin: 15px 0;
+    a {
+      width:30px;
+      height:30px;
+      line-height: 26px;
+      font-size: 100%;
+      vertical-align:middle;
+      -moz-border-radius: 30px;-webkit-border-radius: 30px;border-radius:30px; 
+      font-size: 100%;
+      margin: 0 16px 0 0; 
+      text-align: center;
+
+      &.fa {
+        vertical-align:middle
+      }
+
+      &.linkedin{background:#fff; color: #1DA0F1;}
+      &.twitter{background:#fff; color: #1DA0F1;}
+      &.gplus{background:#fff; color: #1DA0F1;}
+      &.facebook{background:#fff; color: #3A5898;}
+      &.youtube{background:#fff; color: #CC201F;}
+      &.slack{background:#fff; color: #DF1562;}
+      &.reddit{background:#fff; color: #FF4500;}
+      &.github{background:#fff; color: #6D5394;}
+    }
+  }
+
+  .subscribe-to-our-new {
+    margin-bottom: 27px;
+  }
+
+  .copy-section {
+    padding-top: 40px;
+  }
+}
+
+#mc_embed_signup_scroll {
+  .input-group input.form-control.email {
+    width: 50%;
+    border: none;
+    background-color: #f7f7f7;
+    color: #a5a5a5;
+    font-family: Rubik;
+    font-size: 14.0px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .input-group select.form-control {
+    width: 25%;
+    text-transform: uppercase;
+    border: none;
+    color: #5078BA;
+    background-color: #f7f7f7;
+    font-family: Rubik;
+    font-size: 14.0px;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 500;
+  }
+
+  .input-group .btn-default {
+    width: 20%;
+    margin-left: 4%;
+    border: none;
+    background-color: #5079BB;
+    color: #ffffff;
+    font-size: 14px;
+  }
+}

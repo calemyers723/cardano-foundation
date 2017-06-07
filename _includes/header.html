@@ -1,4 +1,4 @@
-<div id="page" class="{{ page.slug }} {% if page.layout == 'page-home-new' %}swiss{% endif %}">
+<div id="page" class="page {{ page.slug }} {% if page.layout == 'page-home-new' %}swiss{% endif %}">
 <header class="header">
   <div id="navbar" class="navbar navbar-top navbar-default  border0" role="navigation">
     <div class="container">
@@ -35,8 +35,8 @@
     </div>
   </div>
   {% if page.title == 'home' %}
-  <section id="welcome" class="section">
-    <div class="container">
+  <section id="welcome1" class="section banner">
+    <div class="container banner">
       <div class="row">
         <div class="col-lg-24 col-md-24 text-center">
           <div class="row">
@@ -49,20 +49,16 @@
               {% else %}
               <h3>Blockchain | Cryptocurrency | Decentralised Applications</h3>
               <br>
-              <p>
+              <p class="banner-desc">
                 Cardano is a decentralised platform that will allow complex programmable transfers of value in a secure and scalable fashion. Cardano is the first blockchain to be built in the highly secure Haskell programming language.
               </p>
               {% endif %}
-              <!--<h2 class="">{{ site.data.i18n[page.language].home_desc }}</h2>-->
-              <!--<img src="{{ '/images/ic_top_shield.gif' | prepend: site.baseurl }}" width="60" height="60" />-->
-              <!--<a href="http://attaincorp.co.jp/en/" class="btn btn-default btn-lga uppercase c_fff bg_trans">&nbsp; &nbsp; {{ site.data.i18n[page.language].read_more }} &nbsp; &nbsp;</a>-->
-              <!--{{ site.data.i18n[page.language].home_sale_only }}-->
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div id="top" class="top banner text-center section container">
+    <div id="top" class="top text-center section container">
       <div class="wrap row">
         <div class="col-lg-20 col-lg-offset-2 col-md-24">
         </div>
@@ -70,17 +66,16 @@
         <div class="col-md-12">
           <div id="comp" class="">
             <a href="https://www.youtube.com/watch?v={{yt}}" class="iohk_video_load_modal" rel="{{yt}}">
-            <img src="/images/mac-play{% if page.language == 'ja' %}-ja{% endif %}.png" width="" alt="" />
+            <img src="/images/mac-play{% if page.language == 'ja' %}-ja{% endif %}.jpg" width="" alt="" />
             </a>
           </div>
         </div>
-        <div class="col-md-12">
+        <div class="col-md-12 text-left">
           {% if page.language == 'en' %}
           <h2>Testnet 0.3</h2>
           <br>
-          <p>Cardano is now in its public testing phase and Testnet 0.3 is live.</p>
-          <p>We are encouraging everyone to download Testnet 0.3, try out the platform and help us improve it further pre launch.
-          </p>
+          <p class="testnet">Cardano is now in its public testing phase and Testnet 0.3 is live.</p>
+          <p class="testnet">We are encouraging everyone to download Testnet 0.3, try out the platform and help us improve it further pre launch.</p>
           <br>
           <a href="http://daedaluswallet.io" class="btn download-btn">Download Here</a>
           {% endif %}
