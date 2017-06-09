@@ -1,0 +1,13 @@
+title: Cardano Foundation
+description: Blockchain Technology | CryptoCurrency Software
+baseurl: ""
+url: "http://cardanofoundation.org"
+include: ["_pages"]
+permalink: /:title
+
+markdown: kramdown
+array: []
+
+languages:          ['en', 'ja']
+language_default:   'en'
+

@@ -1,0 +1,212 @@
+/* Global */
+@font-face {
+  font-family: 'Quicksand';
+  src: url("../fonts/Quicksand-Bold/Quicksand-Bold.ttf") format("truetype"), url("../fonts/Quicksand-Bold/Quicksand-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Quicksand-Bold/Quicksand-Bold.woff") format("woff"), url("../fonts/Quicksand-Bold/Quicksand-Bold.svg#Quicksand-Bold") format("svg");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700; }
+@font-face {
+  font-family: 'Quicksand';
+  src: url("../fonts/Quicksand-Light/Quicksand-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Quicksand-Light/Quicksand-Light.woff") format("woff"), url("../fonts/Quicksand-Light/Quicksand-Light.ttf") format("truetype"), url("../fonts/Quicksand-Light/Quicksand-Light.svg#Quicksand-Light") format("svg");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 300; }
+@font-face {
+  font-family: 'Quicksand';
+  src: url("../fonts/Quicksand-Medium/Quicksand-Medium.ttf") format("truetype"), url("../fonts/Quicksand-Medium/Quicksand-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Quicksand-Medium/Quicksand-Medium.woff") format("woff"), url("../fonts/Quicksand-Medium/Quicksand-Medium.svg#Quicksand-Medium") format("svg");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 500; }
+@font-face {
+  font-family: 'Quicksand';
+  src: url("../fonts/Quicksand-Regular/Quicksand-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Quicksand-Regular/Quicksand-Regular.woff") format("woff"), url("../fonts/Quicksand-Regular/Quicksand-Regular.ttf") format("truetype"), url("../fonts/Quicksand-Regular/Quicksand-Regular.svg#Quicksand-Regular") format("svg");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400; }
+@font-face {
+  font-family: 'Rubik';
+  src: url("../fonts/Rubik-Bold/Rubik-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Rubik-Bold/Rubik-Bold.woff") format("woff"), url("../fonts/Rubik-Bold/Rubik-Bold.ttf") format("truetype"), url("../fonts/Rubik-Bold/Rubik-Bold.svg#Rubik-Bold") format("svg");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700; }
+@font-face {
+  font-family: 'Rubik';
+  src: url("../fonts/Rubik-BoldItalic/Rubik-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Rubik-BoldItalic/Rubik-BoldItalic.woff") format("woff"), url("../fonts/Rubik-BoldItalic/Rubik-BoldItalic.ttf") format("truetype"), url("../fonts/Rubik-BoldItalic/Rubik-BoldItalic.svg#Rubik-BoldItalic") format("svg");
+  font-style: italic;
+  font-stretch: normal;
+  font-weight: 700; }
+@font-face {
+  font-family: 'Rubik';
+  src: url("../fonts/Rubik-Italic/Rubik-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Rubik-Italic/Rubik-Italic.woff") format("woff"), url("../fonts/Rubik-Italic/Rubik-Italic.ttf") format("truetype"), url("../fonts/Rubik-Italic/Rubik-Italic.svg#Rubik-Italic") format("svg");
+  font-style: italic;
+  font-stretch: normal;
+  font-weight: 400; }
+@font-face {
+  font-family: 'Rubik';
+  src: url("../fonts/Rubik-Light/Rubik-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Rubik-Light/Rubik-Light.woff") format("woff"), url("../fonts/Rubik-Light/Rubik-Light.ttf") format("truetype"), url("../fonts/Rubik-Light/Rubik-Light.svg#Rubik-Light") format("svg");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 300; }
+@font-face {
+  font-family: 'Rubik';
+  src: url("../fonts/Rubik-LightItalic/Rubik-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Rubik-LightItalic/Rubik-LightItalic.woff") format("woff"), url("../fonts/Rubik-LightItalic/Rubik-LightItalic.ttf") format("truetype"), url("../fonts/Rubik-LightItalic/Rubik-LightItalic.svg#Rubik-LightItalic") format("svg");
+  font-style: italic;
+  font-stretch: normal;
+  font-weight: 300; }
+@font-face {
+  font-family: 'Rubik';
+  src: url("../fonts/Rubik-Medium/Rubik-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Rubik-Medium/Rubik-Medium.woff") format("woff"), url("../fonts/Rubik-Medium/Rubik-Medium.ttf") format("truetype"), url("../fonts/Rubik-Medium/Rubik-Medium.svg#Rubik-Medium") format("svg");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 500; }
+@font-face {
+  font-family: 'Rubik';
+  src: url("../fonts/Rubik-MediumItalic/Rubik-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Rubik-MediumItalic/Rubik-MediumItalic.woff") format("woff"), url("../fonts/Rubik-MediumItalic/Rubik-MediumItalic.ttf") format("truetype"), url("../fonts/Rubik-MediumItalic/Rubik-MediumItalic.svg#Rubik-MediumItalic") format("svg");
+  font-style: italic;
+  font-stretch: normal;
+  font-weight: 500; }
+@font-face {
+  font-family: 'Rubik';
+  src: url("../fonts/Rubik-Regular/Rubik-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Rubik-Regular/Rubik-Regular.woff") format("woff"), url("../fonts/Rubik-Regular/Rubik-Regular.ttf") format("truetype"), url("../fonts/Rubik-Regular/Rubik-Regular.svg#Rubik-Regular") format("svg");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400; }
+#navhider ul li a {
+  font-family: Rubik;
+  font-size: 14.0px;
+  font-style: normal;
+  font-weight: 500; }
+
+#footer h4 {
+  color: #8c8c8c;
+  font-family: Quicksand;
+  font-size: 16.0px;
+  font-weight: 500;
+  margin: 0 0 26px; }
+#footer a {
+  color: #246dd3;
+  font-family: Quicksand;
+  font-size: 17.0px;
+  font-weight: 700; }
+#footer .social_icons {
+  margin: 15px 0; }
+  #footer .social_icons a {
+    width: 30px;
+    height: 30px;
+    line-height: 26px;
+    font-size: 100%;
+    vertical-align: middle;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    font-size: 100%;
+    margin: 0 12px 0 0;
+    text-align: center; }
+    #footer .social_icons a.fa {
+      vertical-align: middle; }
+    #footer .social_icons a.linkedin {
+      background: #fff;
+      color: #1DA0F1; }
+    #footer .social_icons a.twitter {
+      background: #fff;
+      color: #1DA0F1; }
+    #footer .social_icons a.gplus {
+      background: #fff;
+      color: #1DA0F1; }
+    #footer .social_icons a.facebook {
+      background: #fff;
+      color: #3A5898; }
+    #footer .social_icons a.youtube {
+      background: #fff;
+      color: #CC201F; }
+    #footer .social_icons a.slack {
+      background: #fff;
+      color: #DF1562; }
+    #footer .social_icons a.reddit {
+      background: #fff;
+      color: #FF4500; }
+    #footer .social_icons a.github {
+      background: #fff;
+      color: #6D5394; }
+#footer .subscribe-to-our-new {
+  margin-bottom: 27px; }
+#footer .copy-section {
+  padding-top: 40px; }
+
+#mc_embed_signup_scroll .input-group input.form-control.email {
+  width: 50%;
+  border: none;
+  background-color: #f7f7f7;
+  color: #a5a5a5;
+  font-family: Rubik;
+  font-size: 14.0px;
+  font-style: normal;
+  font-weight: 500; }
+#mc_embed_signup_scroll .input-group select.form-control {
+  width: 25%;
+  text-transform: uppercase;
+  border: none;
+  color: #5078BA;
+  background-color: #f7f7f7;
+  font-family: Rubik;
+  font-size: 14.0px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 500; }
+#mc_embed_signup_scroll .input-group .btn-default {
+  width: 20%;
+  margin-left: 4%;
+  border: none;
+  background-color: #5079BB;
+  color: #ffffff;
+  font-size: 14px; }
+
+.page.home h1 {
+  color: #fffefe;
+  font-family: Quicksand;
+  font-size: 46.0px;
+  font-style: normal;
+  font-weight: 500; }
+.page.home h3 {
+  color: #ffffff;
+  font-family: Rubik;
+  font-size: 22.0px;
+  font-style: normal;
+  font-weight: 400; }
+.page.home .banner-desc {
+  max-width: 884px;
+  color: #ffffff;
+  font-family: Rubik;
+  font-size: 22.0px;
+  font-style: normal;
+  font-weight: 400; }
+.page.home h2 {
+  color: #fffefe;
+  font-family: Quicksand;
+  font-size: 35.0px;
+  font-style: normal;
+  font-weight: 500; }
+.page.home p.testnet {
+  color: #ffffff;
+  font-family: Rubik;
+  font-size: 19.0px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; }
+.page.home .download-btn {
+  background: #ffffff;
+  color: #246dd3;
+  font-family: Rubik;
+  font-size: 17.0px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center; }
+.page.home #comp {
+  margin: 0;
+  padding-right: 40px;
+  padding: 50px 40px 0 0; }
+.page.home #top .text-left {
+  padding-top: 85px; }
+  .page.home #top .text-left h2 {
+    margin: 0;
+    padding: 0; }
