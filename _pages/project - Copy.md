@@ -32,7 +32,7 @@ Cardano is structured with a democratic governance system that will let the proj
 
 {% include new-block-structure.html %}
 
-The Cardano project was initiated by a group of cryptocurrency enthusiasts, investors and entrepreneurs concentrated in Asia at the end of 2014. Input Output HK (IOHK) was engaged to design and implement the Cardano protocol. In addition, the Cardano Foundation, based in Switzerland, was created to help oversee and supervise the development of Cardano and its ecosystem, and to advocate on behalf of the users of the protocol. Another entity, the Cardano Group, based in the Isle of Man, was created to pursue for-profit activities on behalf of the ecosystem and community. The three entities are wholly separate in ownership and leadership. Lastly, the Attain Corporation, was given sole rights to distribute and perform the token presale.
+The Cardano project was initiated by a group of cryptocurrency enthusiasts, investors and entrepreneurs concentrated in Asia at the end of 2014.[ Input Output HK](https://iohk.io/projects/cardano/) (IOHK) was engaged to design and implement the Cardano protocol. In addition, the[ Cardano Foundation](https://cardanofoundation.org/), based in Switzerland, was created to help oversee and supervise the development of Cardano and its ecosystem, and to advocate on behalf of the users of the protocol. Another entity, the[ Cardano Group](http://cardano.io/), based in the Isle of Man, was created to pursue for-profit activities on behalf of the ecosystem and community. The three entities are wholly separate in ownership and leadership. Lastly, the[ Attain Corporation](http://attaincorp.co.jp/en/), was given sole rights to distribute and perform the token presale.
 
 ### The Cardano Foundation
 

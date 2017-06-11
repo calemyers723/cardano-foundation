@@ -4,7 +4,7 @@ layout: page-sidebar
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body class="{{page.slug}}">
+  <body class="{{page.slug}} page-sidebar">
     {% include header.html %}
     <div id="main-body">
       <div class="container">
@@ -14,10 +14,8 @@ layout: page-sidebar
           </div>
           <div class="col-lg-18 col-md-18  col-sm-16">
             <div class="post">
-              <div class="entry" title="{{ page.title }}">
-                {{content}}
-
-              </div>
+              <!-- <div class="entry"></div> -->
+              {{content}}
             </div>
           </div>
         </div>

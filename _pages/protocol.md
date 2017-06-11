@@ -2,9 +2,9 @@
 layout: page-sidebar
 title: What is Cardano
 language: en
-permalink: /cardano/
-defaulturl: /cardano/
-slug: cardano
+permalink: /protocol/
+defaulturl: /protocol/
+slug: protocol
 anchors:
 - tit: "The Protocol"
 - tit: "Technological Innovation"
@@ -66,12 +66,12 @@ Daedalus is a highly engineered wallet with advanced security features, protecti
  
 In the spirit of open source blockchain projects, anyone is free to develop their own wallet.
 
-Daedalus is a wallet that was developed by IOHK specifically for the Cardano blockchain, and the test version is available to download [here](https://test.daedaluswallet.io/).
+Daedalus is a wallet that was developed by IOHK specifically for the Cardano blockchain, and the test version is available to download here.
 
 
 # Cardano Testnet
 
 Prior to launch we are releasing a number of Testnet versions so that we can fix any bugs or problems with Daedalus and the wider protocol.
 
-Testnet 0.3 is currently available for download and testing  [here](https://test.daedaluswallet.io/).
+Testnet 0.3 is currently available for download and testing  here.
 You can participate in the test by downloading the Daedalus wallet, and following this youtube [tutorial](https://www.youtube.com/watch?v=jfv7Ha8cPps).

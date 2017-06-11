@@ -11,7 +11,6 @@
   }
 }
 
-
 #footer {
   h4 {
     color: #8c8c8c;
@@ -97,4 +96,33 @@
     color: #ffffff;
     font-size: 14px;
   }
+}
+
+#main-body {
+  background-color: #f7f7f7;
+  .container {
+    padding: 90px 10px;
+  }
+  .navbar-header{min-height: 0;height: 30px}
+  .navbar-header .navbar-toggle {margin:0;float:none}
+  .navbar-header .navbar-toggle .icon-bar{background: #aaa}
+  .navbar-side {
+    margin: 0;
+    a {
+      color: $blue-link-color;
+      font-family: Quicksand;
+      font-size: 16.0px;
+      font-weight: 400;
+    }
+    > li > a {
+      font-weight: 700;
+    }
+    &.scrolled {
+      overflow-y: hidden;
+    }
+  }
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+  margin: 0;
 }
