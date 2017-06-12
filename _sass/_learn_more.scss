@@ -12,6 +12,32 @@
         color: #246dd3;
         font-size: 19px;
         margin-right: 20px;
+        &.fa-file-text {
+          color: #6e6e6e;
+          display: inline-block;
+          margin: 0;
+          vertical-align: top;
+          padding-top: 8px;
+        }
+      }
+      ul {
+        margin: 0 0 $item-space 0;
+        li {
+          color: #6f6f6f;
+          font-family: Rubik;
+          font-size: 17.0px;
+          font-weight: 500;
+        }
+      }
+      .content {
+        display: inline-block;
+        padding-left: 20px;
+        width: calc(100% - 20px);
+        a {
+          margin-bottom: 20px;
+          display: block;
+        }
+        margin-bottom: 20px;
       }
     }
   }
