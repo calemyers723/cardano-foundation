@@ -1,10 +1,35 @@
 ---
-layout: page-faq
+layout: page-sidebar
 title: FAQ
 language: en
 permalink: /faq/
 defaulturl: /faq/
 slug: faq
+anchors:
+- tit: Project overview
+- subanchors:
+  - tit: What is Cardano?
+  - tit: Who is involved in the project and what are their roles?
+  - subanchors:
+    - tit: Role of the foundation
+    - tit: Role of IOHK
+    - tit: Role of CGG
+    - tit: Role of Attain
+- tit: Technology
+- subanchors:
+  - tit: What is a blockchain?
+  - tit: What is innovative about the Cardano blockchain?
+  - subanchors:
+    - tit: The third way, bridging protection and privacy with regulation
+    - tit: Separating value from computation - a layered approach
+    - tit: High assurance software and provable security
+    - tit: Built for the long term
+    - tit: Can I see the code?
+    - tit: What is the relationship between ADA and the Cardano platform?
+    - tit: Block rewards
+    - tit: Cardano Treasury
+    - tit: When will all the official information about ADA be released to the public?
+    - tit: How can I get involved?
 ---
 # Project overview
 

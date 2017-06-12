@@ -126,3 +126,57 @@
 h4, .h4, h5, .h5, h6, .h6 {
   margin: 0;
 }
+
+.panel-title {
+  a {
+    color: #246dd3;
+    font-family: Quicksand;
+    font-size: 21.0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 100%;
+    padding-right: 35px;
+    position: relative;
+    i {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      width: 24px;
+      height: 24px;
+      font-size: 16px;
+      display: inline-block;
+    }
+  }
+}
+
+.panel-default > .panel-heading {
+  padding: 0;
+}
+
+.panel-group .panel {
+  background: #fafafa;
+  box-shadow: 0px 3px 5px rgba(7,0,0,0);
+  border: 2px solid #eaeaea;
+  padding: 36px 20px 36px 36px;
+}
+
+.panel-group .panel + .panel {
+  margin-top: 20px;
+}
+
+.panel-group {
+  .panel-group {
+    .panel-title {
+      a {
+        font-size: 17px;
+      }
+    }
+    .panel {
+      padding: 25px 20px 25px 25px;
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}
