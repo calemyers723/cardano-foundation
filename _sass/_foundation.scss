@@ -39,19 +39,23 @@
             top: 30px;
             &.act {
               left: 32px;
-              top: 30px;
+              top: calc(50% - 25px);
             }
             &.serve {
               left: 35px;
+              top: calc(50% - 22px);
             }
             &.aggregate {
               left: 40px;
+              top: calc(50% - 25px);
             }
             &.protect {
               left: 38px;
+              top: calc(50% - 20px);
             }
             &.study {
               left: 40px;
+              top: calc(50% - 22px);
             }
           }
         }

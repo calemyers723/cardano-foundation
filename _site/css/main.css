@@ -309,15 +309,19 @@ h4, .h4, h5, .h5, h6, .h6 {
       top: 30px; }
       .page-sidebar.foundation .post section .goal-rect img.act {
         left: 32px;
-        top: 30px; }
+        top: calc(50% - 25px); }
       .page-sidebar.foundation .post section .goal-rect img.serve {
-        left: 35px; }
+        left: 35px;
+        top: calc(50% - 22px); }
       .page-sidebar.foundation .post section .goal-rect img.aggregate {
-        left: 40px; }
+        left: 40px;
+        top: calc(50% - 25px); }
       .page-sidebar.foundation .post section .goal-rect img.protect {
-        left: 38px; }
+        left: 38px;
+        top: calc(50% - 20px); }
       .page-sidebar.foundation .post section .goal-rect img.study {
-        left: 40px; }
+        left: 40px;
+        top: calc(50% - 22px); }
 .page-sidebar.foundation .post .item.member {
   margin-bottom: 30px; }
   .page-sidebar.foundation .post .item.member h2 {
