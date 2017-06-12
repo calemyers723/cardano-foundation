@@ -366,3 +366,12 @@ h4, .h4, h5, .h5, h6, .h6 {
     font-weight: 700;
     text-align: center;
     display: block; }
+
+.page-sidebar.learn-more .post h1 a {
+  font-family: Quicksand;
+  font-size: 21.0px;
+  font-weight: 500; }
+.page-sidebar.learn-more .post em {
+  color: #246dd3;
+  font-size: 19px;
+  margin-right: 20px; }

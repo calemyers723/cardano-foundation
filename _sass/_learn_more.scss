@@ -1,0 +1,18 @@
+.page-sidebar {
+  &.learn-more {
+    .post {
+      h1 {
+        a {
+          font-family: Quicksand;
+          font-size: 21.0px;
+          font-weight: 500;
+        }
+      }
+      em {
+        color: #246dd3;
+        font-size: 19px;
+        margin-right: 20px;
+      }
+    }
+  }
+}
