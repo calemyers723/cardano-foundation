@@ -1,19 +1,19 @@
 test_author:
-    name: Test Author
-    email: test@author.com
-    web: http://twitter.com/
-    title: Title
-    img: Maguire.jpg
-    linkedin: test
-    twitter: test
-    github: test
+  name: Test Author
+  email: test@author.com
+  web: http://twitter.com/
+  title: Title
+  img: Maguire.jpg
+  linkedin: test
+  twitter: test
+  github: test
 
 another_author:
-    name: Another Author
-    email: test2@author.com
-    web: http://twitter.com/
-    title: Title
-    img: Maguire.jpg
-    linkedin: test
-    twitter: test
-    github: test
+  name: Another Author
+  email: test2@author.com
+  web: http://twitter.com/
+  title: Title
+  img: Maguire.jpg
+  linkedin: test
+  twitter: test
+  github: test

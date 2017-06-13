@@ -1,35 +1,35 @@
 <div class="col-lg-6 col-md-6 col-sm-6 rightcol post-side">
-    {% if author %}
-    <div class="profile">
-      <a href="{{ author.web }}">
-        <div class="profile-img">
-            <img src="/images/authors/{{author.img}}" alt="">
-        </div>
-        <h2>{{ author.name }}</h2>
-        <h4>{{ author.title }}</h4>
-        <div class="social inline-block">
-          {% if author.linkedin %}
-          <a class="c_555" href="https://ie.linkedin.com/in/{{author.linkedin}}" target="_blank"><em class="fa fa-linkedin-square"></em></a>&nbsp;
-          {% endif %}
-          {% if author.linkedin %}
-          <a class="c_555" href="https://twitter.com/{{author.twitter}}" target="_blank"><em class="fa fa-twitter-square"></em></a>&nbsp;
-          {% endif %}
-          {% if author.linkedin %}
-          <a class="c_555" href="https://github.com/{{author.twitter}}" target="_blank"><em class="fa fa-github-square"></em></a>&nbsp;
-          {% endif %}
-        </div>
-      </a>
-    </div>
-    <hr>
-    <h6>LATEST FROM AUTHOR</h6>
-    {% for post in site.posts %}
-          {% if post.author %}
-            <p>{{post.title}}</p>
-            <hr>
-          {% endif%}
-      {% endfor %}
-  {% endif %}
+  {% if author %}
+  <div class="profile">
+    <p class="posted">POSTED BY:</p>
+    <a href="{{ author.web }}" style="display: block;">
+      <div class="profile-img">
+        <img src="/images/authors/{{author.img}}" alt="">
+      </div>
+      <h2>{{ author.name }}</h2>
+      <h3>{{ author.title }}</h4>
+    </a>
 
+    <div class="social">
+      {% if author.linkedin %}
+      <a class="linkedin" href="https://ie.linkedin.com/in/{{author.linkedin}}" target="_blank"><em class="fa fa-linkedin"></em></a>
+      {% endif %}
+      {% if author.twitter %}
+      <a class="twitter" href="https://ie.linkedin.com/in/{{author.linkedin}}" target="_blank"><em class="fa fa-twitter"></em></a>
+      {% endif %}
+    </div>
   </div>
-      
+  <p class="latest">LATEST FROM AUTHOR</p>
+  {% for post in site.posts %}
+  {% if post.author %}
+  <div>
+    <em class="fa fa-arrow-right"></em>
+    <div class="content">
+      <a href="{{ post.permalink }}">{{ post.title }}</a>
+    </div>
+  </div>
+  
+  {% endif%}
+  {% endfor %}
+  {% endif %}
 </div>

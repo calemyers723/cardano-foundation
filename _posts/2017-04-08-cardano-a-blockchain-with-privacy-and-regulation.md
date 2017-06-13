@@ -11,7 +11,7 @@ image: top-swiss.jpg
 author: test_author
 ---
 
-_Blockchain is a potentially transformative technology_. However current solutions are hampered by issues such as lack of regulatory oversight, experimental software with unproven security, poor governance that stifles scalability, and a lack of long-term planning for protocols. With the imminent launch of the Cardano protocol and the completion of the first ever crowdsale to perform detailed compliance checks on its 10,000 individuals, Cardano aims to change this.
+Blockchain is a potentially transformative technology. However current solutions are hampered by issues such as lack of regulatory oversight, experimental software with unproven security, poor governance that stifles scalability, and a lack of long-term planning for protocols. With the imminent launch of the Cardano protocol and the completion of the first ever crowdsale to perform detailed compliance checks on its 10,000 individuals, Cardano aims to change this.
 
 The Cardano project is a next generation blockchain, creating a new decentralised economy, and democratising finance in emerging markets. It addresses the need for regulatory oversight whilst maintaining consumer privacy and protections through an innovative layered architecture. This software stack is flexible and scalable, developed with the most rigorous academic and commercial software standards. Cardano has a democratic governance model that will let the project evolve, and a visionary treasury system to fund it sustainably.
 
