@@ -1,13 +1,13 @@
 ---
 layout: post
-date: 2017-04-08
-title: "Cardano: A Blockchain with Privacy and Regulation 1"
+date: 2017-04-28
+title: "Cardano: A Blockchain with Privacy and Regulation 3"
 subtitle: "Sample subtitle"
 language: en
-permalink: /press/cardano-a-blockchain-with-privacy-and-regulation-1/
+permalink: /press/cardano-a-blockchain-with-privacy-and-regulation-3/
 slug: cardano-a-blockchain-with-privacy-and-regulation
 categories: press
-image: blog-1.jpg
+image: blog-3.jpg
 author: john_oconnor
 ---
 

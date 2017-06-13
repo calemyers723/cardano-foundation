@@ -1,5 +1,6 @@
 .blog .page {
   .post-side {
+    padding-left: 30px;
     p {
       margin: 0 0 10px 0;
       color: #878787;
@@ -52,7 +53,7 @@
       display: inline-block;
       margin: 0;
       vertical-align: top;
-      padding-top: 8px;
+      padding-top: 5px;
     }
 
     .content {
@@ -60,6 +61,21 @@
       padding-left: 10px;
       width: calc(100% - 20px);
       margin-bottom: 20px;
+      a {
+        font-size: 15px;
+        margin-bottom: 10px;
+        display: block;
+      }
+      p {
+        margin: 0;
+      }
+    }
+
+    .profile-img {
+      img {
+        border: 0;
+        padding: 0;
+      }
     }
 
   }
@@ -76,16 +92,16 @@
       font-family: Rubik;
       font-size: 15.0px;
       font-weight: 500;
-      margin-bottom: 40px;
+      margin-bottom: 35px;
     }
     .post-img {
-      margin-bottom: $item-space;
+      // margin-bottom: $item-space;
       position: relative;
       .absolute {
         position: absolute;
         color: white;
         left: 55px;
-        top: 30px;
+        bottom: 40px;
         width: calc(100% - 80px);
         h1 {
           color: white;
@@ -95,6 +111,28 @@
           color: white;
           margin: 0;
         }
+      }
+    }
+    .overview {
+      margin-bottom: $item-space;
+    }
+    .read-more {
+      a {
+        padding: 13px 20px;
+        background-color: #246ed3;
+        color: white;
+        text-transform: uppercase;
+        font-family: Rubik;
+        font-size: 14.0px;
+        font-weight: 700;
+        -moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius:3px;
+        display: inline-block;
+        float: left;
+      }
+      img {
+        display: inline-block;
+        float: right;
+        margin-top: 9px;
       }
     }
   }

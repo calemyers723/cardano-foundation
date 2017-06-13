@@ -7,10 +7,9 @@ slug: blog
     <div class="row">
       {% for post in site.posts %}
       {% assign author = site.data.authors[post.author] %}
-      {% assign blog_index = true %}
       <div class="blogpost col-lg-18 col-md-18 col-sm-18">
         <div class="post-img">
-          <img src="/images/blog/{{post.image}}" alt="">
+          <img src="/images/{{post.image}}" alt="">
           <div class="absolute">
             <div class="date">
               <span class="">{{post.date | date: "%d/%m/%Y"}}</span>
@@ -20,16 +19,8 @@ slug: blog
           </div>
         </div>
         <div class="post">
-          <div class="overview">
-            {{ post.content | split: '<!--break-->' | first }}...
-          </div>
-          <div class="read-more clearfix">
-          {% if post.content contains '<!--break-->' %}
-            <a href="{{ post.url }}">read more</a>
-          {% endif %}
-          <img src="/images/blog/logo.png" alt="" class="hidden-xs">
-          </div>
-          
+          {{ post.content | strip_html | truncatewords:175, "..."}} 
+          <a href="{{post.url}}" style="display: block;">Read More</a>
         </div>
       </div>
       {% include blog-side.html %}

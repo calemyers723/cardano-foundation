@@ -314,16 +314,6 @@ max-height: 100%;}
   height: auto;
 }
 
-.profile-img img {
-    border: 1px solid #ddd;
-    padding: 1px;
-    width: 90px !important;
-    height: 90px !important;
-    background: #eee;
-    border-radius: 50%;
-}
-
-
 #footer {
   margin: 0;
   padding: 70px 0;

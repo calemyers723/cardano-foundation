@@ -1,7 +1,8 @@
-<div class="col-lg-5 col-md-5 col-md-offset-1 col-xs-offset-1 rightcol post-side">
-  {% if author %}
+<div class="col-lg-6 col-md-6 rightcol post-side">
   <div class="profile">
+    {% unless blog_index %}
     <p class="posted">POSTED BY:</p>
+    {% endunless %}
     <a href="{{ author.web }}" style="display: block;">
       <div class="profile-img">
         <img src="/images/authors/{{author.img}}" alt="">
@@ -19,17 +20,26 @@
       {% endif %}
     </div>
   </div>
-  <p class="latest">LATEST FROM AUTHOR</p>
+  <p class="latest">{% if blog_index %}LATEST FROM BLOG{% else %}LATEST FROM AUTHOR{% endif %}</p>
   {% for post in site.posts %}
-  {% if post.author %}
-  <div>
-    <em class="fa fa-arrow-right"></em>
-    <div class="content">
-      <a href="{{ post.permalink }}">{{ post.title }}</a>
+    {% assign post_author = site.data.authors[post.author] %}
+    {% if blog_index %}
+    <div>
+      <em class="fa fa-arrow-right"></em>
+      <div class="content">
+        <a href="{{ post.permalink }}">{{ post.title }}</a>
+        <p>{{ post_author.name }}</p>
+      </div>
     </div>
-  </div>
-  
-  {% endif%}
+    {% else %}
+    {% if author == post_author %}
+    <div>
+      <em class="fa fa-arrow-right"></em>
+      <div class="content">
+        <a href="{{ post.permalink }}">{{ post.title }}</a>
+      </div>
+    </div>
+    {% endif %}
+    {% endif %}
   {% endfor %}
-  {% endif %}
 </div>
