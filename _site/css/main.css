@@ -541,6 +541,8 @@ h4, .h4, h5, .h5, h6, .h6 {
   .blog .page .post-side .profile-img img {
     border: 0;
     padding: 0; }
+  .blog .page .post-side .social_icons i {
+    margin-right: 7px; }
 .blog .page .post h3 {
   color: #000000; }
 .blog .page .blogpost .date {
