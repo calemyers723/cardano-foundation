@@ -530,3 +530,24 @@ h4, .h4, h5, .h5, h6, .h6 {
   padding-left: 10px;
   width: calc(100% - 20px);
   margin-bottom: 20px; }
+.blog .page .post .absolute {
+  position: absolute;
+  color: white;
+  left: 55px;
+  top: 30px;
+  width: calc(100% - 80px); }
+  .blog .page .post .absolute h1 {
+    color: white;
+    margin-bottom: 20px; }
+  .blog .page .post .absolute h2 {
+    color: white;
+    margin: 0; }
+.blog .page .post h3 {
+  color: #000000; }
+.blog .page .blogpost .date {
+  font-family: Rubik;
+  font-size: 15.0px;
+  font-weight: 500;
+  margin-bottom: 40px; }
+.blog .page .blogpost .post-img {
+  margin-bottom: 30px; }

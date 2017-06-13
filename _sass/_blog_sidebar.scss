@@ -61,5 +61,40 @@
       width: calc(100% - 20px);
       margin-bottom: 20px;
     }
-  }  
+
+  }
+
+  .post {
+    // position: relative;
+    .absolute {
+      position: absolute;
+      color: white;
+      left: 55px;
+      top: 30px;
+      width: calc(100% - 80px);
+      h1 {
+        color: white;
+        margin-bottom: 20px;
+      }
+      h2 {
+        color: white;
+        margin: 0;
+      }
+    }
+    h3 {
+      color: #000000;
+    }
+  }
+
+  .blogpost {
+    .date {
+      font-family: Rubik;
+      font-size: 15.0px;
+      font-weight: 500;
+      margin-bottom: 40px;
+    }
+    .post-img {
+      margin-bottom: $item-space;
+    }
+  }
 }
