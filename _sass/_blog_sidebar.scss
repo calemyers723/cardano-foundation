@@ -66,21 +66,6 @@
 
   .post {
     // position: relative;
-    .absolute {
-      position: absolute;
-      color: white;
-      left: 55px;
-      top: 30px;
-      width: calc(100% - 80px);
-      h1 {
-        color: white;
-        margin-bottom: 20px;
-      }
-      h2 {
-        color: white;
-        margin: 0;
-      }
-    }
     h3 {
       color: #000000;
     }
@@ -95,6 +80,22 @@
     }
     .post-img {
       margin-bottom: $item-space;
+      position: relative;
+      .absolute {
+        position: absolute;
+        color: white;
+        left: 55px;
+        top: 30px;
+        width: calc(100% - 80px);
+        h1 {
+          color: white;
+          margin-bottom: 20px;
+        }
+        h2 {
+          color: white;
+          margin: 0;
+        }
+      }
     }
   }
 }
