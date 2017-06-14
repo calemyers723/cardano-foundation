@@ -123,6 +123,9 @@
     &.scrolled {
       overflow-y: hidden;
     }
+    ul {
+      margin-bottom: 0;
+    }
   }
 }
 

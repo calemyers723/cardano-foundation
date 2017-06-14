@@ -11,8 +11,7 @@ anchors:
 - subanchors:
   - tit: The Cardano Foundation
   - tit: IOHK
-  - tit: CGG
-  - tit: Attain
+  - tit: Emurgo
 - tit: Project Road Map
 - tit: Exchanges
 ---

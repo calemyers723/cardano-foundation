@@ -187,6 +187,8 @@
       font-weight: 700; }
     #main-body .navbar-side.scrolled {
       overflow-y: hidden; }
+    #main-body .navbar-side ul {
+      margin-bottom: 0; }
 
 h4, .h4, h5, .h5, h6, .h6 {
   margin: 0; }
