@@ -132,6 +132,18 @@
   margin-bottom: 27px; }
 #footer .copy-section {
   padding-top: 40px; }
+#footer .panel-group {
+  margin: 0; }
+  #footer .panel-group .panel {
+    border: 0;
+    padding: 10px 0 0 0; }
+    #footer .panel-group .panel ol {
+      margin: 0;
+      font-family: Rubik;
+      font-size: 13.0px;
+      font-style: normal;
+      font-weight: 400;
+      color: #aaaaaa; }
 
 #mc_embed_signup_scroll .input-group input.form-control.email {
   width: 50%;

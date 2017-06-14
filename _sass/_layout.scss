@@ -60,6 +60,22 @@
   .copy-section {
     padding-top: 40px;
   }
+
+  .panel-group {
+    margin: 0;
+    .panel {
+      border: 0;
+      padding: 10px 0 0 0;
+      ol {
+        margin: 0;
+        font-family: Rubik;
+        font-size: 13.0px;
+        font-style: normal;
+        font-weight: 400;
+        color: #aaaaaa;
+      }
+    }
+  }
 }
 
 #mc_embed_signup_scroll {
