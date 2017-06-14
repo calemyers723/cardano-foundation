@@ -35,6 +35,17 @@
 //   }
 // }
 
+.page-sidebar {
+  &.project {
+    ul {
+      margin-bottom: $item-space;
+      font-family: Rubik;
+      font-size: 17.0px;
+      color: #6f6f6f;
+    }
+  }
+}
+
 .icon-diagram {
   display: flex;
   justify-content: space-between;

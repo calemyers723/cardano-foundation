@@ -306,6 +306,12 @@ h4, .h4, h5, .h5, h6, .h6 {
     margin: 0;
     padding: 0; }
 
+.page-sidebar.project ul {
+  margin-bottom: 30px;
+  font-family: Rubik;
+  font-size: 17.0px;
+  color: #6f6f6f; }
+
 .icon-diagram {
   display: flex;
   justify-content: space-between; }
