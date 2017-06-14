@@ -25,6 +25,7 @@ layout: post
                 <div class="post">
                   {{ page.content }}
                 </div>
+                {% include disqus.html %}
               </div>
               {% assign author = site.data.authors[page.author] %}
               {% include blog-side.html %}
