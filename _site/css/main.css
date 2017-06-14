@@ -388,6 +388,12 @@ a:hover, a:focus {
 
   .icon-set {
     width: 30%; } }
+@media (max-width: 415px) {
+  .icon-set {
+    width: 100%; }
+
+  .icon-divider {
+    display: none; } }
 @media (max-width: 490px) {
   .icon-set p {
     font-size: 10px; }
@@ -634,6 +640,21 @@ a:hover, a:focus {
     .blog .page .blogpost .post-img .absolute h2 {
       color: white;
       margin: 0; }
+  @media (max-width: 415px) {
+    .blog .page .blogpost .post-img .absolute {
+      position: inherit;
+      color: #000;
+      left: 0;
+      bottom: 20px;
+      width: 100%; }
+      .blog .page .blogpost .post-img .absolute h1 {
+        color: #000;
+        margin-bottom: 20px; }
+      .blog .page .blogpost .post-img .absolute h2 {
+        color: #000;
+        margin: 0; }
+      .blog .page .blogpost .post-img .absolute .date {
+        margin-bottom: 15px; } }
 .blog .page .blogpost .overview {
   margin-bottom: 30px; }
 .blog .page .blogpost .read-more a {

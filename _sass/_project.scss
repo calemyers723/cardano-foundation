@@ -93,16 +93,26 @@
     font-size: 14px;
   }
   .icon-divider {
-  border: dashed 1px #1A7589;
-  width: 5%;
+    border: dashed 1px #1A7589;
+    width: 5%;
+  }
+
+  .icon-set {
+    width: 30%;
+  }
 }
 
-.icon-set {
-  width: 30%;
-}
+@media (max-width: 415px) {
+  .icon-diagram {
+    // display: block;
+  }
 
-
-
+  .icon-set {
+    width: 100%;
+  }
+  .icon-divider {
+    display: none;
+  }
 }
 
 @media (max-width: 490px) { 
