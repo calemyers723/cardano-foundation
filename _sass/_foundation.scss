@@ -119,4 +119,44 @@
       }
     }
   }
+
+  @media (max-width: 415px) {
+    &.foundation {
+      .post {
+        section {
+          .goal-rect {
+            padding: 15px 0 15px 0;
+            h4 {
+              padding-left: 75px;
+            }
+            img {
+              position: absolute;
+              left: 17px;
+              top: 10px;
+              &.act {
+                left: 12px;
+                top: calc(50% - 25px);
+              }
+              &.serve {
+                left: 15px;
+                top: calc(50% - 22px);
+              }
+              &.aggregate {
+                left: 20px;
+                top: calc(50% - 25px);
+              }
+              &.protect {
+                left: 18px;
+                top: calc(50% - 20px);
+              }
+              &.study {
+                left: 20px;
+                top: calc(50% - 22px);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

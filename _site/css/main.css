@@ -144,6 +144,12 @@
       font-style: normal;
       font-weight: 400;
       color: #aaaaaa; }
+#footer iframe {
+  height: 50px;
+  width: 100%; }
+@media (max-width: 415px) {
+  #footer iframe {
+    height: 100px; } }
 
 #mc_embed_signup_scroll .input-group input.form-control.email {
   width: 50%;
@@ -175,6 +181,14 @@
   font-weight: 700;
   font-family: Rubik;
   text-transform: uppercase; }
+@media (max-width: 415px) {
+  #mc_embed_signup_scroll .input-group input.form-control.email {
+    width: 60%; }
+  #mc_embed_signup_scroll .input-group select.form-control {
+    width: 35%; }
+  #mc_embed_signup_scroll .input-group .btn-default {
+    width: initial;
+    margin: 5px 0 0 0; } }
 
 #main-body {
   background-color: #f7f7f7; }
@@ -243,6 +257,10 @@ h4, .h4, h5, .h5, h6, .h6 {
   .panel-group .panel-group .panel p {
     font-size: 16px; }
 
+a:hover, a:focus {
+  color: #246dd3;
+  text-decoration: underline; }
+
 .page-sidebar .page .post {
   background-color: #fff;
   padding: 70px 60px; }
@@ -269,6 +287,9 @@ h4, .h4, h5, .h5, h6, .h6 {
   .page-sidebar .page .post section.section {
     padding: 0;
     margin: 0 0 30px 0; }
+  @media (max-width: 415px) {
+    .page-sidebar .page .post {
+      padding: 70px 15px; } }
 
 .page.home h1 {
   color: #fffefe;
@@ -476,6 +497,30 @@ h4, .h4, h5, .h5, h6, .h6 {
     font-weight: 700;
     text-align: center;
     display: block; }
+@media (max-width: 415px) {
+  .page-sidebar.foundation .post section .goal-rect {
+    padding: 15px 0 15px 0; }
+    .page-sidebar.foundation .post section .goal-rect h4 {
+      padding-left: 75px; }
+    .page-sidebar.foundation .post section .goal-rect img {
+      position: absolute;
+      left: 17px;
+      top: 10px; }
+      .page-sidebar.foundation .post section .goal-rect img.act {
+        left: 12px;
+        top: calc(50% - 25px); }
+      .page-sidebar.foundation .post section .goal-rect img.serve {
+        left: 15px;
+        top: calc(50% - 22px); }
+      .page-sidebar.foundation .post section .goal-rect img.aggregate {
+        left: 20px;
+        top: calc(50% - 25px); }
+      .page-sidebar.foundation .post section .goal-rect img.protect {
+        left: 18px;
+        top: calc(50% - 20px); }
+      .page-sidebar.foundation .post section .goal-rect img.study {
+        left: 20px;
+        top: calc(50% - 22px); } }
 
 .page-sidebar.learn-more .post h1 a {
   font-family: Quicksand;

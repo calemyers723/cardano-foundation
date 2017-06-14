@@ -76,6 +76,18 @@
       }
     }
   }
+
+  iframe {
+    height: 50px;
+    width: 100%;
+  }
+
+  @media (max-width: 415px) {
+    iframe {
+      height: 100px;
+    }
+  }
+
 }
 
 #mc_embed_signup_scroll {
@@ -114,6 +126,19 @@
     font-weight: 700;
     font-family: Rubik;
     text-transform: uppercase;
+  }
+
+  @media (max-width: 415px) {
+    .input-group input.form-control.email {
+      width: 60%;
+    }
+    .input-group select.form-control {
+      width: 35%;
+    }
+    .input-group .btn-default {
+      width: initial;
+      margin: 5px 0 0 0;
+    }
   }
 }
 
@@ -201,4 +226,9 @@ h4, .h4, h5, .h5, h6, .h6 {
       }
     }
   }
+}
+
+a:hover, a:focus {
+  color: #246dd3;
+  text-decoration: underline;
 }
