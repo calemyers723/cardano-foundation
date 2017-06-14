@@ -8,6 +8,11 @@
         font-size: 17.0px;
         font-weight: 500;
         color: #6f6f6f;
+        li {
+          strong {
+            font-weight: 400;
+          }
+        }
 
         ul {
           margin-top: $item-space;
