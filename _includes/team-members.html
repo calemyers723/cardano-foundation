@@ -1,69 +1,36 @@
-<div class="item member">
-  <div class="row">
-    <div class="col-md-11 piece">
-      <div class="avatar">
-        <img src="{{ '/images/team/Parsons.jpg' | prepend: site.baseurl }}" width="350" height="350" class="img-circle fullwidth" />
-        <a class="twitter" href="https://twitter.com/CardanoStiftung" target="_blank"><em class="fa fa-twitter"></em></a>
-        <a class="linkedin" href="" target="_blank"><em class="fa fa-linkedin"></em></a>
+
+{% assign member_list = "michael_parsons, john_maguire, john_oconnor, tom_kelly, adrian_forbes, bob_mcdowall" | split: ", " %}
+{% assign flag = true %}
+{% for member_str in member_list %}
+  {% assign member = site.data.members[member_str] %}
+  {% if flag %}
+  <div class="item member">
+    <div class="row">
+      <div class="col-md-11 piece">
+  {% else %}
+  <div class="col-md-11 col-md-offset-2 piece">
+  {% endif %}
+
+  <div class="avatar">
+    <img src="{{ member.img | prepend: site.baseurl }}" width="350" height="350" class="img-circle fullwidth" />
+    <a class="twitter" href="{{ member.twitter }}" target="_blank"><em class="fa fa-twitter"></em></a>
+    <a class="linkedin" href="{{ member.linkedin }}" target="_blank"><em class="fa fa-linkedin"></em></a>
+  </div>
+  <h2 class="uppercase">{{ member.name }}</h2>
+  <h4 class="uppercase big bold">{{ member.position }}</h4>
+  <p>{{ member.description | truncate: 120, "..." }}</p>
+  <input type="hidden" class="all-desc" value="{{ member.description }}">
+  <input type="hidden" class="short-desc" value="{{ member.description | truncate: 120, "..." }}">
+  <a href="" class="more">Read More</a>
+
+  {% if flag %}
+  </div>
+  {% assign flag = false %}
+  {% else %}
       </div>
-      <h2 class="uppercase">{% if page.language == 'ja' %}MICHAEL PARSONS - FCA 理事長{% else %}Michael Parsons FCA{% endif %}</h2>
-      <h4 class="uppercase big bold">{{ site.data.i18n[page.language].chairman }}</h4>
-      <p>Michael Parsons, a UK qualified Chartered Accountant (FCA) and founder member of the UK DCA, is a well-known and respected...</p>
-      <a href="#" class="more">Read More</a>
-    </div>
-    <div class="col-md-11 col-md-offset-2 piece">
-      <p>John is a chartered accountant with long career experience at board level with public and private UK companies. He has worked in senior roles in many business sectors including insurance, commodity trading, mining and property; these roles have comprised finance directorships, company secretarial, pension and investment trusteeships as well as non-executive positions. Business development activities have included startups, stock exchange listings and fund raisings; corporate finance assignments have been undertaken in various emerging market territories including Russia and West Africa as well as the UK where he has formed and run his own companies.</p>
-      <a href="#" class="more">Close</a>
     </div>
   </div>
-</div>
+  {% assign flag = true %}
+  {% endif %}  
 
-<div class="item member">
-  <div class="row">
-    <div class="col-md-11 piece">
-      <div class="avatar">
-        <img src="{{ '/images/team/joconner.jpg' | prepend: site.baseurl }}" width="350" height="350" class="img-circle fullwidth" />
-        <a class="linkedin only-one" href="" target="_blank"><em class="fa fa-linkedin"></em></a>
-      </div>
-      <h2 class="uppercase">JOHN O'CONNOR</h2>
-      <h4 class="uppercase big bold">HEAD OF STRATEGY AND COMMUNICATIONS</h4>
-      <p>John is an experienced technology professional, with a background in insurance and advertising...</p>
-      <a href="#" class="more">Read More</a>
-    </div>
-
-    <div class="col-md-11 col-md-offset-2 piece">
-      <div class="avatar">
-        <img src="{{ '/images/team/tom.jpg' | prepend: site.baseurl }}" width="350" height="350" class="img-circle fullwidth" />
-        <a class="twitter" href="" target="_blank"><em class="fa fa-twitter"></em></a>
-        <a class="linkedin" href="" target="_blank"><em class="fa fa-linkedin"></em></a>
-      </div>
-      <h2 class="uppercase">TOM KELLY</h2>
-      <h4 class="uppercase big bold">ROLE GOES HERE</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit accumsan ultrices. Pellentesque eros augue, viverra...</p>
-      <a href="#" class="more">Read More</a>
-    </div>
-  </div>  
-</div>
-
-<div class="item member">
-  <div class="row">
-    <div class="col-md-11 piece">
-      <div class="avatar">
-        <img src="{{ '/images/team/aforbes.jpg' | prepend: site.baseurl }}" width="350" height="350" class="img-circle fullwidth" />
-      </div>
-      <h2 class="uppercase">ADRIAN FORBES</h2>
-      <p>Adrian is a qualified accountant (FCCA) and has a degree (BA) from the University of Bristol. His career includes working for Deloittes, Linklaters, Coutts, JPMorgan...</p>
-      <a href="#" class="more">Read More</a>
-    </div>
-
-    <div class="col-md-11 col-md-offset-2 piece">
-      <div class="avatar">
-        <img src="{{ '/images/team/bmcdowall.jpg' | prepend: site.baseurl }}" width="350" height="350" class="img-circle fullwidth" />
-      </div>
-      <h2 class="uppercase">BOB MCDOWALL</h2>
-      <h4 class="uppercase big bold">SPECIAL ADVISOR</h4>
-      <p>Robert (“Bob”) McDowall is a former Member of the States of Alderney, one of the Channel Islands , where he serves as Chairman of the Policy...</p>
-      <a href="#" class="more">Read More</a>
-    </div>
-  </div>  
-</div>
+{% endfor %}

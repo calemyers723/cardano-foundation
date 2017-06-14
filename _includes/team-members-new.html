@@ -1,0 +1,5 @@
+
+{% assign member_list = "michael_parsons, john_maguire, john_oconnor, adrian_forbes, bob_mcdowall" | split: ", " %}
+{% for member in member_list %}
+  <h2 class="uppercase">{{ site.data.members[member].name }}</h2>
+{% endfor %}
