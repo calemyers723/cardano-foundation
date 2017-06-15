@@ -8,7 +8,7 @@ permalink: /press/cardano-a-blockchain-with-privacy-and-regulation/
 slug: cardano-a-blockchain-with-privacy-and-regulation
 categories: press
 image: blog-2.png
-author: alan_mcsherry
+author: michael_parsons
 ---
 
 Blockchain is a potentially transformative technology. However current solutions are hampered by issues such as lack of regulatory oversight, experimental software with unproven security, poor governance that stifles scalability, and a lack of long-term planning for protocols. With the imminent launch of the Cardano protocol and the completion of the first ever crowdsale to perform detailed compliance checks on its 10,000 individuals, Cardano aims to change this.

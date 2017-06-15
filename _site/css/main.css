@@ -616,7 +616,11 @@ a:hover, a:focus {
       margin: 0; }
   .blog .page .post-side .profile-img img {
     border: 0;
-    padding: 0; }
+    padding: 0;
+    width: 110px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; }
   .blog .page .post-side .social_icons i {
     margin-right: 7px; }
 .blog .page .post h3 {

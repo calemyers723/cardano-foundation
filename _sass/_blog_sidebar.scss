@@ -35,9 +35,7 @@
       a {
         color: #fffefe;
         background: #1da1f2;
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
-        border-radius: 50%;
+        -moz-border-radius: 50%;-webkit-border-radius: 50%;border-radius: 50%;
         padding: 7px 11px;
         background: #0076b5;
         display: inline-block;
@@ -75,6 +73,8 @@
       img {
         border: 0;
         padding: 0;
+        width: 110px;
+        -moz-border-radius: 50%;-webkit-border-radius: 50%;border-radius: 50%;
       }
     }
 
