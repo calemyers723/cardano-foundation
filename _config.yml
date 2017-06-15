@@ -10,6 +10,6 @@ array: []
 
 gems:           ['jekyll-paginate', 'jekyll-multiple-languages']
 
-languages:          ['en', 'ja']
+languages:          ['en', 'ja', 'cn']
 language_default:   'en'
 
