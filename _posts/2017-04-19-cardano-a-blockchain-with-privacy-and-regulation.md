@@ -7,7 +7,7 @@ language: en
 permalink: /press/passing-the-baton-why-its-time-for-a-new-blockchain/
 slug: passing-the-baton-why-its-time-for-a-new-blockchain
 categories: press
-image: blog-2.png
+image: blog-2.jpg?v=1
 author: michael_parsons
 ---
 
