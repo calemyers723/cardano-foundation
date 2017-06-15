@@ -13,9 +13,9 @@ author: michael_parsons
 
 In my previous post [Cardano: A Blockchain with Privacy and Regulation](/press/cardano-a-blockchain-with-privacy-and-regulation/), I laid out in broad strokes how we at Cardano are building a new kind of blockchain, which we believe will be a significant upgrade on the version of the technology we have now.
 
-But why do we think we need to update blockchain, and what, in our opinion, does such an upgrade entail?<!--break-->
+But why do we think we need to update blockchain, and what, in our opinion, does such an upgrade entail?
 
-These are important questions because they lie at the heart of how we are approaching our work. In this post I would therefore like to examine in more detail some of the issues we are addressing.
+These are important questions because they lie at the heart of how we are approaching our work<!--break-->. In this post I would therefore like to examine in more detail some of the issues we are addressing.
 
 ### A better technology
 
