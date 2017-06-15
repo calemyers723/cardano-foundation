@@ -65,3 +65,11 @@ data_protection_policy_content_7: Appropriate technical and organisational measu
 data_protection_policy_content_8: Personal data shall not be transferred to a country or territory unless that country or territory ensures an adequate level of protection for the rights and freedoms of data subjects in relation to the processing of personal data.
 copy_right_text_1: "Cardano Foundation was registered on 13 September 2016 in Switzerland. The registered office of Cardano Foundation is: Cardano Stiftung, Gubelstrasse 11, 6300 Zug, Switzerland."
 copy_right_text_2: "2016 Cardano Foundation ALL RIGHTS RESERVED"
+
+# home landing page
+home_banner_desc_1: Blockchain | Cryptocurrency | Decentralised Applications
+home_banner_desc_2: Cardano is a decentralised platform that will allow complex programmable transfers of value in a secure and scalable fashion. Cardano is one of the first blockchains to be built in the highly secure Haskell programming language.
+home_banner_title_2: Testnet 0.3
+home_banner_desc_3: Cardano is now in its public testing phase and Testnet 0.3 is live.
+home_banner_desc_4: We are encouraging everyone to download Testnet 0.3, try out the platform and help us improve it further pre launch.
+download_here: Download Here
