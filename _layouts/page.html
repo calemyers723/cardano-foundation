@@ -3,6 +3,7 @@ layout: page
 ---
 <!DOCTYPE html>
 <html>
+  {% assign lan = 'i18n_' | append: page.language %}
   {% include head.html %}
   <body class="{{page.slug}}">
     {% include header.html %}
