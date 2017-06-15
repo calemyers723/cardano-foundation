@@ -8,37 +8,37 @@ language: en
 <div id="main-body">
   <div class="container">
     
-      {% for post in site.posts %}
-      {% assign author = site.data.authors[post.author] %}
-      {% assign blog_index = true %}
-      <div class="row post-item">
-        <div class="blogpost col-lg-18 col-md-18 col-sm-18">
-          <div class="post-img">
-            <div class="absolute">
-              <div class="date">
-                <span class="" style="text-transform: uppercase;">{{post.date | date: "%B %d, %Y"}} &#8226; {{author.name}}</span>
-              </div>
-              <h1 class="title">{{post.title}}</h1>
-              <h2 class="sub-title">{{post.subtitle}}</h2>
+    {% for post in site.posts %}
+    {% assign author = site.data.authors[post.author] %}
+    {% assign blog_index = true %}
+    <div class="row post-item">
+      <div class="blogpost col-lg-18 col-md-18 col-sm-18">
+        <div class="post-img">
+          <div class="absolute">
+            <div class="date">
+              <span class="" style="text-transform: uppercase;">{{post.date | date: "%B %d, %Y"}} &#8226; {{author.name}}</span>
             </div>
-            <img src="/images/blog/{{post.image}}" alt="">
+            <h1 class="title">{{post.title}}</h1>
+            <h2 class="sub-title">{{post.subtitle}}</h2>
           </div>
-          <div class="post">
-            <div class="overview">
-              {{ post.content | split: '<!--break-->' | first }}...
-            </div>
-            <div class="read-more clearfix">
-            {% if post.content contains '<!--break-->' %}
-              <a href="{{ post.url }}">read more</a>
-            {% endif %}
-            <img src="/images/blog/logo.png" alt="" class="hidden">
-            </div>
-            
-          </div>
+          <img src="/images/blog/{{post.image}}" alt="">
         </div>
-        {% include blog-side.html %}
+        <div class="post">
+          <div class="overview">
+            {{ post.content | split: '<!--break-->' | first }}...
+          </div>
+          <div class="read-more clearfix">
+          {% if post.content contains '<!--break-->' %}
+            <a href="{{ post.url }}">read more</a>
+          {% endif %}
+          <img src="/images/blog/logo.png" alt="" class="hidden">
+          </div>
+          
+        </div>
       </div>
-      {% endfor %}
+      {% include blog-side.html %}
+    </div>
+    {% endfor %}
     
   </div>
 </div>
