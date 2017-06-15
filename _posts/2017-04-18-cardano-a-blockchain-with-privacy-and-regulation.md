@@ -2,12 +2,12 @@
 layout: post
 date: 2017-04-18
 title: "Cardano: A Blockchain with Privacy and Regulation"
-subtitle: "Sample subtitle"
+subtitle: ""
 language: en
 permalink: /press/cardano-a-blockchain-with-privacy-and-regulation/
 slug: cardano-a-blockchain-with-privacy-and-regulation
 categories: press
-image: blog-2.png
+image: blog-1.png
 author: michael_parsons
 ---
 
