@@ -14,7 +14,6 @@ subscribe_to_nl: 財団からのニュースを受け取る
 your_email: メールアドレスを入力して下さい
 subscribe_to_nl_desc: ニュースレターに登録し、財団に関する最新情報を受け取る。
 rights: 全著作権所有
-home: ホーム
 about: 財団について
 about_us: 財団について
 careers: 求人
@@ -81,3 +80,12 @@ foundation_goal_str5: Cryptocurrency規制を研究し提案する
 
 #foundation page
 close: 閉じる
+
+# nav main menu
+home: ホーム
+the_project: プロジェクト
+the_protocol: 議定書
+the_foundation: 財団
+learn_more: もっと詳しく知る
+faq: よくある質問
+blog: ブログ

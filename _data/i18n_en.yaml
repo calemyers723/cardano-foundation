@@ -14,7 +14,6 @@ subscribe_to_nl: Subscribe to our Newsletter
 your_email: your@email
 subscribe_to_nl_desc: Subscribe to our newsletter and get all the foundation updates.
 rights: All Rights Reserved
-home: Home
 about: About
 about_us: About us
 careers: Careers
@@ -81,3 +80,13 @@ foundation_goal_str5: To Study and Propose Cryptocurrency Regulation
 
 #foundation page
 close: Close
+
+# nav main menu
+home: Home
+the_project: The Project
+the_protocol: The Protocol
+the_foundation: The Foundation
+learn_more: Learn More
+faq: Faq
+blog: Blog
+
