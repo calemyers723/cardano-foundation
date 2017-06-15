@@ -5,10 +5,10 @@ jQuery(document).ready(function() {
     _this.toggleClass('close-desc');
     if (_this.hasClass('close-desc')) {
       _this.parent().find('p').text(_this.parent().find('.all-desc').val());
-      _this.text('Close');
+      _this.text(jQuery('#close_str').val());
     } else {
       _this.parent().find('p').text(_this.parent().find('.short-desc').val());
-      _this.text('Read More');
+      _this.text(jQuery('#read_more_str').val());
     }
   })
 })

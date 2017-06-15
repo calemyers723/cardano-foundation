@@ -33,5 +33,7 @@
   </div>
   {% assign flag = true %}
   {% endif %}  
-
 {% endfor %}
+
+<input type="hidden" id="read_more_str" value="{{ site.data[lan].read_more }}">
+<input type="hidden" id="close_str" value="{{ site.data[lan].close }}">
