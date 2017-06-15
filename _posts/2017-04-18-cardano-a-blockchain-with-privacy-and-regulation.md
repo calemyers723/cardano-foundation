@@ -1,13 +1,13 @@
 ---
 layout: post
 date: 2017-04-18
-title: "Cardano: A Blockchain with Privacy and Regulation 2"
+title: "Cardano: A Blockchain with Privacy and Regulation"
 subtitle: "Sample subtitle"
 language: en
-permalink: /press/cardano-a-blockchain-with-privacy-and-regulation-2/
+permalink: /press/cardano-a-blockchain-with-privacy-and-regulation/
 slug: cardano-a-blockchain-with-privacy-and-regulation
 categories: press
-image: blog-2.jpg
+image: blog-2.png
 author: alan_mcsherry
 ---
 
@@ -21,7 +21,7 @@ Bitcoin disrupted the traditional trusted third party structure in finance, chal
 
 If blockchain is to transform regulated industries such as finance, tools for regulatory integration must be created, while individual rights to privacy in financial transactions must still be protected, as Bitcoin allows. Cardano solves this seeming contradiction through its innovative multi-layer architecture.
 
-The Cardano settlement layer (CSL) stores and accounts for value, and is a standalone blockchain with a token called ADA. It’s what Bitcoin would look like if it were built from scratch today. Bitcoin’s energy-consumptive Proof of Work consensus mechanism has been replaced with the [first provably secure](https://eprint.iacr.org/2016/889.pdf) Proof of Stake (PoS) algorithm, built specifically for Cardano. ADA users have similar privacy protections to bitcoin when transacting on the CSL, at much greater speed and transactional capacity because of its PoS algorithm. ADA is set to be available for trading on exchanges by May.
+The Cardano settlement layer (CSL) stores and accounts for value, and is a standalone blockchain with a token called ADA. It’s what Bitcoin would look like if it were built from scratch today. Bitcoin’s energy-consumptive Proof of Work consensus mechanism has been replaced with the [first provably secure](https://eprint.iacr.org/2016/889.pdf) Proof of Stake (PoS) algorithm, built specifically for Cardano. ADA users have similar privacy protections to bitcoin when transacting on the CSL, at much greater speed and transactional capacity because of its PoS algorithm. ADA is set to be available for trading on exchanges in June.
 
 A separate Cardano computation layer (CCL) will be built, upon which executable code may be run. Sophisticated decentralised applications (DApps) and smart contracts will be able to run independently of the CSL. Cardano applications can be customised to meet the regulatory requirements of a particular use case. This means where regulatory oversight is required it can be given, on an application-by-application basis.
 
@@ -54,7 +54,7 @@ The final business partner is CGG which incentivises and integrates commercial v
 
 Our large and talented team of developers means that the CSL and the CCL can be worked on concurrently by two separate IOHK teams.
 
-The CSL is currently being tested, and we expect it to be released by May 2017\. Once launched, you will be able to transact and trade ADA on the fully functional, standards compliant blockchain. The goal for the CCL is to release beta by Q1 2018\. Once both CSL and CCL are live, developers will be able to setup a custom environment to build decentralised applications on Cardano.
+The CSL is currently being tested, and we expect it to be released in June 2017. Once launched, you will be able to transact and trade ADA on the fully functional, standards compliant blockchain. The goal for the CCL is to release beta by Q1 2018. Once both CSL and CCL are live, developers will be able to setup a custom environment to build decentralised applications on Cardano.
 
 The Cardano Foundation will also be talking with regulators and gathering potential business requirements and use cases which the development team will transform into the Software Development Kit (SDK).
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: home
-language: cn
+language: en
 permalink: /
 defaulturl: /
 slug: home

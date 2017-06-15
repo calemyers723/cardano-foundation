@@ -677,3 +677,8 @@ a:hover, a:focus {
 
 .post-item {
   margin-bottom: 80px; }
+
+.post-img img {
+  max-width: 100%;
+  height: auto;
+  width: 100%; }
