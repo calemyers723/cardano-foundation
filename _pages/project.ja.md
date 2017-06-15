@@ -1,7 +1,7 @@
 ---
 layout: page-sidebar
 title: The Project
-language: en
+language: ja
 permalink: /project/
 defaulturl: /project/
 slug: project

@@ -46,30 +46,35 @@ structure_attain_desc: 排他的取引パートナー
 becoming_partner: カルダノ財団のパートナーになりませんか？
 executive_team: 理事長、並びに特別顧問の紹介 
 special_advisor: 特別顧問
-executive_director: Executive Director
-stratergy_communications: Head of Strategy and Communications
+executive_director: 事務局長
+stratergy_communications: 戦略とコミュニケーションの責任者
 DATA_PROTECTION_POLICY: データ保護ポリシー
 read_more: 続きを読む
 
 # footer
-join_our_community: Join our community
-technical_documentation: Technical Documentation
-data_protection_policy: DATA PROTECTION POLICY
-data_protection_policy_content_1: Personal data shall be processed fairly and lawfully.
-data_protection_policy_content_2: Personal data shall be obtained for one or more specified and lawful purposes, and shall not be further processed in any manner incompatible with that purpose or those purposes.
-data_protection_policy_content_3: Personal data shall be adequate, relevant and not excessive in relation to the purpose or purposes for which they are processed.
-data_protection_policy_content_4: Personal data shall be accurate and, where necessary, kept up to date.
-data_protection_policy_content_5: Personal data processed for any purpose or purposes shall not be kept for longer than is necessary for that purpose or those purposes.
-data_protection_policy_content_6: Personal data shall be processed in accordance with the rights of data subjects under relevant legislation.
-data_protection_policy_content_7: Appropriate technical and organisational measures shall be taken against unauthorised and unlawful processing of personal data and against accidental loss or destruction of, or damage to, personal data.
-data_protection_policy_content_8: Personal data shall not be transferred to a country or territory unless that country or territory ensures an adequate level of protection for the rights and freedoms of data subjects in relation to the processing of personal data.
-copy_right_text_1: "Cardano Foundation was registered on 13 September 2016 in Switzerland. The registered office of Cardano Foundation is: Cardano Stiftung, Gubelstrasse 11, 6300 Zug, Switzerland."
-copy_right_text_2: "2016 Cardano Foundation ALL RIGHTS RESERVED"
+join_our_community: コミュニティに参加する
+technical_documentation: 技術文書
+data_protection_policy: データ保護方針
+data_protection_policy_content_1: 個人データは公正かつ合法で処理されるものとします。
+data_protection_policy_content_2: 個人データは、1つまたは複数の特定の合法的な目的のために取得され、その目的またはその目的と両立しない方法でさらに処理されないものとします。
+data_protection_policy_content_3: 個人データは、それらが処理される目的または目的に関連して、適切で、適切であり、過度でないものとする。
+data_protection_policy_content_4: 個人データは正確で、必要に応じて最新のものとする。
+data_protection_policy_content_5: いかなる目的または目的のために処理された個人データは、その目的または目的のために必要以上に長く保管されないものとします。
+data_protection_policy_content_6: 個人データは、関連する法令のもとでデータ主題の権利に従って処理されるものとします。
+data_protection_policy_content_7: 個人データの不正および不法な処理、ならびに偶発的な個人データの喪失または破壊または破損に対して、適切な技術的および組織的措置を講じなければならない。
+data_protection_policy_content_8: 個人データは、その国または地域が個人データの処理に関してデータ主体の権利と自由を十分に保護することを保証しない限り、その国または地域に移転してはならない。
+copy_right_text_1: "カルダノ財団は2016年9月13日にスイスに登録されました。 カルダノ財団の登録された事務所は：Cardano Stiftung、Gubelstrasse 11、6300 Zug、スイスです。"
+copy_right_text_2: "2016カルダノ財団ALL RIGHTS RESERVED"
 
 # home landing page
 home_banner_desc_1: ブロックチェーン・テクノロジー、暗号通貨ソフトウェア、さらにその先へ
-home_banner_desc_2: Cardano is a decentralised platform that will allow complex programmable transfers of value in a secure and scalable fashion. Cardano is one of the first blockchains to be built in the highly secure Haskell programming language.
-home_banner_title_2: Testnet 0.3
-home_banner_desc_3: Cardano is now in its public testing phase and Testnet 0.3 is live.
-home_banner_desc_4: We are encouraging everyone to download Testnet 0.3, try out the platform and help us improve it further pre launch.
-download_here: Download Here
+home_banner_desc_2: カルダノは分散型のプラットフォームであり、安全かつスケーラブルな方法で複雑なプログラマブルな価値移転を可能にします。 Cardanoは、非常に安全なHaskellプログラミング言語で構築される最初のブロックチェーンの1つです。
+home_banner_title_2: テストネット0.3
+home_banner_desc_3: Cardanoは現在公開テスト中で、Testnet 0.3は公開中です。
+home_banner_desc_4: 誰もがTestnet 0.3をダウンロードし、プラットフォームを試してみて、それをさらに改良するのを助けています。
+download_here: ここからダウンロード
+foundation_goal_str1: Cryptocurrency Standards Bodyとして動作するには
+foundation_goal_str2: 企業が参加するための客観的組織としての役割を果たす
+foundation_goal_str3: Cardanoコミュニティを集約し、教育し、成長させる
+foundation_goal_str4: カルダノの生態系を保護、強化、進化させる
+foundation_goal_str5: Cryptocurrency規制を研究し提案する

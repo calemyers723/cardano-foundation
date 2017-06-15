@@ -1,7 +1,7 @@
 ---
 layout: page-sidebar
 title: What is Cardano
-language: en
+language: ja
 permalink: /protocol/
 defaulturl: /protocol/
 slug: protocol
