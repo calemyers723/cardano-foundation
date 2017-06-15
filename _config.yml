@@ -8,6 +8,8 @@ permalink: /:title
 markdown: kramdown
 array: []
 
+gems:           ['jekyll-paginate', 'jekyll-multiple-languages']
+
 languages:          ['en', 'ja']
 language_default:   'en'
 
