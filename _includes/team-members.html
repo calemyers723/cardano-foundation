@@ -1,8 +1,9 @@
 {% assign lan = 'i18n_' | append: page.language %}
+{% assign members_lan = 'members_' | append: page.language %}
 {% assign member_list = "michael_parsons, john_maguire, john_oconnor, tom_kelly, adrian_forbes, bob_mcdowall" | split: ", " %}
 {% assign flag = true %}
 {% for member_str in member_list %}
-  {% assign member = site.data.members[member_str] %}
+  {% assign member = site.data[members_lan][member_str] %}
   {% if flag %}
   <div class="item member">
     <div class="row">
@@ -21,7 +22,7 @@
   <p>{{ member.description | truncate: 120, "..." }}</p>
   <input type="hidden" class="all-desc" value="{{ member.description }}">
   <input type="hidden" class="short-desc" value="{{ member.description | truncate: 120, "..." }}">
-  <a href="" class="more">Read More</a>
+  <a href="" class="more">{{ site.data[lan].read_more }}</a>
 
   {% if flag %}
   </div>
