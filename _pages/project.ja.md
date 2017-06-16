@@ -7,13 +7,20 @@ defaulturl: /project/
 slug: project
 anchors:
 - tit: プロジェクトの概要
+  slug: project-overview
 - tit: プロジェクトステークホルダー
-- subanchors:
-  - tit: カルダノ財団
-  - tit: IOHK
-  - tit: Emurgo
+  slug: project-stakeholders
+  subanchors:
+    - tit: カルダノ財団
+      slug: the-cardano-foundation
+    - tit: IOHK
+      slug: iohk
+    - tit: Emurgo
+      slug: emurgo
 - tit: プロジェクトロードマップ
+  slug: project-road-map
 - tit: 交流
+  slug: exchanges
 ---
 <h1 id="project-overview">プロジェクトの概要</h1>
 
@@ -25,13 +32,13 @@ Blockchainは世界的に変革する技術になる可能性を秘めていま�
 
 The protocol features an innovative layered blockchain software stack that is flexible, scalable, and is being developed with the most rigorous academic and commercial software standards in the industry. Cardano will use a democratic governance system that will let the project evolve over time, and fund itself indefinitely through a visionary treasury system.
 
-<h1 id="project-stakeholders">Project Stakeholders</h1>
+<h1 id="project-stakeholders">プロジェクトステークホルダー</h1>
 
 {% include new-block-structure.html %}
 
 The Cardano project was initiated by a group of cryptocurrency enthusiasts, investors and entrepreneurs concentrated in Asia at the end of 2014. Input Output HK (IOHK) was engaged to design and implement the Cardano protocol. In addition, the Cardano Foundation, based in Switzerland, was created to help oversee and supervise the development of Cardano and its ecosystem, and to advocate on behalf of the users of the protocol. Another entity, the Cardano Group, based in the Isle of Man, was created to pursue for-profit activities on behalf of the ecosystem and community. The three entities are wholly separate in ownership and leadership. Lastly, the Attain Corporation, was given sole rights to distribute and perform the token presale.
 
-<h3 id="the-cardano-foundation">The Cardano Foundation</h3>
+<h3 id="the-cardano-foundation">カルダノ財団</h3>
 
 The Cardano Foundation acts as a supervisory and educational body for the protocol. Our mission is to:
 
@@ -50,13 +57,13 @@ Emurgo is the venture building entity in the Cardano ecosystem. A rebranding of 
  
 Emurgo captures the transformative power that blockchain technology brings to the developing world. Decentralized applications built on Cardano technology, funded and supported by Emurgo, will have the potential to build groundbreaking applications.
 
-<h1 id="project-road-map">Project Road Map</h1>
+<h1 id="project-road-map">プロジェクトロードマップ</h1>
 
 * IOHK will release a functioning version of the settlement layer in July 2017. Once launched, you will be able to transact, trade, and purchase ADA tokens fully independently of the computation layer.
 * The goal for the computation layer is to have a beta released by the first quarter of 2018. Once both settlement and computation layers are live, users will be able  to setup a custom environment to build decentralised applications on the Cardano stack.
 * In 2019, IOHK intends to work on Cardano’s long-term scalability and augment its capabilities. As developers, IOHK has been contracted through 2020 to make sure Cardano is being adequately maintained. The goal is to create a sustainable ecosystem that is capable of funding and supporting itself.
 
-<h1 id="exchanges">Exchanges</h1>
+<h1 id="exchanges">交流</h1>
 
 The Cardano project is in discussion with a number of exchanges that are interested in listing ADA. If you would like to enquire about listing ADA please contact us at info@cardanofoundation.org.
 

@@ -7,13 +7,20 @@ defaulturl: /project/
 slug: project
 anchors:
 - tit: Project Overview
+  slug: project-overview
 - tit: Project Stakeholders
-- subanchors:
-  - tit: The Cardano Foundation
-  - tit: IOHK
-  - tit: Emurgo
+  slug: project-stakeholders
+  subanchors:
+    - tit: The Cardano Foundation
+      slug: the-cardano-foundation
+    - tit: IOHK
+      slug: iohk
+    - tit: Emurgo
+      slug: emurgo
 - tit: Project Road Map
+  slug: project-road-map
 - tit: Exchanges
+  slug: exchanges
 ---
 # Project overview
 
