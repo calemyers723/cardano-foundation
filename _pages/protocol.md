@@ -7,11 +7,17 @@ defaulturl: /protocol/
 slug: protocol
 anchors:
 - tit: "The Protocol"
+  slug: the-protocol
 - tit: "Technological Innovation"
+  slug: technological-innovation
 - tit: "Conceptual Innovation"
+  slug: conceptual-innovation
 - tit: "The Token: ADA Voucher"
+  slug: the-token-ada-voucher
 - tit: "The Wallet: Daedalus"
+  slug: the-wallet-daedalus
 - tit: "Testnet"
+  slug: testnet
 ---
 
 # The Protocol:

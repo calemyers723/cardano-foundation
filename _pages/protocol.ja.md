@@ -7,11 +7,17 @@ defaulturl: /protocol/
 slug: protocol
 anchors:
 - tit: "議定書"
+  slug: the-protocol
 - tit: "技術革新"
+  slug: technological-innovation
 - tit: "概念的な革新"
+  slug: conceptual-innovation
 - tit: "トークン：ADAバウチャー"
+  slug: the-token-ada-voucher
 - tit: "ウォレット：Daedalus"
+  slug: the-wallet-daedalus
 - tit: "テストネット"
+  slug: testnet
 ---
 
 <h1 id="the-protocol">議定書:</h1>
