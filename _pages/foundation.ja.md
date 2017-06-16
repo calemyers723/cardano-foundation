@@ -7,7 +7,9 @@ defaulturl: /foundation/
 slug: foundation
 anchors:
 - tit: "フォーカスの分野"
+  slug: areas-of-focus
 - tit: "財団スタッフ"
+  slug: foundation-staff
 ---
 
 Cardano Foundationの核心は、Cardanoプロトコル技術を標準化、保護、推進することです。
