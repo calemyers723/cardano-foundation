@@ -7,7 +7,7 @@
   <!-- <li class="faq {% if page.slug == 'faq' %}active{% endif %}"><a href="/faq/">FAQ</a></li> -->
   <li class="blog {% if page.slug == 'blog' %}active{% endif %}"><a href="{{ lan_url }}/blog/">{{ site.data[lan].blog }}</a></li>
   <li>
-    <div class="lang_switch" style="padding-top: 28px;">
+    <!-- <div class="lang_switch" style="padding-top: 28px;">
       <a href="{{ site.baseurl }}{{ page.defaulturl }}" class="en" title="English">
       <span class="none">English</span>
       <img src="{{ site.baseurl }}/images/flags/en.png" width="19" height="14" alt="" />
@@ -16,6 +16,17 @@
       <span class="none">日本語</span>
       <img src="{{ site.baseurl }}/images/flags/ja.png" width="19" height="14" alt="" />
       </a>
-    </div>
+    </div> -->
+
+    <select class="select-language hidden" data-width="fit">
+      <option data-content='<span class="flag-icon flag-icon-us"></span> English' val="en">English</option>
+      <option  data-content='<span class="flag-icon flag-icon-jp"></span> 日本語' val="ja">日本語</option>
+      <!-- <option  data-content='<span class="flag-icon flag-icon-cn"></span> 中文'>中文</option> -->
+    </select>
   </li>
+  <input type="hidden" id="language" value="{{ page.language }}">
+  <input type="hidden" id="default-url" value="{{ page.defaulturl }}">
+  <a href="{{ site.baseurl }}{{ page.defaulturl }}" class="hidden" id="en-url"></a>
+  <a href="{{ site.baseurl }}/ja{{ page.defaulturl }}" class="hidden" id="ja-url"></a>
+  <a href="{{ site.baseurl }}/cn{{ page.defaulturl }}" class="hidden" id="cn-url"></a>
 </ul>

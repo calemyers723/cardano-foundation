@@ -7,6 +7,28 @@
           font-style: normal;
           font-weight: 500;
       }
+      .select-language.bootstrap-select {
+        margin-top: 25px;
+        font-family: Rubik;
+        font-size: 14.0px;
+        font-style: normal;
+        font-weight: 500;
+        display: inline-block !important;
+
+        span {
+          font-weight: 500;          
+          font-size: 14.0px;
+          &.flag-icon {
+            margin-right: 5px;
+          }
+        }
+
+        li {
+          a {
+            padding-top: 5px;
+          }
+        }
+      }
     }
   }
 }
