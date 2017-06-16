@@ -12,7 +12,7 @@ anchors:
 
 Cardano Foundationの核心は、Cardanoプロトコル技術を標準化、保護、推進することです。
 
-# フォーカスの分野
+<h1 id="areas-of-focus">フォーカスの分野</h1>
 
 * カルダノプロトコル
   * 私たちは、時間の経過と共に進化するCardanoプロトコルの客観的な標準体として機能します。
@@ -28,7 +28,7 @@ Cardano Foundationの核心は、Cardanoプロトコル技術を標準化、保�
 
 {% include foundation-goals.html %}
 
-# 財団スタッフ
+<h1 id="foundation-staff">財団スタッフ</h1>
 
 {% include team-members.html %}
 
