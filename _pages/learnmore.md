@@ -7,8 +7,11 @@ defaulturl: /learn-more/
 slug: learn-more
 anchors:
 - tit: "News Releases"
+  slug: news-releases
 - tit: "Technical Documentation"
+  slug: technical-documentation
 - tit: "Old Newsletters"
+  slug: old-newsletters
 ---
 # News Releases
 

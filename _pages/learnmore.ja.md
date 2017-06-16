@@ -7,8 +7,11 @@ defaulturl: /learn-more/
 slug: learn-more
 anchors:
 - tit: "ニュースリリース"
+  slug: news-releases
 - tit: "技術文書"
+  slug: technical-documentation
 - tit: "古いニュースレター"
+  slug: old-newsletters
 ---
 <h1 id="news-releases">ニュースリリース</h1>
 
