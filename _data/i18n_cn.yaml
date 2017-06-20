@@ -1,53 +1,98 @@
-name: 名
-phone: 電話
-email: Eメール
-subject: テーマ
-message: メッセージ
-head_office: 本社
-newsletter: ニュースレター
-submit: 提出します
-submit_application: 申請書を提出
-apply_now: 今すぐ申し込みます！
-your_cv: あなたの履歴書
-subscribe: 登録する
-subscribe_to_nl: 財団からのニュースを受け取る
-your_email: メールアドレスを入力して下さい
-subscribe_to_nl_desc: ニュースレターに登録し、財団に関する最新情報を受け取る。
-rights: 全著作権所有
-about: 財団について
-about_us: 財団について
-careers: 求人
-contact: 連絡先
-contact_us: お問い合わせフォーム
-visit_us: 所在地
-team: チーム
-news: ニュース
-chairman: 会長
-founder: 創業者
-founders: ファウンダーズ
-home_of: カルダノ財団
-home_desc: エイダの販売の第二トランシェが始まりました。あなたの詳細については、販売代理店を達成しご連絡ください。
-home_sale_only:  販売は、日本のお客様にのみご利用いただけます
-sales_partner: 販売パートナー
-goals: 活動目的
-goal_protect: "カルダノ・エコシステムの保護、<br>促進、発展に参与する。"
-goal_act: "暗号通貨の一つの標準となる。"
-goal_study: "暗号通貨に関連する規制の調査、<br>定義、制定を行う。"
-goal_serve: "新規参入者の目標にふさわしい組織として行動する。"
-goal_educate: "カルダノ・コミュニティーの統合、<br>教育、そして成長促進を行う。"
-partnership_structure: カルダノ財団パートナー
-structure_gaming: カルダーノゲーミンググループ
-structure_gaming_desc: ゲーム開発とホワイトラベルソリューションパートナー
+name: Name
+phone: Phone
+email: Email
+subject: Subject
+message: Message
+head_office: Head Office
+newsletter: 通讯
+submit: Submit
+submit_application: Submit Application
+apply_now: Apply Now!
+your_cv: Your CV
+subscribe: Subscribe
+subscribe_to_nl: Subscribe to our Newsletter
+your_email: your@email
+subscribe_to_nl_desc: 订阅卡尔达诺通讯，获得所有基金会更新。
+rights: All Rights Reserved
+about: About
+about_us: About us
+careers: Careers
+contact: Contact
+contact_us: 联系卡尔达诺
+visit_us: Location
+team: Team
+news: News
+chairman: Chairman
+founder: Founder
+founders: Founders
+home_of: 卡尔达诺基金会
+home_desc: The second tranche of the Ada sale has begun. Please contact your Attain distributor for more details.
+home_sale_only:  Sale is only available to Japanese customers
+sales_partner: Sales Partner
+goals: Goals
+goal_protect: "To Protect, Enhance and <br>Evolve the Cardano Ecosystem"
+goal_act: "To Act as a Cryptocurrency<br> Standards Body"
+goal_study: "To Study and Propose <br>Cryptocurrency Regulation"
+goal_serve: "To Serve as an Objective Organization<br> for Enterprises to Join"
+goal_educate: "To Aggregate, Educate <br>and Grow the Cardano Community"
+partnership_structure: Cardano foundation partners
+structure_gaming: Cardano Gaming Group
+structure_gaming_desc: Game Development and White Label Solutions Partner
 structure_io: Input Output
-structure_io_desc: プロトコルの開発パートナー
-structure_attain: 株式会社アテインコーポレーション
-structure_attain_desc: 排他的取引パートナー
-becoming_partner: カルダノ財団のパートナーになりませんか？
-executive_team: 理事長、並びに特別顧問の紹介 
-special_advisor: 特別顧問
+structure_io_desc: Protocol Development Partner
+structure_attain: Attain Corporation
+structure_attain_desc: Exclusive Exchange Partner
+becoming_partner: Interested in Becoming a Partner?
+executive_team: "Chairman & Special Advisers"
+special_advisor: Special Advisor
 executive_director: Executive Director
 stratergy_communications: Head of Strategy and Communications
-DATA_PROTECTION_POLICY: データ保護ポリシー
-read_more: 続きを読む
+DATA_PROTECTION_POLICY: DATA PROTECTION POLICY
+read_more: Read more
 
-# Add new text
+# footer
+join_our_community: 欢迎加入卡尔达诺社区
+technical_documentation: 技术文档
+data_protection_policy: 数据保护政策
+data_protection_policy_content_1: 个人资料应当公正合法地处理。
+data_protection_policy_content_2: 个人资料应以一个或多个指定與合法的目的获得，不得以与该目的或不符这些目的任何方式进一步处理。
+data_protection_policy_content_3: 个人资料应与处理的單一目的或多目的有关，足够、相关或不过度。
+data_protection_policy_content_4: 个人资料应准确，并在必要时保持最新。
+data_protection_policy_content_5: 为任何單一目的或多目的处理的个人资料不得超过为此單一目的或多目的所需的期间。
+data_protection_policy_content_6: 个人资料按照有关法律规定的数据主体的权利进行处理。
+data_protection_policy_content_7: 应采取适当的技术和组织措施，防止未经授权和非法处理个人资料，以及意外丢失或毁坏个人资料。
+data_protection_policy_content_8: 个人资料不得转移到国家或地区，除非该国家或地区确保对处理个人资料的数据主体的权利和自由给予足够的保护。
+copy_right_text_1: "卡尔达诺基金会会于2016年9月13日在瑞士注册。卡尔达诺基金会的注册办事处：Cardano Stiftung，Gubelstrasse 11,6300 Zug，Switzerland。"
+copy_right_text_2: "2016卡尔达诺基金会版权所有"
+
+# home landing page
+home_banner_desc_1: 区块链 | 加密货币 |分散应用
+home_banner_desc_2: 卡尔达诺是一个分散的平台，将允许以安全和可扩展的方式进行复杂的可编程传输价值。卡尔达诺是在高度安全的Haskell编程语言中构建的第一个区块链之一。
+home_banner_title_2: 测试网络0.3
+home_banner_desc_3: 卡尔达诺现在正处于公共测试阶段，目前测试网络0.3是可执行的。
+home_banner_desc_4: 我们鼓励大家下载测试网络0.3，让您有机会尝试如何操作平台，同时帮助卡尔达诺改善未来的预期发布。
+download_here: 由此下载
+foundation_goal_str1: To Act as a Cryptocurrency Standards Body
+foundation_goal_str2: To Serve as an Objective Organization for Enterprises to Join
+foundation_goal_str3: To Aggregate, Educate and Grow the Cardano Community
+foundation_goal_str4: To Protect, Enhance and Evolve the Cardano Ecosystem
+foundation_goal_str5: To Study and Propose Cryptocurrency Regulation
+
+#foundation page
+close: Close
+
+# nav main menu
+home: Home
+the_project: The Project
+the_protocol: The Protocol
+the_foundation: The Foundation
+learn_more: Learn More
+faq: Faq
+blog: Blog
+
+# project page
+project_stackholders_desc_1: 卡尔达诺平台是一个集体项目，由三个机构组成，各自分担角色，皆有助于项目的成功。
+project_stackholders_desc_2: 卡尔达诺基金会的使命是“规范，保护和促进”卡尔达诺协议技术
+project_stackholders_desc_3: IOHK是一家世界级的区块链工程公司，负责构建卡尔达诺区块链。
+project_stackholders_desc_4: Emurgo负责促进建立在卡尔达诺生态系统上的商业应用。
+

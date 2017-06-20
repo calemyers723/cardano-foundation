@@ -1,6 +1,7 @@
+{% assign lan = 'i18n_' | append: page.language %}
 <section class="section">
   <p class="">
-    The Cardano platform is a collective project, made up of three institutions that have separate roles, all contributing to the project’s success.
+    {{ site.data[lan].project_stackholders_desc_1 }}
   </p>
   <div class='icon-diagram'>
     <div class="icon-set center">
@@ -8,7 +9,7 @@
         <img class="center-img" src="{{ '/images/project/1.png' | prepend: site.baseurl }}" alt="" />
       </div>
       <div class="icon-text-wrap">
-        <p><em>The Cardano Foundation’s mission is to “standardise, protect and promote” the Cardano Protocol technology</em></p>
+        <p><em>{{ site.data[lan].project_stackholders_desc_2 }}</em></p>
       </div>
     </div>
     <div class="icon-divider">
@@ -18,7 +19,7 @@
         <img class='' src="{{ '/images/project/2.png' | prepend: site.baseurl }}" />
       </div>
       <div class="icon-text-wrap">
-        <p><em>IOHK is a world class blockchain engineering company responsible for building the Cardano blockchain.</em></p>
+        <p><em>{{ site.data[lan].project_stackholders_desc_3 }}</em></p>
       </div>
     </div>
     <div class="icon-divider">
@@ -28,7 +29,7 @@
         <img class='' src="{{ '/images/project/3.png' | prepend: site.baseurl }}" />
       </div>
       <div class="icon-text-wrap">
-        <p><em>Emurgo is responsible for fostering commercial applications being built upon the Cardano ecosystem.</em></p>
+        <p><em>{{ site.data[lan].project_stackholders_desc_4 }}</em></p>
       </div>
     </div>
   </div>

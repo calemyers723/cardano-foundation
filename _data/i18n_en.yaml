@@ -90,3 +90,9 @@ learn_more: Learn More
 faq: Faq
 blog: Blog
 
+# project page
+project_stackholders_desc_1: The Cardano platform is a collective project, made up of three institutions that have separate roles, all contributing to the project’s success.
+project_stackholders_desc_2: The Cardano Foundation’s mission is to “standardise, protect and promote” the Cardano Protocol technology
+project_stackholders_desc_3: IOHK is a world class blockchain engineering company responsible for building the Cardano blockchain.
+project_stackholders_desc_4: Emurgo is responsible for fostering commercial applications being built upon the Cardano ecosystem.
+
