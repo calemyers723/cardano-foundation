@@ -83,12 +83,12 @@ close: Close
 
 # nav main menu
 home: Home
-the_project: The Project
-the_protocol: 议定
-the_foundation: The Foundation
-learn_more: Learn More
+the_project: 项目
+the_protocol: 协议
+the_foundation: 基金会
+learn_more: 了解更多
 faq: Faq
-blog: Blog
+blog: 博客
 
 # project page
 project_stackholders_desc_1: 卡尔达诺平台是一个集体项目，由三个机构组成，各自分担角色，皆有助于项目的成功。
