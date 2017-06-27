@@ -22,7 +22,7 @@ anchors:
 
 # The Protocol:
 
-There are now over 300 different cryptocurrencies and the industry continues to see companies and governments experimenting with and starting to implement blockchain technology, whether it be for efficiencies through permissioned blockchains or through decentralized solutions.
+There are now many different cryptocurrencies and the industry continues to see companies and governments experimenting with and starting to implement blockchain technology, whether it be for efficiencies through permissioned blockchains or through decentralized solutions.
 
 Many of these alternatives, however, are little more than clones of a few key protocols, many lack the development teams, or technical knowledge to achieve their goals, many are rushed into launch before the being properly tested and many more lack the structure, or treasury model to build a sustainable solution.
 
@@ -35,7 +35,7 @@ The Cardano protocol has been designed from the ‘ground-up’ and is a true st
 * **Cardano’s multi-layer protocol performs advanced functions, and has at its foundation a settlement layer that is elegantly linked to a control layer. The settlement layer will have a unit of account, while the control layer will run next-generation smart contracts and will be programmed to recognise identity, assisting compliance (and allowing blacklisting, for instance).**
 * **The protocol is geared towards protecting privacy rights of users, while also taking into account the needs of regulators. In doing so, Cardano is the first protocol to balance these requirements in a nuanced and effective way, pioneering a new approach for cryptocurrencies.**
 * **The system is designed so that it can be upgraded by way of soft forks, enabling it to adapt to changing needs and evolve quickly, when required. A treasury system is also being installed that will ensure the sustainability of the protocol.**
-* **Completely open source and patent-free, Cardano was built in a spirit of collaboration. Engineered for efficiency and scalability, the Cardano ecosystem is developing out into the most complete cryptocurrency ever constructed.**
+* **Completely open source and patent-free, Cardano is built in the spirit of collaboration. Engineered for efficiency and scalability, the Cardano ecosystem will develop into the most complete cryptocurrency ever constructed.**
 
 # Conceptual Innovation
 

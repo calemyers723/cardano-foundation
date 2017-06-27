@@ -23,7 +23,7 @@ The Cardano Foundation’s core mission is to standardise, protect and promote t
   * We support, grow and help educate the Cardano blockchain community.
 
 * Cardano ecosystem
-  * We work to expand and protect the Cardano ecosystem. This includes promoting Cardano as a platform for commercial entities and serving as an objective organization for enterprises interested in Cardano to join.
+  * We work to expand and protect the Cardano ecosystem. This includes promoting Cardano as a platform for commercial entities and serving as an objective organization for enterprises interested in joining Cardano.
 
 * Serving the wider blockchain community
   * We aim to influence and progress the emerging commercial and legislative landscape for blockchain technology and cryptocurrencies in general. We proactively approach government and regulatory bodies and form strategic partnerships with businesses, enterprises and other open-source projects.
