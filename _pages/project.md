@@ -15,8 +15,8 @@ anchors:
       slug: the-cardano-foundation
     - tit: IOHK
       slug: iohk
-    - tit: Emurgo
-      slug: emurgo
+    - tit: CGG
+      slug: cgg
 - tit: Project Road Map
   slug: project-road-map
 - tit: Exchanges
@@ -36,7 +36,7 @@ The protocol features a layered blockchain software stack that is flexible, scal
 
 {% include new-block-structure.html %}
 
-The Cardano project was initiated by a group of cryptocurrency enthusiasts, investors and entrepreneurs concentrated in Asia at the end of 2014. Input Output HK (IOHK) was engaged to design and implement the Cardano protocol. In addition, the Cardano Foundation, based in Switzerland, was created to help oversee and supervise the development of Cardano and its ecosystem, and to advocate on behalf of the users of the protocol. Another entity, the Cardano Group, based in the Isle of Man, was created to pursue for-profit activities on behalf of the ecosystem and community. The three entities are wholly separate in ownership and leadership. Lastly, the Attain Corporation, was given sole rights to distribute and perform the token presale.
+The Cardano project was initiated by a group of cryptocurrency enthusiasts, investors and entrepreneurs concentrated in Asia at the end of 2014. Input Output HK (IOHK) was engaged to design and implement the Cardano protocol. In addition, the Cardano Foundation, based in Switzerland, was created to help oversee and supervise the development of Cardano and its ecosystem, and to advocate on behalf of the users of the protocol. Another entity, the Cardano Group, based in the Isle of Man, was created to pursue for-profit activities on behalf of the ecosystem and community. The three entities are wholly separate in ownership and leadership.
 
 ### The Cardano Foundation
 
@@ -51,11 +51,11 @@ The Cardano Foundation acts as a supervisory and educational body for the protoc
 Founded in 2015 by Charles Hoskinson and Jeremy Wood, IOHK is a world-class engineering and technology company committed to using peer-to-peer innovations to provide financial services to three billion people that don’t have them.
 The group is contracted to design, build, and maintain the Cardano platform through to 2020. 
 
-### Emurgo
+### CGG
 
-Emurgo is the venture building entity in the Cardano ecosystem. A rebranding of CGG, its goal is to aid, integrate, and foster Cardano blockchain applications.
+CGG is the venture building entity in the Cardano ecosystem. A rebranding of CGG, its goal is to aid, integrate, and foster Cardano blockchain applications.
  
-Emurgo captures the transformative power that blockchain technology brings to the developing world. Decentralized applications built on Cardano technology, funded and supported by Emurgo, will have the potential to build groundbreaking applications.
+CGG captures the transformative power that blockchain technology brings to the developing world. Decentralized applications built on Cardano technology, funded and supported by CGG, will have the potential to build groundbreaking applications.
 
 # Project Road Map
 

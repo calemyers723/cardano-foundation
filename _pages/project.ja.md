@@ -15,8 +15,8 @@ anchors:
       slug: the-cardano-foundation
     - tit: IOHK
       slug: iohk
-    - tit: Emurgo
-      slug: emurgo
+    - tit: CGG
+      slug: cgg
 - tit: プロジェクトロードマップ
   slug: project-road-map
 - tit: 交流
@@ -51,11 +51,11 @@ The Cardano Foundation acts as a supervisory and educational body for the protoc
 Founded in 2015 by Charles Hoskinson and Jeremy Wood, IOHK is a world-class engineering and technology company committed to using peer-to-peer innovations to provide financial services to three billion people that don’t have them.
 The group is contracted to design, build, and maintain the Cardano platform through to 2020. 
 
-<h3 id="emurgo">Emurgo</h3>
+<h3 id="cgg">CGG</h3>
 
-Emurgo is the venture building entity in the Cardano ecosystem. A rebranding of CGG, its goal is to aid, integrate, and foster Cardano blockchain applications.
+CGG is the venture building entity in the Cardano ecosystem. A rebranding of CGG, its goal is to aid, integrate, and foster Cardano blockchain applications.
  
-Emurgo captures the transformative power that blockchain technology brings to the developing world. Decentralized applications built on Cardano technology, funded and supported by Emurgo, will have the potential to build groundbreaking applications.
+CGG captures the transformative power that blockchain technology brings to the developing world. Decentralized applications built on Cardano technology, funded and supported by CGG, will have the potential to build groundbreaking applications.
 
 <h1 id="project-road-map">プロジェクトロードマップ</h1>
 
