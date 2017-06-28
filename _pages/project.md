@@ -53,7 +53,7 @@ The group is contracted to design, build, and maintain the Cardano platform thro
 
 ### CGG
 
-CGG is the venture building entity in the Cardano ecosystem. A rebranding of CGG, its goal is to aid, integrate, and foster Cardano blockchain applications.
+CGG is the venture building entity in the Cardano ecosystem, its goal is to aid, integrate, and foster Cardano blockchain applications.
  
 CGG captures the transformative power that blockchain technology brings to the developing world. Decentralized applications built on Cardano technology, funded and supported by CGG, will have the potential to build groundbreaking applications.
 
