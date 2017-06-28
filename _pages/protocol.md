@@ -58,7 +58,7 @@ To perform a transfer on the settlement layer requires you own ADA, or acquire A
  
 Each cryptocurrency requires a “wallet” to store ADA. Typically this wallet is a software application that can be installed on any computer or smartphone.
 
-Daedalus is a highly-engineered wallet with advanced security features that was developed by IOHK specifically for the Cardano blockchain and protects your assets with the most advanced cryptography. In the future, Daedalus will not only support ADA, but other cryptocurrencies such as Bitcoin, Ethereum Classic and many more.The test version is available to download here.
+Daedalus is a highly-engineered wallet with advanced security features that was developed by IOHK specifically for the Cardano blockchain and protects your assets with the most advanced cryptography. In the future, Daedalus will not only support ADA, but other cryptocurrencies such as Bitcoin, Ethereum Classic and many more.The test version is available to [download here](https://test.daedaluswallet.io/).
  
 # Testnet
 
