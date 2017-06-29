@@ -5,6 +5,6 @@ language: ja
 permalink: /newsletter/
 defaulturl: /newsletter/
 slug: newsletter
-submit_value: Subscribe
-input_placeholder: Enter your email
+submit_value: 登録
+input_placeholder: メールアドレスを入力してください
 ---

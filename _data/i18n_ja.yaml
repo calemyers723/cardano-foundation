@@ -4,7 +4,7 @@ email: Email
 subject: Subject
 message: Message
 head_office: Head Office
-newsletter: Newsletter
+newsletter: ニュースレター
 submit: Submit
 submit_application: Submit Application
 apply_now: Apply Now!
@@ -12,13 +12,13 @@ your_cv: Your CV
 subscribe: Subscribe
 subscribe_to_nl: Subscribe to our Newsletter
 your_email: your@email
-subscribe_to_nl_desc: Subscribe to our newsletter and get all the foundation updates.
+subscribe_to_nl_desc: ニュースレターに登録し、財団の新情報を受け取る
 rights: All Rights Reserved
 about: About
 about_us: About us
 careers: Careers
 contact: Contact
-contact_us: Contact us
+contact_us: お問い合わせ
 visit_us: Location
 team: Team
 news: News
@@ -51,18 +51,18 @@ DATA_PROTECTION_POLICY: DATA PROTECTION POLICY
 read_more: Read more
 
 # footer
-join_our_community: Join our community
-technical_documentation: Technical Documentation
-data_protection_policy: DATA PROTECTION POLICY
-data_protection_policy_content_1: Personal data shall be processed fairly and lawfully.
-data_protection_policy_content_2: Personal data shall be obtained for one or more specified and lawful purposes, and shall not be further processed in any manner incompatible with that purpose or those purposes.
-data_protection_policy_content_3: Personal data shall be adequate, relevant and not excessive in relation to the purpose or purposes for which they are processed.
-data_protection_policy_content_4: Personal data shall be accurate and, where necessary, kept up to date.
-data_protection_policy_content_5: Personal data processed for any purpose or purposes shall not be kept for longer than is necessary for that purpose or those purposes.
-data_protection_policy_content_6: Personal data shall be processed in accordance with the rights of data subjects under relevant legislation.
-data_protection_policy_content_7: Appropriate technical and organisational measures shall be taken against unauthorised and unlawful processing of personal data and against accidental loss or destruction of, or damage to, personal data.
-data_protection_policy_content_8: Personal data shall not be transferred to a country or territory unless that country or territory ensures an adequate level of protection for the rights and freedoms of data subjects in relation to the processing of personal data.
-copy_right_text_1: "Cardano Foundation was registered on 14 September 2016 in Switzerland. The registered office of Cardano Foundation is: Cardano Stiftung, Gubelstrasse 11, 6300 Zug, Switzerland."
+join_our_community: コミュニティに参加する
+technical_documentation: 技術資料
+data_protection_policy: 情報保護規約
+data_protection_policy_content_1: 個人データは公正かつ合法的に処理されるものとします。
+data_protection_policy_content_2: 個人データは、1つまたは複数の指定された合法的な目的のために取得され、その目的またはその目的と両立しない方法でさらに処理されないものとします。
+data_protection_policy_content_3: 個人データは、処理されるに関連して、適切で過度でない使用とします。
+data_protection_policy_content_4: 個人データは正確で、必要に応じて最新のものとします。
+data_protection_policy_content_5: いかなる個人データは、必要とされる目的以上に長く保管されないものとします。
+data_protection_policy_content_6: 個人データは、関連する法律の下でデータの権利に従って処理されるものとします。
+data_protection_policy_content_7: 個人データの不正および不法な処理、ならびに偶発的な個人データの喪失または破壊または破損に対して、適切な技術的および組織的措置を講じなければならない。
+data_protection_policy_content_8: 個人データは、当該国または地域が、個人データの処理に関連してデータ主体の権利と自由を十分に保護することを保証しない限り、その国または地域に移転してはならない。
+copy_right_text_1: "カルダノ財団は2016年9月13日にスイスで法人化しました。カルダノ財団オフィス：Cardano Stiftung, Gubelstrasse 11, 6300 Zug, Switzerland."
 copy_right_text_2: "2016 Cardano Foundation ALL RIGHTS RESERVED"
 
 # home landing page
