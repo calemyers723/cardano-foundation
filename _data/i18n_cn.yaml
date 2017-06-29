@@ -29,7 +29,7 @@ home_of: 卡尔达诺基金会
 home_desc: The second tranche of the Ada sale has begun. Please contact your Attain distributor for more details.
 home_sale_only:  Sale is only available to Japanese customers
 sales_partner: Sales Partner
-goals: Goals
+goals: 目标
 goal_protect: "To Protect, Enhance and <br>Evolve the Cardano Ecosystem"
 goal_act: "To Act as a Cryptocurrency<br> Standards Body"
 goal_study: "To Study and Propose <br>Cryptocurrency Regulation"
@@ -48,7 +48,7 @@ special_advisor: Special Advisor
 executive_director: Executive Director
 stratergy_communications: Head of Strategy and Communications
 DATA_PROTECTION_POLICY: DATA PROTECTION POLICY
-read_more: Read more
+read_more: 阅读全文
 
 # footer
 join_our_community: 欢迎加入卡尔达诺社区
@@ -77,14 +77,14 @@ download_here: 由此下载
 # foundation_goal_str3: To Aggregate, Educate and Grow the Cardano Community
 # foundation_goal_str4: To Protect, Enhance and Evolve the Cardano Ecosystem
 # foundation_goal_str5: To Study and Propose Cryptocurrency Regulation
-foundation_goal_str1: To Study and Propose Blockchain and Cryptocurrency Regulation
-foundation_goal_str2: To act as a Blockchain and Cryptocurrency Standards Body
-foundation_goal_str3: To Protect, Enhance and Evolve the Cardano Ecosystem
-foundation_goal_str4: To Aggregate, Educate and Grow the Cardano Community
-foundation_goal_str5: To Serve as an Objective Organization for Enterprises to Join
+foundation_goal_str1: 研究和提出加密规则
+foundation_goal_str2: 作为加密技术标准体
+foundation_goal_str3: 保护，增强和发展卡尔达诺生态系统
+foundation_goal_str4: 聚集，教育和培养卡尔达诺社区
+foundation_goal_str5: 作为企业加入的目标组织
 
 #foundation page
-close: Close
+close: 关闭
 
 # nav main menu
 home: Home

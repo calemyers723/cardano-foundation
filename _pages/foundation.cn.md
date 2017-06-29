@@ -6,31 +6,31 @@ permalink: /foundation/
 defaulturl: /foundation/
 slug: foundation
 anchors:
-- tit: "Areas of Focus"
+- tit: "重点领域"
   slug: areas-of-focus
-- tit: "Foundation Staff"
+- tit: "基金会工作人员"
   slug: foundation-staff
 ---
 
-The Cardano Foundation’s core mission is to standardise, protect and promote the Cardano Protocol technology.
+卡尔达诺基金会的核心任务是规范，保护和推广卡尔达诺协议技术。
 
-<h1 id="areas-of-focus">Areas of focus</h1>
+<h1 id="areas-of-focus">重点领域</h1>
 
-* Cardano Protocol
-  * We function as an objective standards body for the Cardano protocol as it evolves over time.
+* 卡尔达诺协议
+  * 随着时间的推移，基金会作为卡尔达诺协议的客观标准体以系发挥作用
 
-* Cardano community
-  * We support, grow and help educate the Cardano blockchain community.
+* 卡尔达诺社区
+  * 我们支持，成长和帮助教育卡尔达诺区块链社区。
 
-* Cardano ecosystem
-  * We work to expand and protect the Cardano ecosystem. This includes promoting Cardano as a platform for commercial entities and serving as an objective organization for enterprises interested in Cardano to join.
+* 卡尔达诺生态系统
+  * 我们致力于扩大和保护卡尔达诺生态系统。这包括促进卡尔达诺作为商业实体的平台，并作为让对卡尔达诺有兴趣的企业咨询的客观组织。
 
-* Serving the wider blockchain community
-  * We aim to influence and progress the emerging commercial and legislative landscape for blockchain technology and cryptocurrencies in general. We proactively approach government and regulatory bodies and form strategic partnerships with businesses, enterprises and other open-source projects.
+* 服务更广泛的区块链社区
+  * 我们的目标是影响和发展新兴商业和立法形式的区块链技术和加密货币。我们主动接触政府和监管机构，与商业，企业和其他开源项目组成战略合作伙伴关系。
 
 {% include foundation-goals.html %}
 
-<h1 id="foundation-staff">Foundation Staff</h1>
+<h1 id="foundation-staff">基金会工作人员</h1>
 
 {% include team-members.html %}
 
