@@ -14,8 +14,12 @@
 
   <div class="avatar">
     <img src="{{ member.img | prepend: site.baseurl }}" width="350" height="350" class="img-circle fullwidth" />
-    <a class="twitter" href="{{ member.twitter }}" target="_blank"><em class="fa fa-twitter"></em></a>
-    <a class="linkedin" href="{{ member.linkedin }}" target="_blank"><em class="fa fa-linkedin"></em></a>
+    {% if member.twitter != 'empty' %}
+    <a class="twitter {% if member.linkedin == 'empty' %}only-one{% endif %}" href="{{ member.twitter }}" target="_blank"><em class="fa fa-twitter"></em></a>
+    {% endif %}
+    {% if member.linkedin != 'empty' %}
+    <a class="linkedin {% if member.twitter == 'empty' %}only-one{% endif %}" href="{{ member.linkedin }}" target="_blank"><em class="fa fa-linkedin"></em></a>
+    {% endif %}
   </div>
   <h2 class="uppercase">{{ member.name }}</h2>
   <h4 class="uppercase big bold">{{ member.position }}</h4>
