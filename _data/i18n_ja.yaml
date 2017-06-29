@@ -25,7 +25,7 @@ news: News
 chairman: Chairman
 founder: Founder
 founders: Founders
-home_of: The Cardano Foundation
+home_of: カルダノ財団
 home_desc: The second tranche of the Ada sale has begun. Please contact your Attain distributor for more details.
 home_sale_only:  Sale is only available to Japanese customers
 sales_partner: Sales Partner
@@ -66,12 +66,12 @@ copy_right_text_1: "Cardano Foundation was registered on 14 September 2016 in Sw
 copy_right_text_2: "2016 Cardano Foundation ALL RIGHTS RESERVED"
 
 # home landing page
-home_banner_desc_1: Blockchain | Cryptocurrency | Decentralised Applications
-home_banner_desc_2: Cardano is a decentralised platform that will allow complex programmable transfers of value in a secure and scalable fashion. Cardano is one of the first blockchains to be built in the highly secure Haskell programming language.
-home_banner_title_2: Testnet 0.3
-home_banner_desc_3: Cardano is now in its public testing phase and Testnet 0.3 is live.
-home_banner_desc_4: We are encouraging everyone to download Testnet 0.3, try out the platform and help us improve it further pre launch.
-download_here: Download Here
+home_banner_desc_1: ブロックチェーン、暗号通貨、分散型アプリケーション
+home_banner_desc_2: カルダノは、安全でスケーラブルに価値の交換移転を可能にした分散型のプラットホームです。 また非常に安全性の高いハスケルというプログラミング言語を用いて構築された先進的なブロックチェーンの1つです。
+home_banner_title_2: テストネット0.3
+home_banner_desc_3: カルダノはパブリックテストとしてTestnet 0.3を公開しています。
+home_banner_desc_4: Testnet0.3のプラットホームをダウンロードして試運転にご参加ください。皆様のお力添えに深く感謝いたします。
+download_here: Testnet0.3のダウンロードはこちら
 # foundation_goal_str1: To Act as a Cryptocurrency Standards Body
 # foundation_goal_str2: To Serve as an Objective Organization for Enterprises to Join
 # foundation_goal_str3: To Aggregate, Educate and Grow the Cardano Community
