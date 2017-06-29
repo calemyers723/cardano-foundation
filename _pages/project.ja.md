@@ -6,9 +6,9 @@ permalink: /project/
 defaulturl: /project/
 slug: project
 anchors:
-- tit: プロジェクトの概要
+- tit: 事業概要
   slug: project-overview
-- tit: プロジェクトステークホルダー
+- tit: ステークホルダー
   slug: project-stakeholders
   subanchors:
     - tit: カルダノ財団
@@ -17,53 +17,56 @@ anchors:
       slug: iohk
     - tit: CGG
       slug: cgg
-- tit: プロジェクトロードマップ
+- tit: ロードマップ
   slug: project-road-map
-- tit: 交流
+- tit: 取引所
   slug: exchanges
 ---
-<h1 id="project-overview">プロジェクトの概要</h1>
+<h1 id="project-overview">事業概要</h1>
 
-カルダノは革新的なブロックチェーン技術であり、新しい地方分権経済を構築し、新興市場での財政を民主化するように設計されています。 カルダノは、分散アプリケーションと契約を低コスト、安全かつスケーラブルな方法で構築して実行できるようにします。
+カルダノは、新興市場において新たな分権経済を創出し、金融を民主化する革新的なブロックチェーンテクノロジーです。カルダノは分散型アプリケーションを可能にし、安全に、そしてスケーラビリティを備えたまま、コントラクトの契約から履行までのコストを安価にします。
 
-Blockchainは世界的に変革する技術になる可能性を秘めていますが、現在のソリューションは、規制監督の欠如、実証されていないセキュリティによる実験的なソフトウェア開発、更新を妨げるガバナンスの悪さ、長期的な計画の欠如といった多くの重要な問題によって妨げられています プロトコルの未来
+ブロックチェーンは世界を変容させる技術となる可能性を秘めています。しかし、規制監督の欠如や、セキュリテイが実証されていない実験的なソフトウェア、スケーラビリテイを妨げるガバナンス、またプロトコルに関する長期計画の欠如など、いくつもの課題が未解決のままになっています。
 
-カルダノのプロジェクトは異なります。革新的なソフトウェアアーキテクチャーを通じて消費者のプライバシーと保護を維持しながら、規制監督の必要性を公然と示しています。
+一方でカルダノは、革新的なソフトウェアアーキテクチャによって消費者のプライバシーを保護しながら、規制監督の必要性に取り組んでいます。
 
-The protocol features an innovative layered blockchain software stack that is flexible, scalable, and is being developed with the most rigorous academic and commercial software standards in the industry. Cardano will use a democratic governance system that will let the project evolve over time, and fund itself indefinitely through a visionary treasury system.
+プロトコルは革新的な積層ブロックチェーン・ソフトウェアスタックを採用しているため柔軟かつスケーラブルであり、また開発は最も厳格な学術及び商用ソフトウェア標準の元で実施されています。
+カルダノには、プロジェクトを常に前進させる民主的なガバナンスモデルと、堅実な財政システムが備わっています。
 
-<h1 id="project-stakeholders">プロジェクトステークホルダー</h1>
+<h1 id="project-stakeholders">ステークホルダー</h1>
 
 {% include new-block-structure.html %}
 
-The Cardano project was initiated by a group of cryptocurrency enthusiasts, investors and entrepreneurs concentrated in Asia at the end of 2014. Input Output HK (IOHK) was engaged to design and implement the Cardano protocol. In addition, the Cardano Foundation, based in Switzerland, was created to help oversee and supervise the development of Cardano and its ecosystem, and to advocate on behalf of the users of the protocol. Another entity, the Cardano Group, based in the Isle of Man, was created to pursue for-profit activities on behalf of the ecosystem and community. The three entities are wholly separate in ownership and leadership. Lastly, the Attain Corporation, was given sole rights to distribute and perform the token presale.
+2014年末、私たちの事業は仮想通貨の愛好家、投資家、起業家のグループによってアジアで創始されました。 Input Output HK（IOHK）はカルダノ・プロトコルの設計と実施を担当しています。 
+スイスに拠点を置くカルダノ財団はカルダノとそのエコシステムの監督的立場にあり、プロトコル利用者の代弁者として活動しています。 また、マン島に拠点を置くカルダノ・グループは、カルダノ・エコシステムとそのコミュニティを代表して営利活動を追及するため創設されました。 3つの事業体は、所有権とリーダーシップにおいて完全に独立した組織です。 アテイン株式会社はトークンのプリセールを配布し実行する唯一の企業として活動していました。
 
 <h3 id="the-cardano-foundation">カルダノ財団</h3>
 
-The Cardano Foundation acts as a supervisory and educational body for the protocol. Our mission is to:
+カルダノ財団はプロトコルの監督機関、また教育機関としての役割を担っています。私たちの使命は
 
-* Standardise, protect and promote the Cardano Protocol technology and its applications
-* Be a community hub offering authoritative, timely information about the technology and Cardano’s wide-ranging potential
-* Liaise and influence government and regulatory bodies, form strategic partnerships with businesses, enterprises and other open-source projects and aid the creation of formal software standards for Cardano, a crucial feature for a protocol’s long-term success and critical in adoption and government engagement
+* カルダノのテクノロジーとアプリケーションを規格化し、保護し、そして発展させることです。
+* カルダノのテクノロジーとその幅広い可能性について規制当局に対し適宜情報を提供するコミュニティの拠点となること。
+* 政府や規制機関に対し積極的なアプローチを行い、また企業やエンタープライズ、その他オープンソースプロジェクトと戦略的パートナーシップを形成すること。 企業の利用や政府との連携に適した公式ソフトウェアと標準化プロセスを提供すること。
 
 <h3 id="iohk">IOHK</h3>
 
-Founded in 2015 by Charles Hoskinson and Jeremy Wood, IOHK is a world-class engineering and technology company committed to using peer-to-peer innovations to provide financial services to three billion people that don’t have them.
-The group is contracted to design, build, and maintain the Cardano platform through to 2020. 
+IOHKは2015年にCharles HoskinsonとJeremy Woodによって設立されたエンジニアリングおよびテクノロジー企業です。革新的なP2P技術を利用して30億人に金融サービスを提供することを約束しました。IOHKは契約に基づき、2020年までカルダノ・プラットフォームの設計、構築、および管理を行います。
 
 <h3 id="cgg">CGG</h3>
 
-CGG is the venture building entity in the Cardano ecosystem. A rebranding of CGG, its goal is to aid, integrate, and foster Cardano blockchain applications.
- 
-CGG captures the transformative power that blockchain technology brings to the developing world. Decentralized applications built on Cardano technology, funded and supported by CGG, will have the potential to build groundbreaking applications.
+CGGはカルダノ・エコシステムを構築するベンチャー企業です。カルダノ・ブロックチェーン・アプリケーションを支援、統合、育成するためCGGよりリブランディングされました。
 
-<h1 id="project-road-map">プロジェクトロードマップ</h1>
+CGGは、ブロックチェーン技術が発展途上国にもたらす変革に注目しています。
+CGGによって資金援助を受け、またサポートされたカルダノ・テクノロジーを基盤とする分散アプリケーションは、
+画期的なアプリケーションを構築する可能性を秘めています。
 
-* IOHK will release a functioning version of the settlement layer in July 2017. Once launched, you will be able to transact, trade, and purchase ADA tokens fully independently of the computation layer.
-* The goal for the computation layer is to have a beta released by the first quarter of 2018. Once both settlement and computation layers are live, users will be able  to setup a custom environment to build decentralised applications on the Cardano stack.
-* In 2019, IOHK intends to work on Cardano’s long-term scalability and augment its capabilities. As developers, IOHK has been contracted through 2020 to make sure Cardano is being adequately maintained. The goal is to create a sustainable ecosystem that is capable of funding and supporting itself.
+<h1 id="project-road-map">ロードマップ</h1>
 
-<h1 id="exchanges">交流</h1>
+* IOHKは2017年7月にCSLのリリースを予定しています。 ローンチ後はCCLに完全に準拠したADAを処理、また取引することが可能となります。
+* CCLは2018年の第1四半期までにベータ版がリリースされる予定です。CSLとCCLを同時に使用すれば、 ユーザーはカルダノ・スタック上に分散アプリケーションを構築するための環境を自由にカスタマイズできます。
+* 2019年においてIOHKは、カルダノの長期的なスケーラビリティ増強に取り組むことを想定しています。 IOHKは適切に管理されたカルダノ環境を2020年までに確固たるものにすると言う契約を履行する一方で、自の資金供給を可能とする持続可能なエコシステムの生成を目標としています。
 
-The Cardano project is in discussion with a number of exchanges that are interested in listing ADA. If you would like to enquire about listing ADA please contact us at info@cardanofoundation.org.
+<h1 id="exchanges">取引所</h1>
+
+カルダノ・プロジェクトは、ADAの上場に関心のある取引所と協議を行っています。ADAの上場についてのお問い合わせはinfo@cardanofoundation.orgまでご連絡ください。
 
