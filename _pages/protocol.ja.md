@@ -6,11 +6,11 @@ permalink: /protocol/
 defaulturl: /protocol/
 slug: protocol
 anchors:
-- tit: "議定書"
+- tit: "プロトコル"
   slug: the-protocol
 - tit: "技術革新"
   slug: technological-innovation
-- tit: "概念的な革新"
+- tit: "コンセプトの革新"
   slug: conceptual-innovation
 - tit: "トークン：ADAバウチャー"
   slug: the-token-ada-voucher
@@ -20,48 +20,51 @@ anchors:
   slug: testnet
 ---
 
-<h1 id="the-protocol">議定書:</h1>
+<h1 id="the-protocol">プロトコル:</h1>
 
-現在、300以上の異なる暗号化通貨があり、ブロックチェーン技術を実装したり試したりする企業や政府は、許可されたブロックチェーンや分散型ソリューションを通じて効率を上げ続けています。
+現在世界には300種類以上もの暗号通貨があり、企業や政府機関は認可されたブロックチェーンや分散型ソリューションを通してそれらの利用を試みています。
 
-しかし、これらの代替案の多くは、いくつかの主要なプロトコルのクローン以上ではなく、開発チームや技術的な知識が足りないため、多くの人が適切なテストを受ける前に立ち上げられます。 持続可能なソリューションを構築する財務モデル。
+しかしほとんどの暗号通貨はキープロトコルのクローンにすぎず、目標を達成るうための開発チームや技術的知識が欠如している場合がほとんどです。また適切な審査を行わずして立ち上げを急いた結果、 持続可能なソリューションを構築するための財政モデルや構造をもっていないケースが多くあります。
 
-Cardanoプロトコルは、「根本的に」設計されており、ブロックチェインの進化における真のステップ・チェンジです。
+一方でカルダノ・プロトコルは「基盤」そのものから設計されているため、その存在はブロックチェーン革命における真のステップ・チェンジと言えるでしょう。
 
 <h1 id="technological-innovation">技術革新</h1>
 
-* **Cardanoは、Stakeアルゴリズムの革新的な証明書であるOuroborosを組み込む最初のプロトコルです。 IOHKチームは、Cardanoを根底から構築するためにピアレビューされた学術研究によって推進される「第一原理」アプローチを採用しました。**
-* **この独創的な共同作業は、分散システム、メカニズム設計、暗号化などの分野を結集した、最も正確に設計された暗号化をまだ着実に構築していました。 結果は、ミスクリティカルなシステム（この場合は投資を確保する）に必要な復元力を提供する産業用製品であるHaskellコードに基づいた最初の暗号化方式です。**
-* **Cardano’s multi-layer protocol performs advanced functions, and has at its foundation a settlement layer that is elegantly linked to a control layer. The settlement layer will have a unit of account, while the control layer will run next-generation smart contracts and will be programmed to recognise identity, assisting compliance (and allowing blacklisting, for instance).**
-* **The protocol is geared towards protecting privacy rights of users, while also taking into account the needs of regulators. In doing so, Cardano is the first protocol to balance these requirements in a nuanced and effective way, pioneering a new approach for cryptocurrencies.**
-* **The system is designed so that it can be upgraded by way of soft forks, enabling it to adapt to changing needs and evolve quickly, when required. A treasury system is also being installed that will ensure the sustainability of the protocol.**
-* **Completely open source and patent-free, Cardano was built in a spirit of collaboration. Engineered for efficiency and scalability, the Cardano ecosystem is developing out into the most complete cryptocurrency ever constructed.**
+* **カルダノはOurborosと呼ばれる革新的なProof of Stakeアルゴリズムを導入した最初のプロトコルです
+またIOHKチームは査読が行われた学術的な調査に夜「第一原理」のアプローチを採用しています。**
+* **このユニークな取り組みは、史上最も正確に開発された暗号通貨の構築を可能にするだけでなく、その配分システムや機構設計、暗号そのものに統制をもたらしました。 この結果がハスケルコードを基にした最初の暗号通貨であり、投資の保護など産業間で利用される際に必要とされるミッションクリティカルなシステムにおけるレジリエンスを揃えています。**
+* **カルダノのマルチレイヤープロトコルは高度な機能をもっており、その基盤はCCLと見事に連携されたCSLで構成されています。 CSLは数あるアカウントを保持し、一方のCCLは次世代のスマートコントラクトを実行する中で個人を断定しコンプライアンスを補助します
+プロトコルは規制当局の必要に応じて各アカウントの調査を行いながら、ユーザーのプライバシーを保護するために構築されました。そうすることでカルダノは、暗号通貨の新たなアプローチを創造しながら必要な条件を満たしつつ効率化を可能にした初のプロトコルとなりました。**
+* **これらのシステムは一般人でもアップグレードができる様に設計されているため、必要に応じて速やかに状況に適合させることができます。またプロトコルの持続可能性を確保するための財務システムも導入されています。**
+* **完全なオープンソースやパテントフリーといった事実からも示されている通り、カルダノはコラボレーションの精神に基づいて構築されました。**
+* **効率性とスケーラビリティのために設計されたカルダノ・エコシステムが、史上最も完璧に構築された暗号通貨となる日は近いかもしれません。**
 
-<h1 id="conceptual-innovation">Conceptual Innovation</h1>
+<h1 id="conceptual-innovation">コンセプトの革新</h1>
 
-* Privacy and regulation
-  * The original Bitcoin blockchain was meant to be a way for individuals to transact directly and anonymously with each other outside the control of banks and governments. This guarantees privacy in financial dealings, a fundamental individual right. But full anonymity can be counterproductive, as can complete lack of regulatory oversight. Today most blockchain projects look to further either the aims of privacy or of regulation. To be effective globally, we think a next-generation blockchain must ‘square the circle’ by finding the right mix of individual privacy protection and provision for regulatory control.
+* プライバシーと規制
+  * "本来ビットコイン・ブロックチェーンは、銀行や政府の管理外で個人が直接希望する相手と匿名の取引ができるものでした。これにより金融取引における個人のプライバシーを保証することができたのです。 しかし一方で完全な匿名性を導入した結果、規制や統制を無視する流れを生み出すことになりました。 近日多くのブロックチェーン・プロジェクトではさらなるプライバシーの保護、またはさらなる規制のどちらかを追求しています。しかし世界的に変革をもたらすためには、どちらか1つを追求するのではなく、プライバシー保護と規制や統制のの間に合点を見つけ「繋がりを広げる」活動をすべきだと我々は考えています。"
 
-* Governance
-  * Public, decentralized blockchain projects rely on crowd-based governance models. This allows for democratic control of the network by its participants, which is essential to building truly decentralised economies. However, if they are not carefully designed, such governance can go awry. Both the Bitcoin and Ethereum communities have experienced devastating schisms on the question of how to upgrade their networks – in Ethereum’s case already causing a split. The Cardano blockchain has an airtight governance model that allow the community to democratically take clear and binding decisions.
+* 統制
+  * 一般的な分散型ブロックチェーンは、参加者によるガバナンスモデルを採用しています。これにより真の分散型経済の構築に必要な参加者によるネットワークの民主的コントロールが可能になります。しかし、ガバナンスモデルが慎重に設計されていない場合、この統制はゆがんでいくことになります。BitcoinとEthereumは、どちらもネットワークのアップグレード方法に関して壊滅的なスキームを経験しています。カルダノ・ブロックチェーンでは、コミュニティが民主的に明確かつ拘束力のある決定を下すことを可能にする綿密な統制モデルを有しています。
 
-* Funding
-  * The Cardano blockchain has sophisticated maintenance and development needs and is able to adequately fund itself, both in terms of running costs and new investment.
+* 資金調達
+  * カルダノ・ブロックチェーンは、洗練された管理体制と開発ニーズを持ち合わせているため、運用コストと新規投資の双方に十分な資金を供給することができます。
 
-<h1 id="the-token-ada-voucher">The Token: ADA Voucher</h1>
+<h1 id="the-token-ada-voucher">トークン：ADAバウチャー</h1>
 
-Every blockchain project has a token of value commonly referred to as a cryptocurrency. ADA is the cryptocurrency on the Cardano blockchain. With ADA, holders can send value between friends, pay for a good or service, deposit funds on an exchange, or enter an application.
+全てのブロックチエーン・プロジェクトは、暗号通貨と呼ばれるトークンを使用しています。ADAはカルダノ・ブロックチエーンの暗号通貨です。ADAを所有することで、保有者は友人同士で価値の交換、商品やサービスへ支払い、また取引所やアプリケーション上に預金することが可能です。
+
+CSL上で送金を実行するためには、あなた自身のADAを使用する、または取引所を通じてADAを取得する必要があります。 またADAはCCL上のアプリケーションで使用されるネイティブ・トークンとしても使用されます。
+
+<h1 id="the-wallet-daedalus">ウォレット：Daedalus</h1>
  
-To perform a transfer on the settlement layer requires you own ADA, or acquire ADA through an exchange. It will also be the native token to be used in applications built on the computation layer.
+"どの暗号通貨もトークンを保管するための”ウォレット”を必要とします。 通常このウォレットはPCやスマートフォンにインストールが可能なソフトウェアアプリケーションとして使用されています。
 
-<h1 id="the-wallet-daedalus">The Wallet: Daedalus</h1>
+DaedalusはIOHKがカルダノ・ブロックチェーン専用に開発したウォレットです。最先端のセキュリティ機能を備え高度に設計されたDaedalusで最先端の暗号通貨を資産として保護することができます。 
+将来的にDaedalusはADAだけでなく、BitcoinやEthereum Classicなどの暗号通貨もサポートする予定です。Daedalusのテスト版はこちらからダウンロードできます。"
  
-Each cryptocurrency requires a “wallet” to store ADA. Typically this wallet is a software application that can be installed on any computer or smartphone.
+<h1 id="testnet">テストネット</h1>
 
-Daedalus is a highly-engineered wallet with advanced security features that was developed by IOHK specifically for the Cardano blockchain and protects your assets with the most advanced cryptography. In the future, Daedalus will not only support ADA, but other cryptocurrencies such as Bitcoin, Ethereum Classic and many more.The test version is available to download here.
- 
-<h1 id="testnet">Testnet</h1>
+ローンチを前にDaedalusとプロトコルのバグや問題を修正するため、複数のテストネットをリリースしています。
 
-Prior to launch, we are releasing a number of Testnet versions so that we can fix any bugs or problems with Daedalus and the wider protocol.
-
-Testnet 0.3 is currently available for download and testing here. You can participate in the test by downloading the Daedalus wallet, and following this YouTube tutorial.
+Testnet 0.3は現在こちらからダウンロードしてテストすることができます。Daedalusウォレットをダウンロードし、こちらのYouTubeに従ってテストへご参加ください。
