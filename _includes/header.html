@@ -1,3 +1,7 @@
+{% assign lan_url = '' %}
+{% if page.language != 'en' %}
+{% assign lan_url = '/' | append: page.language %}
+{% endif %}
 <div id="page" class="page {{ page.slug }} {% if page.layout == 'page-home-new' %}swiss{% endif %}">
 <header class="header">
   <div id="navbar" class="navbar navbar-top navbar-default  border0" role="navigation">
@@ -11,9 +15,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}{% if page.language != 'en' %}{{ page.language }}{% endif %}/">
+            <a class="navbar-brand" href="{{ lan_url }}/">
               <div>
-                <img src="/images/header-logo.png" alt="logo" class="top-logo"> <img class="text-logo" src="{{ '/images/header-logo-text.png' | prepend: site.baseurl }}" height="" alt="{{ site.title }}" />
+                <img src="{{ site.baseurl }}/images/header-logo-new.png" alt="logo" class="top-logo" height="55"> 
               </div>
             </a>
           </div>
@@ -21,16 +25,6 @@
             {% include nav-main.html %}
           </div>
         </div>
-      </div>
-      <div class="lang_switch none">
-        <a href="{{ site.baseurl }}{{ page.defaulturl }}" class="en" title="English">
-        <span class="none">English</span>
-        <img src="{{ site.baseurl }}/images/flags/en.png" width="19" height="14" alt="" />
-        </a>
-        <a href="{{ site.baseurl }}{{ page.defaulturl }}ja/" class="ja" title="日本語">
-        <span class="none">日本語</span>
-        <img src="{{ site.baseurl }}/images/flags/ja.png" width="19" height="14" alt="" />
-        </a>
       </div>
     </div>
   </div>
@@ -41,48 +35,39 @@
         <div class="col-lg-24 col-md-24 text-center">
           <div class="row">
             <div class="col-lg-20 col-lg-offset-2 col-md-24">
-              <h1>{{ site.data.i18n[page.language].home_of }}</h1>
-              {% if page.language == 'ja' %}
-              <h3>
-                ブロックチェーン・テクノロジー、暗号通貨ソフトウェア、さらにその先へ
-              </h3>
-              {% else %}
-              <h3>Blockchain | Cryptocurrency | Decentralised Applications</h3>
+              <h1>{{ site.data[lan].home_of }}</h1>
+
+              <h3>{{ site.data[lan].home_banner_desc_1 }}</h3>
               <br>
-              <p class="banner-desc">
-                Cardano is a decentralised platform that will allow complex programmable transfers of value in a secure and scalable fashion. Cardano is the first blockchain to be built in the highly secure Haskell programming language.
-              </p>
-              {% endif %}
+              <p class="banner-desc">{{ site.data[lan].home_banner_desc_2 }}</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div id="top" class="top text-center section container">
+    <div id="top" class="top text-center container">
       <div class="wrap row">
         <div class="col-lg-20 col-lg-offset-2 col-md-24">
         </div>
+        {% assign yt = 'jfv7Ha8cPps' %}
+        {% if page.language == 'ja' %}
+        {% assign yt = 'ecfPgjBdznk' %}
+        {% endif %}
 
         <div class="col-md-12">
           <div id="comp" class="">
             <a href="https://www.youtube.com/watch?v={{yt}}" class="iohk_video_load_modal" rel="{{yt}}">
-            <img src="/images/mac-play{% if page.language == 'ja' %}-ja{% endif %}.jpg" width="" alt="" />
+            <img src="{{ site.baseurl }}/images/mac-play.jpg" width="" alt="" />
             </a>
           </div>
         </div>
         <div class="col-md-12 text-left">
-          {% if page.language == 'en' %}
-          <h2>Testnet 0.3</h2>
+          <h2>{{ site.data[lan].home_banner_title_2 }}</h2>
           <br>
-          <p class="testnet">Cardano is now in its public testing phase and Testnet 0.3 is live.</p>
-          <p class="testnet">We are encouraging everyone to download Testnet 0.3, try out the platform and help us improve it further pre launch.</p>
+          <p class="testnet">{{ site.data[lan].home_banner_desc_3 }}</p>
+          <p class="testnet">{{ site.data[lan].home_banner_desc_4 }}</p>
           <br>
-          <a href="http://daedaluswallet.io" class="btn download-btn">Download Here</a>
-          {% endif %}
-          {% assign yt = 'jfv7Ha8cPps' %}
-          {% if page.language == 'ja' %}
-          {% assign yt = 'ecfPgjBdznk' %}
-          {% endif %}          
+          <a href="http://daedaluswallet.io" class="btn download-btn">{{ site.data[lan].download_here }}</a>
         </div>
       </div>
       <div id="faq" class="anchoring"></div>

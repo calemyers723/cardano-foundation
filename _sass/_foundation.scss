@@ -1,0 +1,162 @@
+.page-sidebar {
+  &.foundation {
+    .post {
+      ul {
+        padding-left: 20px;
+        margin-bottom: $item-space;
+        font-family: Rubik;
+        font-size: 17.0px;
+        font-weight: 500;
+        color: #6f6f6f;
+
+        ul {
+          margin-top: $item-space;
+          font-weight: 400;
+        }
+      }
+      section {
+        .goal-rect {
+          border: 5px solid #f4f4f4;
+          // height: 110px;
+          background: #ffffff;
+          box-shadow: 0px 4px 3px rgba(3,0,0,0);
+          border-top: none;
+          padding: 40px 0 40px 0;
+          position: relative;
+          &:first-child {
+            border-top: 5px solid #f4f4f4;
+          }
+          h4 {
+            color: #246dd3;
+            font-family: Rubik;
+            font-size: 20.0px;
+            font-weight: 400;
+            padding-left: 115px;
+          }
+          img {
+            position: absolute;
+            left: 37px;
+            top: 30px;
+            &.act {
+              left: 32px;
+              top: calc(50% - 25px);
+            }
+            &.serve {
+              left: 35px;
+              top: calc(50% - 22px);
+            }
+            &.aggregate {
+              left: 40px;
+              top: calc(50% - 25px);
+            }
+            &.protect {
+              left: 38px;
+              top: calc(50% - 20px);
+            }
+            &.study {
+              left: 40px;
+              top: calc(50% - 22px);
+            }
+          }
+        }
+        margin-bottom: $item-space;
+      }
+      .item {
+        &.member {
+          margin-bottom: $item-space;
+          h2 {
+            color: #000000;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 10px;
+          }
+          h4 {
+            font-size: 21px;
+            text-align: center;
+            margin-bottom: $item-space;
+          }
+          p {
+            text-align: center;
+          }
+          .piece {
+            padding: 30px;
+            background-color: #f8f8f8;
+            .avatar {
+              position: relative;
+              margin-bottom: 40px;
+              a {
+                position: absolute;
+                color: #fffefe;
+                background: #1da1f2;
+                border: 4px solid #f8f8f8;
+                -moz-border-radius: 50%;-webkit-border-radius: 50%;border-radius:50%; 
+                padding: 5px 9px;
+                bottom: -14px;
+                &.twitter {
+                  left: calc(50% + 3px);
+                }
+                &.linkedin {
+                  left: calc(50% - 40px);
+                  background: #0076b5;
+                }
+                &.only-one {
+                  left: calc(50% - 23px);
+                }
+              }
+            }
+            img {
+              max-width: 165px;
+              display: block;
+              margin: 0 auto;
+            }
+          }
+          .more {
+            font-weight: 700;
+            text-align: center;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 415px) {
+    &.foundation {
+      .post {
+        section {
+          .goal-rect {
+            padding: 15px 0 15px 0;
+            h4 {
+              padding-left: 75px;
+            }
+            img {
+              position: absolute;
+              left: 17px;
+              top: 10px;
+              &.act {
+                left: 12px;
+                top: calc(50% - 25px);
+              }
+              &.serve {
+                left: 15px;
+                top: calc(50% - 22px);
+              }
+              &.aggregate {
+                left: 20px;
+                top: calc(50% - 25px);
+              }
+              &.protect {
+                left: 18px;
+                top: calc(50% - 20px);
+              }
+              &.study {
+                left: 20px;
+                top: calc(50% - 22px);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

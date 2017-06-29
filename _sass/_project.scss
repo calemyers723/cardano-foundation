@@ -1,0 +1,125 @@
+// .page {
+//   &.project {
+//     .post {
+//       background-color: #fff;
+//       padding: 70px 60px;
+//       h1 {
+//         margin: 0 0 35px 0;
+//         color: #000000;
+//         font-family: Quicksand;
+//         font-size: 29.0px;
+//         font-weight: 700;
+//       }
+//       p {
+//         margin-bottom: 35px;
+//         color: #6f6f6f;
+//         font-family: Rubik;
+//         font-size: 17.0px;
+//         font-weight: 400;
+//         &:last-child {
+//           margin: 0;
+//         }
+//       }
+//       h3 {
+//         margin-bottom: 35px;
+//         color: #393939;
+//         font-family: Quicksand;
+//         font-size: 21.0px;
+//         font-weight: 500;
+//       }
+//       section.section {
+//         padding: 0;
+//         margin-bottom: 35px;
+//       }
+//     }
+//   }
+// }
+
+.page-sidebar {
+  &.project {
+    ul {
+      margin-bottom: $item-space;
+      font-family: Rubik;
+      font-size: 17.0px;
+      color: #6f6f6f;
+    }
+  }
+}
+
+.icon-diagram {
+  display: flex;
+  justify-content: space-between;
+  // align-items: center
+}
+
+.icon-divider {
+  width: 12%;
+  border-top: 5px dashed #f5f5f5;
+  margin-top: 12%;
+}
+
+.icon-set {
+  width: 25%;
+  padding: 0;
+}
+.icon-set img{
+  width: 100%;
+  height: auto;
+  // max-width: 70px;
+}
+.icon-set .center-img {
+  // max-width: 120px;
+}
+
+.icon-img-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-text-wrap {
+  margin: 2em 0 0 0!important;
+}
+
+.icon-text-wrap h3{
+  margin-top: 0!important;
+}
+
+@media (max-width: 900px) { 
+  .icon-set p{
+    font-size: 12px;
+  }
+  .icon-set h3{
+    font-size: 14px;
+  }
+  .icon-divider {
+    border: dashed 1px #1A7589;
+    width: 5%;
+  }
+
+  .icon-set {
+    width: 30%;
+  }
+}
+
+@media (max-width: 415px) {
+  .icon-diagram {
+    // display: block;
+  }
+
+  .icon-set {
+    width: 100%;
+  }
+  .icon-divider {
+    display: none;
+  }
+}
+
+@media (max-width: 490px) { 
+  .icon-set p{
+    font-size: 10px;
+  }
+  .icon-set h3{
+    font-size: 12px;
+  }
+}

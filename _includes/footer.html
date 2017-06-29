@@ -4,7 +4,7 @@
       <div class="col-lg-24 col-md-24">
         <div class="row">
           <div class="col-md-6 col-xs-24">
-            <h4>Join our community</h4>
+            <h4>{{ site.data[lan].join_our_community }}</h4>
             <div class="social_icons" id="social_icons_home">
               <a class="slack" href="https://cardano.herokuapp.com" target="_blank"><em class="fa fa-slack"></em></a>
               <a class="twitter" href="https://twitter.com/CardanoStiftung" target="_blank"><em class="fa fa-twitter"></em></a>
@@ -14,27 +14,54 @@
               <a class="youtube" href="https://www.youtube.com/channel/UCbQ9vGfezru1YRI1zDCtTGg" target="_blank"><em class="fa fa-youtube-play"></em></a>
             </div>
             <p>
-              <a href="mailto:info@cardanofoundation.org">Contact Us</a>
+              <a href="mailto:info@cardanofoundation.org">{{ site.data[lan].contact_us }}</a>
             </p>
-            <a href="https://cardano-docs.iohk.io">Technical Documentation</a>
+            <a href="https://cardano-docs.iohk.io">{{ site.data[lan].technical_documentation }}</a>
           </div>
 
           <div class="col-md-12 col-xs-24">
-            <h4>{{ site.data.i18n[page.language].newsletter }}</h4>
-            <p class="subscribe-to-our-new">{{ site.data.i18n[page.language].subscribe_to_nl_desc }}</p>
-            <iframe src="/newsletter/{% if page.language != 'en' %}{{ page.language }}/{% endif %}" border="0" style="border:0;" allowtransparency="true" width="100%" height="50"></iframe>
+            <h4>{{ site.data[lan].newsletter }}</h4>
+            <p class="subscribe-to-our-new">{{ site.data[lan].subscribe_to_nl_desc }}</p>
+            <iframe src="{{ lan_url }}/newsletter/" border="0" style="border:0;" allowtransparency="true"></iframe>
           </div>
 
           <div class="col-md-6 col-xs-24" style="text-align: right;">
-            <!-- <img src="{{ '/images/foot_logo-2.gif' | prepend: site.baseurl }}" width="" height="" class="" /> -->
             <img src="/images/footer-logo.png" alt="logo" style="margin-right: 10px;">
             <img src="/images/footer-logo-text.png" height="" alt="Cardano Foundation">
           </div>
         </div>
+        <div class="row">
+          <div class="col-xs-24">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      {{ site.data[lan].data_protection_policy }}
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                  <ol>
+                    <li>{{ site.data[lan].data_protection_policy_content_1 }}</li>
+                    <li>{{ site.data[lan].data_protection_policy_content_2 }}</li>
+                    <li>{{ site.data[lan].data_protection_policy_content_3 }}</li>
+                    <li>{{ site.data[lan].data_protection_policy_content_4 }}</li>
+                    <li>{{ site.data[lan].data_protection_policy_content_5 }}</li>
+                    <li>{{ site.data[lan].data_protection_policy_content_6 }}</li>
+                    <li>{{ site.data[lan].data_protection_policy_content_7 }}</li>
+                    <li>{{ site.data[lan].data_protection_policy_content_8 }}</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
         <div class="row copy-section">
           <div class="col-xs-24">
-            <p class="copy-right">Cardano Foundation was registered on 14 September 2016 in Switzerland. The registered office of Cardano Foundation is: Cardano Stiftung, Gubelstrasse 11, 6300 Zug, Switzerland.</p>
-            <p class="copy-right" style="text-transform: uppercase;">&copy;2016 Cardano Foundation ALL RIGHTS RESERVED</p>
+            <p class="copy-right">{{ site.data[lan].copy_right_text_1 }}</p>
+            <p class="copy-right" style="text-transform: uppercase;">&copy;{{ site.data[lan].copy_right_text_2 }}</p>
           </div>
         </div>
       </div>
@@ -64,6 +91,3 @@
     </div>
   </div>
 </div>
-<script type="text/javascript" src="{{ '/js/jquery.js' | prepend: site.baseurl }}"></script>
-<script type="text/javascript" src="{{ '/js/bs.js' | prepend: site.baseurl }}"></script>
-<script type="text/javascript" src="{{ '/js/functions.0.3.js' | prepend: site.baseurl }}"></script>

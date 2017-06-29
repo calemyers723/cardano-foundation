@@ -27,30 +27,35 @@ var lowerie = false;
 </script>
 
 
-<link rel="shortcut icon" type="image/png" href="{{ '/images/apple-icon.png' | prepend: site.baseurl }}"/>
+<link rel="shortcut icon" type="image/png" href="{{ '/images/apple-icon.png?v=1' | prepend: site.baseurl }}"/>
 
 <link rel="stylesheet" href="{{ '/css/app.0.3.css' | prepend: site.baseurl }}" type="text/css" media="all" />
 <link rel="stylesheet" href="{{ '/css/base.0.2.css' | prepend: site.baseurl }}" type="text/css" media="all" />
 <link rel="stylesheet" href="{{ '/css/cf.0.0.391.css' | prepend: site.baseurl }}" type="text/css" media="all" />
-<link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}" type="text/css" media="all" />
+<link rel="stylesheet" href="{{ '/css/main.css?v=1' | prepend: site.baseurl }}" type="text/css" media="all" />
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css" media="all" />
-<link href="https://fonts.googleapis.com/css?family=Lato:300,700,900" rel="stylesheet" />
-
-<!--[if lte IE 9]>
-<script src="{{ "/js/lowie.js" | prepend: site.baseurl }}"></script>
-<![endif]-->
-<!--[if lt IE 9]>
-<link rel="stylesheet"  href="{{ "/css/ie.css" | prepend: site.baseurl }}" type="text/css" media="all" />
-<script src="{{ "/js/html5.js" | prepend: site.baseurl }}"></script>
-<![endif]-->
-<!--[if lt IE 8]>
-<script>lowerie = true;</script>
-<script src="{{ "/js/lowerie.js" | prepend: site.baseurl }}"></script>
-<link rel="stylesheet"  href="{{ "/css/ieoff.css" | prepend: site.baseurl }}" type="text/css" media="all" />
-<![endif]-->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css" type="text/css" media="all" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" type="text/css" media="all" />
 
 <link hreflang="en" href="/" rel="alternate" />
 <link hreflang="ja" href="/ja/" rel="alternate" />
 <link hreflang="x-default" href="/" rel="alternate" />
+
+<script type="text/javascript" src="{{ '/js/jquery.js' | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ '/js/bs.js' | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ '/js/functions.0.3.js' | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="{{ '/js/custom.js?v=9' | prepend: site.baseurl }}"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-101007627-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 </head>

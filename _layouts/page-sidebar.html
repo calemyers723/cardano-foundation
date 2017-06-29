@@ -3,40 +3,28 @@ layout: page-sidebar
 ---
 <!DOCTYPE html>
 <html>
-
+  {% assign lan = 'i18n_' | append: page.language %}
   {% include head.html %}
-
-  <body class="{{page.slug}}">
-
+  <body class="{{page.slug}} page-sidebar">
     {% include header.html %}
-
     <div id="main-body">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-8">
-
-
-                  {% include nav-submenu.html item=page %}
-
-
-                </div>
-                <div class="col-lg-18 col-md-18  col-sm-16">
-                    <div class="post">
-                        <div class="entry" title="{{ page.title }}">
-                            {{content}}
-
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-24">
+            {% include nav-submenu.html item=page %}
+          </div>
+          <div class="col-lg-18 col-md-18 col-sm-24">
+            <div class="post">
+              <!-- <div class="entry"></div> -->
+              {{content}}
             </div>
+          </div>
         </div>
+      </div>
     </div><!-- /#main-body -->
     <div style="clear:both"></div>
-<div id="footer-wrap">
-    {% include footer.html %}
-</div>
-    
-
+    <div id="footer-wrap">
+      {% include footer.html %}
+    </div>
   </body>
-
 </html>

@@ -1,35 +1,68 @@
-<div class="col-lg-6 col-md-6 col-sm-6 rightcol post-side">
-    {% if author %}
-    <div class="profile">
-      <a href="{{ author.web }}">
-        <div class="profile-img">
-            <img src="/images/authors/{{author.img}}" alt="">
-        </div>
-        <h2>{{ author.name }}</h2>
-        <h4>{{ author.title }}</h4>
-        <div class="social inline-block">
-          {% if author.linkedin %}
-          <a class="c_555" href="https://ie.linkedin.com/in/{{author.linkedin}}" target="_blank"><em class="fa fa-linkedin-square"></em></a>&nbsp;
-          {% endif %}
-          {% if author.linkedin %}
-          <a class="c_555" href="https://twitter.com/{{author.twitter}}" target="_blank"><em class="fa fa-twitter-square"></em></a>&nbsp;
-          {% endif %}
-          {% if author.linkedin %}
-          <a class="c_555" href="https://github.com/{{author.twitter}}" target="_blank"><em class="fa fa-github-square"></em></a>&nbsp;
-          {% endif %}
-        </div>
-      </a>
-    </div>
-    <hr>
-    <h6>LATEST FROM AUTHOR</h6>
-    {% for post in site.posts %}
-          {% if post.author %}
-            <p>{{post.title}}</p>
-            <hr>
-          {% endif%}
-      {% endfor %}
-  {% endif %}
+<div class="col-lg-6 col-md-6 rightcol post-side">
+  <div class="profile">
+    {% unless blog_index %}
+    <p class="posted">POSTED BY:</p>
+    {% endunless %}
+    <a href="{{ author.web }}" style="display: block;">
+      <div class="profile-img">
+        <img src="/images/authors/{{author.img}}" alt="">
+      </div>
+      <h2>{{ author.name }}</h2>
+      <h3>{{ author.title }}</h4>
+    </a>
 
+    <div class="social">
+      {% if author.linkedin %}
+      <a class="linkedin" href="https://ie.linkedin.com/in/{{author.linkedin}}" target="_blank"><em class="fa fa-linkedin"></em></a>
+      {% endif %}
+      {% if author.twitter %}
+      <a class="twitter" href="https://ie.linkedin.com/in/{{author.linkedin}}" target="_blank"><em class="fa fa-twitter"></em></a>
+      {% endif %}
+    </div>
   </div>
-      
+  <p class="latest">{% if blog_index %}LATEST FROM BLOG{% else %}LATEST FROM AUTHOR{% endif %}</p>
+  {% for post in site.posts %}
+    {% assign post_author = site.data.authors[post.author] %}
+    {% if blog_index %}
+    <div>
+      <em class="fa fa-arrow-right"></em>
+      <div class="content">
+        <a href="{{ post.permalink }}">{{ post.title }}</a>
+        <p>{{ post_author.name }}</p>
+      </div>
+    </div>
+    {% else %}
+    {% if author == post_author %}
+    <div>
+      <em class="fa fa-arrow-right"></em>
+      <div class="content">
+        <a href="{{ post.permalink }}">{{ post.title }}</a>
+      </div>
+    </div>
+    {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {% if blog_index %}
+    <div>
+      <p style="font-family: Quicksand;">MORE FROM <a style="font-size: 15px;">BLOG/AUTHOR</a></p>
+    </div>
+    <div class="social_icons">
+      <!-- <a class="slack" href="https://cardano.herokuapp.com" target="_blank"><em class="fa fa-slack"></em></a>
+      <a class="twitter" href="https://twitter.com/CardanoStiftung" target="_blank"><em class="fa fa-twitter"></em></a>
+      <a class="facebook" href="https://facebook.com/CardanoFoundation/" target="_blank"><em class="fa fa-facebook"></em></a>
+      <a class="reddit" href="https://reddit.com/r/cardano" target="_blank"><em class="fa fa-reddit"></em></a>
+      <a class="github" href="https://github.com/input-output-hk/cardano-sl" target="_blank"><em class="fa fa-github"></em></a>
+      <a class="youtube" href="https://www.youtube.com/channel/UCbQ9vGfezru1YRI1zDCtTGg" target="_blank"><em class="fa fa-youtube-play"></em></a> -->
+
+      <i class="fa fa-print"></i>
+      <i class="fa fa-file-pdf-o"></i>
+      <i class="fa fa-envelope"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-linkedin"></i>
+      <i class="fa fa-google-plus"></i>
+      <i class="fa fa-reddit"></i>
+    </div>
+  {% endif %}
 </div>

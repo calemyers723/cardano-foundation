@@ -107,21 +107,10 @@ font-size: 100%;line-height:26px;margin:0 1px; text-align: center}
 
 
 
-#main-body .navbar-header{min-height: 0;height: 30px}
-#main-body .navbar-header .navbar-toggle {margin:0;float:none}
-#main-body .navbar-header .navbar-toggle .icon-bar{background: #aaa}
-
-
-
 .section{padding:1em 0}
 .section h2.title{letter-spacing: 1px}
 
-
-
-
-
-
-#top{color:#fff;padding:0}
+#top{ color:#fff; }
 
 #top .wrap{padding:20px 0 0 0}
 #top h1,
@@ -324,16 +313,6 @@ max-height: 100%;}
   max-width: 100%;
   height: auto;
 }
-
-.profile-img img {
-    border: 1px solid #ddd;
-    padding: 1px;
-    width: 90px !important;
-    height: 90px !important;
-    background: #eee;
-    border-radius: 50%;
-}
-
 
 #footer {
   margin: 0;

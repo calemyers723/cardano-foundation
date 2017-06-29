@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html>
-
+  {% assign lan = 'i18n_' | append: page.language %}
   {% include head.html %}
-
-  <body>
-
+  <body class="{{ page.slug }} page-sidebar">
     {% include header.html %}
-        {{ content }}
+      {{ content }}
     {% include footer.html %}
-
+    </div>
   </body>
-
 </html>

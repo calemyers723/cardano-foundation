@@ -3,30 +3,24 @@ layout: page
 ---
 <!DOCTYPE html>
 <html>
-
+  {% assign lan = 'i18n_' | append: page.language %}
   {% include head.html %}
-
   <body class="{{page.slug}}">
-
     {% include header.html %}
-
     <div id="main-body">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-24 col-md-24 ">
-                    <div class="post">
-                        <div class="entry" title="{{ page.title }}">
-                            {{content}}
-
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-24 col-md-24 ">
+            <div class="post">
+              <div class="entry" title="{{ page.title }}">
+                {{content}}
+              </div>
             </div>
+          </div>
         </div>
-    </div><!-- /#main-body -->
-
+      </div>
+    </div>
+    <!-- /#main-body -->
     {% include footer.html %}
-
   </body>
-
 </html>

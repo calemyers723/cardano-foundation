@@ -1,0 +1,39 @@
+{% assign lan = 'i18n_' | append: page.language %}
+{% assign members_lan = 'members_' | append: page.language %}
+{% assign member_list = "michael_parsons, john_maguire, john_oconnor, tom_kelly, adrian_forbes, bob_mcdowall" | split: ", " %}
+{% assign flag = true %}
+{% for member_str in member_list %}
+  {% assign member = site.data[members_lan][member_str] %}
+  {% if flag %}
+  <div class="item member">
+    <div class="row">
+      <div class="col-md-11 piece">
+  {% else %}
+  <div class="col-md-11 col-md-offset-2 piece">
+  {% endif %}
+
+  <div class="avatar">
+    <img src="{{ member.img | prepend: site.baseurl }}" width="350" height="350" class="img-circle fullwidth" />
+    <a class="twitter" href="{{ member.twitter }}" target="_blank"><em class="fa fa-twitter"></em></a>
+    <a class="linkedin" href="{{ member.linkedin }}" target="_blank"><em class="fa fa-linkedin"></em></a>
+  </div>
+  <h2 class="uppercase">{{ member.name }}</h2>
+  <h4 class="uppercase big bold">{{ member.position }}</h4>
+  <p>{{ member.description | truncate: 120, "..." }}</p>
+  <input type="hidden" class="all-desc" value="{{ member.description }}">
+  <input type="hidden" class="short-desc" value="{{ member.description | truncate: 120, "..." }}">
+  <a href="" class="more">{{ site.data[lan].read_more }}</a>
+
+  {% if flag %}
+  </div>
+  {% assign flag = false %}
+  {% else %}
+      </div>
+    </div>
+  </div>
+  {% assign flag = true %}
+  {% endif %}  
+{% endfor %}
+
+<input type="hidden" id="read_more_str" value="{{ site.data[lan].read_more }}">
+<input type="hidden" id="close_str" value="{{ site.data[lan].close }}">
