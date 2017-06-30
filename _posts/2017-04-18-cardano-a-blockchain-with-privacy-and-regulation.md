@@ -5,6 +5,7 @@ title: "Cardano: A Blockchain with Privacy and Regulation"
 subtitle: ""
 language: en
 permalink: /press/cardano-a-blockchain-with-privacy-and-regulation/
+defaulturl: /press/cardano-a-blockchain-with-privacy-and-regulation/
 slug: cardano-a-blockchain-with-privacy-and-regulation
 categories: press
 image: blog-1.png

@@ -1,0 +1,24 @@
+john_oconnor:
+  name: John O’Connor
+  email: test@author.com
+  web: http://twitter.com/
+  title: Head of Strategy and Communications
+  img: john.png
+  linkedin: test
+  twitter: test
+  github: test
+
+alan_mcsherry:
+  name: Alan McSherry
+  email: test2@author.com
+  web: http://twitter.com/
+  title: Ethereum Classic Developer
+  img: alan.png
+  linkedin: test
+  twitter: test
+  github: test
+
+michael_parsons:
+  name: Michael Parsons
+  title: Chairman
+  img: Parsons.jpg

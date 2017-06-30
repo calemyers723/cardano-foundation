@@ -5,6 +5,7 @@ title: "Passing the baton: Why it’s time for a new blockchain"
 subtitle: ""
 language: en
 permalink: /press/passing-the-baton-why-its-time-for-a-new-blockchain/
+defaulturl: /press/passing-the-baton-why-its-time-for-a-new-blockchain/
 slug: passing-the-baton-why-its-time-for-a-new-blockchain
 categories: press
 image: blog-2.jpg?v=1

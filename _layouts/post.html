@@ -5,6 +5,7 @@ layout: post
 <!DOCTYPE html>
 <html>
   {% assign lan = 'i18n_' | append: page.language %}
+  {% assign authors_with_lan = 'authors_' | append: page.language %}
   {% include head.html %}
   <body class="{{page.slug}} page-sidebar blog">
     {% include header.html %}
@@ -28,7 +29,7 @@ layout: post
                 </div>
                 {% include disqus.html %}
               </div>
-              {% assign author = site.data.authors[page.author] %}
+              {% assign author = site.data[authors_with_lan][page.author] %}
               {% include blog-side.html %}
             </div>
           </div>

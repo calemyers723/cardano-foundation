@@ -3,13 +3,18 @@ layout: blog
 slug: blog
 permalink: /blog/
 defaulturl: /blog/
-language: en
+language: cn
 ---
 <div id="main-body">
   <div class="container">
     
     {% for post in site.posts %}
-    {% assign author = site.data.authors[post.author] %}
+    {% if post.language != page.language %}
+      {% continue %}
+    {% endif %}
+    {% assign authors_with_lan = 'authors_' | append: page.language %}
+    {% assign data_with_lan = 'i18n_' | append: page.language %}
+    {% assign author = site.data[authors_with_lan][post.author] %}
     {% assign blog_index = true %}
     <div class="row post-item">
       <div class="blogpost col-lg-18 col-md-18 col-sm-18">
@@ -29,7 +34,7 @@ language: en
           </div>
           <div class="read-more clearfix">
           {% if post.content contains '<!--break-->' %}
-            <a href="{{ post.url }}">read more</a>
+            <a href="{{ post.url }}">{{ site.data[data_with_lan].read_more }}</a>
           {% endif %}
           <img src="/images/blog/logo.png" alt="" class="hidden">
           </div>

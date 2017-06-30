@@ -1,6 +1,9 @@
-{% for press in site.posts %}
+{% for post in site.posts %}
+{% if post.language != page.language %}
+  {% continue %}
+{% endif %}
 <h1>
   <em class="fa fa-arrow-right"></em>
-  <a href="{{press.permalink}}">{{press.title}}</a>
+  <a href="{% if page.language != 'en' %}{{ '/' | append: page.language }}{% endif %}{{post.permalink}}">{{post.title}}</a>
 </h1>
 {% endfor %}
