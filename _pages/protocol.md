@@ -22,11 +22,9 @@ anchors:
 
 # The Protocol:
 
-There are now many different cryptocurrencies and the industry continues to see companies and governments experimenting with and starting to implement blockchain technology, whether it be for efficiencies through permissioned blockchains or through decentralized solutions.
+There are now many different cryptocurrencies and the industry continues to see companies and governments experimenting with and starting to implement blockchain technology, whether it be for efficiencies through permissioned blockchains or through decentralized solutions. 
 
-Many of these alternatives, however, are little more than clones of a few key protocols, many lack the development teams, or technical knowledge to achieve their goals, many are rushed into launch before the being properly tested and many more lack the structure, or treasury model to build a sustainable solution.
-
-The Cardano protocol has been designed from the ‘ground-up’ and is a true step-change in blockchain’s evolution.
+Cardano has been uniquely designed from first principles to deliver a secure and sustainable blockchain that can protect user privacy whilst also allowing for regulated applications. Cardano will be a mature blockchain upon which large scale applications can confidently be built.
 
 # Technological Innovation
 
