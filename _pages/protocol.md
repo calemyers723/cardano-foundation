@@ -24,7 +24,7 @@ anchors:
 
 There are now many different cryptocurrencies and the industry continues to see companies and governments experimenting with and starting to implement blockchain technology, whether it be for efficiencies through permissioned blockchains or through decentralized solutions. 
 
-Cardano has been uniquely designed from first principles to deliver a secure and sustainable blockchain that can protect user privacy whilst also allowing for regulated applications. Cardano will be a mature blockchain upon which large scale applications can confidently be built.
+Cardano differentiates itself by being designed from the ‘ground up’ to deliver a secure and sustainable blockchain that can protect user privacy whilst allowing for regulation. Cardano will be a mature blockchain that is ready for large scale applications.
 
 # Technological Innovation
 
