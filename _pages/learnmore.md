@@ -19,7 +19,7 @@ anchors:
 
 # Technical Documentation
 
-- Cardano documentation: **[cardano-docs.iohk.io](https://cardano-docs.iohk.io)**
+- Cardano documentation: **[cardanodocs.com](https://cardanodocs.com)**
 - Github: **[github.com/input-output-hk/cardano-sl](https://github.com/input-output-hk/cardano-sl)**
 
 

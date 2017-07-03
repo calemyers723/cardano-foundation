@@ -19,7 +19,7 @@ anchors:
 
 <h1 id="technical-documentation">技术文档</h1>
 
-- 卡尔达诺文档: **[cardano-docs.iohk.io](https://cardano-docs.iohk.io)**
+- 卡尔达诺文档: **[cardanodocs.com](https://cardanodocs.com)**
 - Github: **[github.com/input-output-hk/cardano-sl (英文网站)](https://github.com/input-output-hk/cardano-sl)**
 
 <h1 id="old-newsletters">早期的通讯</h1>

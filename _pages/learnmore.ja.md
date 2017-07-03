@@ -19,7 +19,7 @@ anchors:
 
 <h1 id="technical-documentation">技術資料</h1>
 
-- カルダノ資料: **[cardano-docs.iohk.io](https://cardano-docs.iohk.io)**
+- カルダノ資料: **[cardanodocs.com](https://cardanodocs.com)**
 - Github: **[github.com/input-output-hk/cardano-sl](https://github.com/input-output-hk/cardano-sl)**
 
 <h1 id="old-newsletters">前回までのニュースレター</h1>
