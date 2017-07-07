@@ -64,4 +64,4 @@ anchors:
 
 在发布之前，我们发布了许多测试网络版本，以便我们可以修复代达罗斯(Daedalus)钱包和更广泛协议中的任何错误或问题。
 
-测试网络0.3目前可以由此下载和测试。您可以通过下载代达罗斯(Daedalus)钱包参与测试，并可参考[YouKu教程](http://v.youku.com/v_show/id_XMjgyNzc2MDAyNA==.html)。
+测试网络0.5目前可以由此下载和测试。您可以通过下载代达罗斯(Daedalus)钱包参与测试，并可参考[YouKu教程](http://v.youku.com/v_show/id_XMjgyNzc2MDAyNA==.html)。

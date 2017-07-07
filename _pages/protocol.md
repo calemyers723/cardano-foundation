@@ -62,4 +62,4 @@ Daedalus is a highly-engineered wallet with advanced security features that was 
 
 Prior to launch, we are releasing a number of Testnet versions so that we can fix any bugs or problems with Daedalus and the wider protocol.
 
-Testnet 0.3 is currently available for download and testing here. You can participate in the test by downloading the Daedalus wallet, and following this [YouTube tutorial](https://www.youtube.com/watch?time_continue=4&v=jfv7Ha8cPps).
+Testnet 0.5 is currently available for download and testing here. You can participate in the test by downloading the Daedalus wallet, and following this [YouTube tutorial](https://www.youtube.com/watch?time_continue=4&v=jfv7Ha8cPps).
