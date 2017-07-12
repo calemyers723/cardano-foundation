@@ -24,7 +24,7 @@ anchors:
 
 <h1 id="old-newsletters">早期的通讯</h1>
 
-<script language="javascript" src="//cardanofoundation.us12.list-manage.com/generate-js/?u=b5863ecf4cd79d93ef3aed2cf&fid=13013&show=10" type="text/javascript"></script>
+<script language="javascript" src="//cardanofoundation.us12.list-manage.com/generate-js/?u=b5863ecf4cd79d93ef3aed2cf&fid=13637&show=3" type="text/javascript"></script>
 
 <script type="text/javascript" src="{{ '/js/old-newletters.js' | prepend: site.baseurl }}"></script>
 
