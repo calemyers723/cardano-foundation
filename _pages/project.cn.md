@@ -15,8 +15,8 @@ anchors:
       slug: the-cardano-foundation
     - tit: IOHK
       slug: iohk
-    - tit: CGG
-      slug: cgg
+    - tit: Emurgo
+      slug: emurgo
 - tit: 项目路线图
   slug: project-road-map
 - tit: 交易所
@@ -50,11 +50,11 @@ anchors:
 
 IOHK由查尔斯・霍斯金森(Charles Hoskinson))和杰瑞米・伍德(Jeremy Wood)于2015年成立，是一家世界一流的工程技术公司IOHK由查尔斯·霍斯金森（Charles Hoskinson））和杰瑞米·伍德（Jeremy Wood）于2015年成立，是一家世界一流的工程技术公司，致力于使用对等网络（peer-to-peer）创新为30亿未拥有此技术的人口提供金融服务。 IOHK承包卡尔达诺平台设计，建造和维护的合同至2020年为止。
 
-<h3 id="cgg">CGG</h3>
+<h3 id="emurgo">Emurgo</h3>
 
-CGG是卡尔达诺生态系统的创业实体。CGG的重塑，其目标是帮助，整合和培育卡尔达诺区块链应用程序。
+Emurgo是卡尔达诺生态系统的创业实体。Emurgo的重塑，其目标是帮助，整合和培育卡尔达诺区块链应用程序。
  
-CGG捕捉到区块链技术为发展中国家带来的变革力量。基于卡尔达诺技术的分散应用程序，由CGG资助和支持，将有潜力建立开创性的应用。
+Emurgo捕捉到区块链技术为发展中国家带来的变革力量。基于卡尔达诺技术的分散应用程序，由Emurgo资助和支持，将有潜力建立开创性的应用。
 
 <h1 id="project-road-map">项目路线图</h1>
 

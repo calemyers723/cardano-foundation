@@ -80,14 +80,14 @@ language: en
                         <h4 class="panel-title">
                           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-sub" href="#collapseTwoThree" aria-expanded="false" aria-controls="collapseTwoThree">
                           <i class="fa fa-chevron-down"></i>
-                          Role of CGG
+                          Role of Emurgo
                           </a>
                         </h4>
                       </div>
                       <div id="collapseTwoThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwoThree">
                         <div class="panel-body">
-                          <p>CGG is an investment focused entity that will build and foster commercial applications in the ecosystem and promoting Cardano blockchain technology usage. As most of the business facing applications are dependent on the computation layer (set for release in 2018), CGG will focus first on establishing infrastructure, and once the ecosystem is ready for venture applications, staff teams and deploy resources.</p>
-                          <p>CGG is currently establishing key research and development centers in the target geographies such as the Philippines and South Korea. CGG will deploy capital and resources in two ways. First, it will build from a foundational level by identifying, aiding, and investing in early stage blockchain companies building on the Cardano technology stack. Second, from a growth standpoint CGG will invest in subsidiaries focusing on industry specific verticals and create new for-profit ventures to consult, educate, and integrate mature companies into the Cardano blockchain stack.</p>
+                          <p>Emurgo is an investment focused entity that will build and foster commercial applications in the ecosystem and promoting Cardano blockchain technology usage. As most of the business facing applications are dependent on the computation layer (set for release in 2018), Emurgo will focus first on establishing infrastructure, and once the ecosystem is ready for venture applications, staff teams and deploy resources.</p>
+                          <p>Emurgo is currently establishing key research and development centers in the target geographies such as the Philippines and South Korea. Emurgo will deploy capital and resources in two ways. First, it will build from a foundational level by identifying, aiding, and investing in early stage blockchain companies building on the Cardano technology stack. Second, from a growth standpoint Emurgo will invest in subsidiaries focusing on industry specific verticals and create new for-profit ventures to consult, educate, and integrate mature companies into the Cardano blockchain stack.</p>
                         </div>
                       </div>
                     </div>

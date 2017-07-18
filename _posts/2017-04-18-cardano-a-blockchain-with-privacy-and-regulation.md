@@ -49,7 +49,7 @@ Essential to Cardano is [IOHK](http://iohk.io), a unique engineering company tha
 
 Security goes beyond academic proofs and into the actual code implementation, which can only verifiably be done by third-party audit. IOHK has retained leading firms to perform these functions. With leading academics and engineers, peer-reviewed proofs of security, and independent auditing, IOHK’s work gives Cardano the guarantees of formal security that nurture confidence in the platform for scalable high-value applications.
 
-The final business partner is CGG which incentivises and integrates commercial ventures to build on the Cardano blockchain. It does this by directly funding start-ups building DApps on Cardano, as well as providing the expertise, tools, and teams for companies to build revolutionary blockchain applications. For developers, this will reduce commercial uncertainties by connecting them with real use cases.
+The final business partner is Emurgo which incentivises and integrates commercial ventures to build on the Cardano blockchain. It does this by directly funding start-ups building DApps on Cardano, as well as providing the expertise, tools, and teams for companies to build revolutionary blockchain applications. For developers, this will reduce commercial uncertainties by connecting them with real use cases.
 
 ### Our roadmap
 
