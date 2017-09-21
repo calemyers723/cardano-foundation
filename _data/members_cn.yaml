@@ -40,9 +40,25 @@ adrian_forbes:
 
 
 bob_mcdowall:
-  name: 鲍勃·麦克道尔(BOB MCDOWALL)
+  name: 鲍勃·麦克道尔 (BOB MCDOWALL)
   position: 特别顾问
   description: 罗伯特（“鲍勃”）麦克道尔是前奥尔德尼州议员，海峡群岛之一，担任政策和财务委员会主席，高级决策委员会成员。他现在任职一些私营领域的咨询和顾问角色。鲍勃是金融行业媒体的经常贡献者，在银行，证券和投资行业拥有超过35年的经验。他拥有伦敦大学学院的法学士学位他是Tin Plate别名Wireworkers Livery Company的法庭成员之一，也是伦敦Warburg Institute的前总裁和民间社会协会的受托人。
   img: /images/team/bmcdowall.jpg?v=1
+  twitter: empty
+  linkedin: empty
+
+steve_wagendorp:
+  name: 史蒂夫 (Steve Wagendorp)
+  position: 沃更卓尔普, 交货保证经理
+  description: 史蒂夫加入了卡尔达诺基因会团队，近来于苏黎世担任资产管理公司的管理者，专注于资金管理、合规性、监管事项和信息技术。身为一名科技爱好者，他对于区块链技术和分散应用开发拥有强烈的兴趣。史蒂夫毕业于开普敦大学，获取数学工程学士学位。
+  img: /images/team/steve_wagendorp.jpg?v=1
+  twitter: empty
+  linkedin: empty
+
+juliette_adelfang:
+  name: 朱莉叶 (Juliette Adelfang)
+  position: 阿德尔邦，项目管理员
+  description: 朱莉叶起先在保险行业担任新人的绩效分析和培训开发。随后，她的转业领域延伸至公司管理和办公室管理等职务。在拥有服务导向的背景下，朱莉叶对区块链相关的事件管理和项目协作深感兴趣。她毕业于约翰内斯堡大学，获取酒店管理学技术学士学位。
+  img: /images/team/juliette_adelfang.jpg?v=1
   twitter: empty
   linkedin: empty

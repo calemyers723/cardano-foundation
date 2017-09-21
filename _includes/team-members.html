@@ -1,6 +1,6 @@
 {% assign lan = 'i18n_' | append: page.language %}
 {% assign members_lan = 'members_' | append: page.language %}
-{% assign member_list = "michael_parsons, john_oconnor, tom_kelly, bob_mcdowall" | split: ", " %}
+{% assign member_list = "michael_parsons, john_oconnor, tom_kelly, bob_mcdowall, steve_wagendorp, juliette_adelfang" | split: ", " %}
 {% assign flag = true %}
 {% for member_str in member_list %}
   {% assign member = site.data[members_lan][member_str] %}
