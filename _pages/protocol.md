@@ -46,9 +46,9 @@ Cardano differentiates itself by being designed from the ‘ground up’ to deli
 
 # The Token: ADA Voucher
 
-Every blockchain project has a token of value commonly referred to as a cryptocurrency. ADA is the cryptocurrency on the Cardano blockchain. With ADA, holders can send value between friends, pay for a good or service, deposit funds on an exchange, or enter an application.
+Every blockchain project has a token of value commonly referred to as a cryptocurrency. Ada is the cryptocurrency on the Cardano blockchain. With Ada, holders can send value between friends, pay for a good or service, deposit funds on an exchange, or enter an application.
  
-To perform a transfer on the settlement layer requires you own ADA, or acquire ADA through an exchange. It will also be the native token to be used in applications built on the computation layer.
+To perform a transfer on the settlement layer requires you own Ada, or acquire Ada through an exchange. It will also be the native token to be used in applications built on the computation layer.
 
 # The Wallet: Daedalus
  
