@@ -16,8 +16,6 @@ anchors:
   slug: the-token-ada-voucher
 - tit: "ウォレット：Daedalus"
   slug: the-wallet-daedalus
-- tit: "テストネット"
-  slug: testnet
 ---
 
 <h1 id="the-protocol">プロトコル:</h1>
@@ -62,9 +60,3 @@ CSL上で送金を実行するためには、あなた自身のADAを使用す�
 
 DaedalusはIOHKがカルダノ・ブロックチェーン専用に開発したウォレットです。最先端のセキュリティ機能を備え高度に設計されたDaedalusで最先端の暗号通貨を資産として保護することができます。 
 将来的にDaedalusはADAだけでなく、BitcoinやEthereum Classicなどの暗号通貨もサポートする予定です。Daedalusのテスト版はこちらからダウンロードできます。"
- 
-<h1 id="testnet">テストネット</h1>
-
-ローンチを前にDaedalusとプロトコルのバグや問題を修正するため、複数のテストネットをリリースしています。
-
-Testnet 0.5は現在こちらからダウンロードしてテストすることができます。Daedalusウォレットをダウンロードし、こちらのYouTubeに従ってテストへご参加ください。

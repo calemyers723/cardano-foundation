@@ -16,8 +16,6 @@ anchors:
   slug: the-token-ada-voucher
 - tit: "钱包：代达罗斯(Daedalus)"
   slug: the-wallet-daedalus
-- tit: "测试网络"
-  slug: testnet
 ---
 
 <h1 id="the-protocol">议定:</h1>
@@ -59,9 +57,3 @@ anchors:
 每个加密货币需求都需要一个“钱包”来存储艾达币(ADA)。通常这个钱包是可以安装在任何计算机或智能手机上的软件应用程序。
 
 代达罗斯(Daedalus)是一个高度设计的钱包，具有进阶的安全功能，由IOHK开发，专门用于卡尔达诺区块链，并使用最先进的加密技术保护您的资产。未来，代达罗斯(Daedalus)不仅将支援艾达币(ADA)，还可支援比特币(Bitcoin)，以太坊经典(Ethereum Classic)等多种加密货币。测试版本可由此[下载](https://test.daedaluswallet.io/)。
-
-<h1 id="testnet">测试网络</h1>
-
-在发布之前，我们发布了许多测试网络版本，以便我们可以修复代达罗斯(Daedalus)钱包和更广泛协议中的任何错误或问题。
-
-测试网络0.5目前可以由此下载和测试。您可以通过下载代达罗斯(Daedalus)钱包参与测试，并可参考[YouKu教程](http://v.youku.com/v_show/id_XMjgyNzc2MDAyNA==.html)。

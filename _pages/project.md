@@ -24,7 +24,7 @@ anchors:
 ---
 # Project overview
 
-Cardano is a revolutionary blockchain technology designed to build a new decentralised economy and democratize finance in emerging markets. Cardano will allow decentralised applications and contracts to be built and executed in a low-cost, secure and scalable way.
+Cardano is a blockchain technology designed to build a new decentralised economy and democratize finance in emerging markets. Cardano will allow decentralised applications and contracts to be built and executed in a low-cost, secure and scalable way.
 
 Blockchain has the potential to become a globally transformative technology, but current solutions have been hampered by a number of critical issues: lack of regulatory oversight, experimental software development with unproven security, poor governance that stifles updates and a lack of planning for the long term future of protocols.
 
@@ -36,20 +36,20 @@ The protocol features a layered blockchain software stack that is flexible, scal
 
 {% include new-block-structure.html %}
 
-The Cardano project was initiated by a group of cryptocurrency enthusiasts, investors and entrepreneurs concentrated in Asia at the end of 2014. Input Output HK (IOHK) was engaged to design and implement the Cardano protocol. In addition, the Cardano Foundation, based in Switzerland, was created to help oversee and supervise the development of Cardano and its ecosystem, and to advocate on behalf of the users of the protocol. Another entity, Emurgo, based in the Isle of Man, was created to pursue for-profit activities on behalf of the ecosystem and community. The three entities are wholly separate in ownership and leadership.
+The Cardano project was initiated by a group of cryptocurrency enthusiasts, investors and entrepreneurs concentrated in Asia at the end of 2014. Input Output HK (IOHK) was engaged to design and implement Cardano. In addition, the Cardano Foundation, based in Switzerland, was created to help oversee and supervise the development of Cardano and its ecosystem, and to advocate on behalf of the users of the protocol. Another entity, Emurgo, based in the Isle of Man, was created to pursue for-profit activities on behalf of the ecosystem and community. The three entities are wholly separate in ownership and leadership.
 
 ### The Cardano Foundation
 
-The Cardano Foundation acts as a supervisory and educational body for the protocol. Our mission is to:
+The Cardano Foundation acts as a supervisory and educational body for Cardano. Our mission is to:
 
-* Standardise, protect and promote the Cardano Protocol technology and its applications
+* Standardise, protect and promote the Cardano Protocol and its applications
 * Be a community hub offering authoritative, timely information about the technology and Cardano’s wide-ranging potential
-* Liaise and influence government and regulatory bodies, form strategic partnerships with businesses, enterprises and other open-source projects and aid the creation of formal software standards for Cardano, a crucial feature for a protocol’s long-term success and critical in adoption and government engagement
+* Liaise and influence government and regulatory bodies, form strategic partnerships with businesses, enterprises and other open source projects and aid the creation of formal software standards for Cardano, a crucial feature for its long term success and critical in adoption and government engagement
 
 ### IOHK
 
 Founded in 2015 by Charles Hoskinson and Jeremy Wood, IOHK is a world-class engineering and technology company committed to using peer-to-peer innovations to provide financial services to three billion people that don’t have them.
-The group is contracted to design, build, and maintain the Cardano platform through to 2020. 
+The group is contracted to design, build, and maintain Cardano through to 2020. 
 
 ### Emurgo
 
@@ -59,11 +59,11 @@ Emurgo captures the transformative power that blockchain technology brings to th
 
 # Project Road Map
 
-* IOHK will release a functioning version of the settlement layer in mid summer 2017. Once launched, you will be able to transact, trade, and purchase ADA tokens fully independently of the computation layer.
-* The goal for the computation layer is to have a beta released by the first quarter of 2018. Once both settlement and computation layers are live, users will be able  to setup a custom environment to build decentralised applications on the Cardano stack.
+* IOHK has now released the settlement layer. This means you can transact, trade, and purchase Ada tokens fully independently of the computation layer.
+* The goal for the computation layer is to have a beta released by the first quarter of 2018. Once both settlement and computation layers are live, users will be able to setup a custom environment to build decentralised applications on the Cardano stack.
 * In 2019, IOHK intends to work on Cardano’s long-term scalability and augment its capabilities. As developers, IOHK has been contracted through 2020 to make sure Cardano is being adequately maintained. The goal is to create a sustainable ecosystem that is capable of funding and supporting itself.
 
 # Exchanges
 
-The Cardano project is in discussion with a number of exchanges that are interested in listing ADA. If you would like to enquire about listing ADA please contact us at info@cardanofoundation.org.
+The Cardano project is now being listed on a number of exchanges. You can learn more at [https://www.cardanohub.org/en/buy-sell-ada/](https://www.cardanohub.org/en/buy-sell-ada/)
 
