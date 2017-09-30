@@ -68,8 +68,8 @@ copy_right_text_2: "2017卡尔达诺基金会版权所有"
 # home landing page
 home_banner_desc_1: 区块链 | 加密货币 |分散应用
 home_banner_desc_2: 卡尔达诺是一个分散的平台，将允许以安全和可扩展的方式进行复杂的可编程传输价值。卡尔达诺是在高度安全的Haskell编程语言中构建的第一个区块链之一。
-home_banner_title_2: 29/09/2017 Cardano推出！
-home_banner_desc_3: Cardano的第一层已经发布，您可以下载Daedalus钱包发送和接收我们的加密令牌Ada。
+home_banner_title_2: 卡尔达诺于2017年9月29日正式启动！
+home_banner_desc_3: 卡尔达诺结算层(CSL)已经正式发布，您可以下载代达罗斯电子钱包进行Ada的发送和接收Ada的加密令牌。
 home_banner_desc_4: 我们鼓励大家下载测试网络0.5，让您有机会尝试如何操作平台，同时帮助卡尔达诺改善未来的预期发布。
 download_here: 由此下载
 # foundation_goal_str1: To Act as a Cryptocurrency Standards Body
