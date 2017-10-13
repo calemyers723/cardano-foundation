@@ -12,7 +12,7 @@ image: blog-3-1.jpg
 author: michael_parsons
 ---
 
-The launch of Cardano brings to an end an exciting first phase of development for us at IOHK, after more than a year spent planning and developing the technology. Now we’ve handed the product over to users and they are getting to know how it works. Using new software can be tricky - some people won’t need any help, but there will be those who need a little assistance. To make sure that people know how to use the software and aren’t experiencing any problems, IOHK and Cardano Foundation organised a help desk tour around Japan. As far as we know, this is the first time there has been a customer service tour for a cryptocurrency.
+The launch of Cardano brings to an end an exciting first phase of development for us at IOHK, after more than a year spent planning and developing the technology. Now we’ve handed the product over to users and they are getting to know how it works. Using new software can be tricky - some people won’t need any help, but there will be those who need a little assistance<!--break-->. To make sure that people know how to use the software and aren’t experiencing any problems, IOHK and Cardano Foundation organised a help desk tour around Japan. As far as we know, this is the first time there has been a customer service tour for a cryptocurrency.
 
 Over two weeks, starting from the end of September, the team visited five cities in Japan: Osaka, Nagoya, Fukuoka, Hiroshima and Tokyo, where we are holding three days of seminars.
 
