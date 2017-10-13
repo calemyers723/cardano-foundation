@@ -9,7 +9,8 @@ defaulturl: /press/cardano-help-desk-tour-arrives-in-tokyo/
 slug: cardano-help-desk-tour-arrives-in-tokyo
 categories: press
 image: blog-3-1.jpg
-author: michael_parsons
+author: jeremy_wood
+produce_text: The following blog article has been produced by IOHK and syndicated by Cardano Foundation for wider distribution.
 ---
 
 Cardanoのローンチは、IOHKにとって、技術の計画と開発に1年以上を費やした後、エキサイティングな第1段階の開発の着地点になります。 今、私たちはユーザーに製品を渡し、どのように動くかを知ってもらいました。 新しいソフトウェアを使用することは難しいかもしれません - ある人はサポートを必要としませんが、サポートが必要な人もいます。 多くの人にソフトウェアの使い方知ってもらうため、IOHKとCardano財団は日本を中心にヘルプデスクツアーを開催しました。 <!--break-->われわれが知る限り、これは暗号通貨のプロジェクトでカスタマーサービスツアーが初めて行われたプロジェクトです。

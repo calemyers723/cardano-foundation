@@ -5,7 +5,7 @@
   <li class="foundation {% if page.slug == 'foundation' %}active{% endif %}"><a href="{{ lan_url }}/foundation/">{{ site.data[lan].the_foundation }}</a></li>
   <li class="learn-more {% if page.slug == 'learn-more' %}active{% endif %}"><a href="{{ lan_url }}/learn-more/">{{ site.data[lan].learn_more }}</a></li>
   <!-- <li class="faq {% if page.slug == 'faq' %}active{% endif %}"><a href="/faq/">FAQ</a></li> -->
-  <li class="blog {% if page.slug == 'blog' %}active{% endif %}"><a href="{{ lan_url }}/blog/">{{ site.data[lan].blog }}</a></li>
+  <li class="blog {% if page.slug == 'blog' %}active{% endif %}"><a href="{{ lan_url }}/blog?v=1">{{ site.data[lan].blog }}</a></li>
   <li>
     <!-- <div class="lang_switch" style="padding-top: 28px;">
       <a href="{{ site.baseurl }}{{ page.defaulturl }}" class="en" title="English">
@@ -26,7 +26,7 @@
   </li>
   <input type="hidden" id="language" value="{{ page.language }}">
   <input type="hidden" id="default-url" value="{{ page.defaulturl }}">
-  <a href="{{ site.baseurl }}{{ page.defaulturl }}" class="hidden" id="en-url"></a>
-  <a href="{{ site.baseurl }}/ja{{ page.defaulturl }}" class="hidden" id="ja-url"></a>
-  <a href="{{ site.baseurl }}/cn{{ page.defaulturl }}" class="hidden" id="cn-url"></a>
+  <a href="{{ site.baseurl }}{{ page.defaulturl }}?v=1" class="hidden" id="en-url"></a>
+  <a href="{{ site.baseurl }}/ja{{ page.defaulturl }}?v=1" class="hidden" id="ja-url"></a>
+  <a href="{{ site.baseurl }}/cn{{ page.defaulturl }}?v=1" class="hidden" id="cn-url"></a>
 </ul>
