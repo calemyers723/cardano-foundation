@@ -9,7 +9,7 @@ defaulturl: /press/cardano-marks-its-launch-with-tokyo-event/
 slug: cardano-help-desk-tour-arrives-in-tokyo
 categories: press
 image: blog-4-1.jpg
-author: jeremy_wood
+author: jane_wild
 produce_text: The following blog article has been produced by IOHK and syndicated by Cardano Foundation for wider distribution.
 ---
 
