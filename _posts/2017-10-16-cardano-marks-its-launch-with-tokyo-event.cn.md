@@ -47,10 +47,10 @@ IOHK创始人兼首席执行官查尔斯‧霍斯金森（Charles Hoskinson）�
 
 <figure class="alignright">
   <img src="/images/blog/blog-4-4.jpg" alt="Naomi Nisiguchi from Tokyo" width="250" height="">
-  <figcaption>Ada持有者西口直美女士</figcaption>
+  <figcaption>Ada持有者西口奈保美女士</figcaption>
 </figure>
 
-在庆祝会演讲结束后，会场会的大群民众争相与卡尔达诺团队合照。一些长期以来支持该项目的粉丝，如来自东京的西口直美女士表示，她是建筑行业的经理人，对加密货币的兴趣已经长达四年。“大约在两年多前，我听见关于Ada的消息，并且提及查尔斯·霍斯金森参与此项目”她说。 “我一直在Facebook上关注这个消息，我非常有兴趣去了解该项目将如何进行。
+在庆祝会演讲结束后，会场会的大群民众争相与卡尔达诺团队合照。一些长期以来支持该项目的粉丝，如来自三重县的西口奈保美女士表示，她是建筑行业的经理人，对加密货币的兴趣已经长达四年。“大约在两年多前，我听见关于Ada的消息，并且提及查尔斯·霍斯金森参与此项目“她说。 “我一直在Facebook上关注这个消息，我非常有兴趣去了解该项目将如何进行。
 
 <figure>
   <img src="/images/blog/blog-4-5.jpg" alt="Michael Parsons at the Cardano Launch event" width="100%" height="" style="width: 100%;">
