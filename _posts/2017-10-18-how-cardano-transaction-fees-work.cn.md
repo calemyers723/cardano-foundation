@@ -9,15 +9,15 @@ defaulturl: /press/how-cardano-transaction-fees-work/
 slug: how-cardano-transaction-fees-work
 categories: press
 image: blog-5.jpg
-author: jane_wild
-produce_text: 以下博客文章由IOHK和卡尔达诺基金会联合出版，用于更广泛的宣传。
+author: lars_brunjes
+produce_text: This blog article has been produced by IOHK and syndicated by Cardano Foundation for wider distribution.
 ---
 
 ### 为什么我们需要交易手续费？
 
 如同卡尔达诺般的加密货币需要交易手续费的原因主要有两项：
 
-对于负责运行完整卡尔达诺节点的参与者所花费的时间、金钱和精力以顺利运行协议，为此应该给予补偿和奖励。与比特币相反，比特币在每个开采区域创建新货币，然而在卡尔达诺协议中，交易手续费用是协议参与者的唯一收入来源。
+对于负责运行完整卡尔达诺节点的参与者所花费的时间、金钱和精力以顺利运行协议，为此应该给予补偿和奖励。与比特币相反，比特币在每个开采区域创建新货币，然而在卡尔达诺协议中，交易手续费用是协议参与者的唯一收入来源。<!--break-->
 
 需要交易手续费用的第二个原因是防止分散式阻断服务攻击（DDoS attacks）。在分散式阻断服务攻击中，若攻击者试图通过虚拟交易来淹没网络，那么攻击者则需要支付足够金额的交易手续费以完成这些虚拟交易，如此一来，这种攻击方式对攻击者来说将变得非常昂贵。
 

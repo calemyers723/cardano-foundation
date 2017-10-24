@@ -10,7 +10,7 @@ slug: cardano-help-desk-tour-arrives-in-tokyo
 categories: press
 image: blog-4-1.jpg
 author: jane_wild
-produce_text: The following blog article has been produced by IOHK and syndicated by Cardano Foundation for wider distribution.
+produce_text: This blog article has been produced by IOHK and syndicated by Cardano Foundation for wider distribution.
 ---
 
 The technology was conceived in an Osaka restaurant more than two years ago and from that small beginning Cardano has been built into a leading cryptocurrency. The project has amassed a team of experts in countries around the world, has generated more than 67,000 lines of code, and has a strong and growing community in countries across Asia and beyond<!--break-->. Along the way, Cardano has set new standards for cryptocurrencies with best practices such as peer review and high assurance methods of software engineering.

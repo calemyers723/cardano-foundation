@@ -9,15 +9,15 @@ defaulturl: /press/how-cardano-transaction-fees-work/
 slug: how-cardano-transaction-fees-work
 categories: press
 image: blog-5.jpg
-author: jane_wild
-produce_text: 以下のブログ記事はIOHKによって掲載され、さらに広く配布されるためにカルダノによってシンジケートされています。
+author: lars_brunjes
+produce_text: This blog article has been produced by IOHK and syndicated by Cardano Foundation for wider distribution.
 ---
 
 ### なぜ取引手数料が必要なのか？
 
 カルダノのような仮想通貨に取引手数料が必要になるのは主に二つ理由があります：
 
-プロトコルをうまく動くためにカルダノノードを運営ている人は時間、金銭と努力をかけているため、補償とインセンティブを与える必要があります。ビットコインでマイニングしてたブロックで新たな通貨が作られるとは対照的に、カルダノのプロトコル内の参加者の唯一の収入源が取引手数料になります。
+プロトコルをうまく動くためにカルダノノードを運営ている人は時間、金銭と努力をかけているため、補償とインセンティブを与える必要があります。ビットコインでマイニングしてたブロックで新たな通貨が作られるとは対照的に、カルダノのプロトコル内の参加者の唯一の収入源が取引手数料になります。<!--break-->
 
 取引手数料の二つ目の理由はDDoS（分散型サービス拒否）攻撃を防止するためにあります。DDoS攻撃では、加害者はネットワークをダミートランザクションで溢れさせようとします。このような攻撃が攻撃者にとってコストが高くなれば、それぞれのダミートランザクションのために高い料金を払う事が必要になり攻撃を断念するでしょう。
 

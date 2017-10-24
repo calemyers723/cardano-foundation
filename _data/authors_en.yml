@@ -32,3 +32,8 @@ jane_wild:
   name: Jane Wild
   title: Communications Director of IOHK
   img: jane.jpg
+
+lars_brunjes:
+  name: Lars Brünjes, PhD
+  title: Cardano SL Developer at IOHK
+  img: lars.jpg

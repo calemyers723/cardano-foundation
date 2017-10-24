@@ -10,7 +10,7 @@ slug: cardano-help-desk-tour-arrives-in-tokyo
 categories: press
 image: blog-4-1.jpg
 author: jane_wild
-produce_text: 以下博客文章由IOHK和卡尔达诺基金会联合出版，用于更广泛的宣传。
+produce_text: This blog article has been produced by IOHK and syndicated by Cardano Foundation for wider distribution.
 ---
 
 卡尔达诺的技术构想起源于两年多前的一个大阪聚会中，从一个小小的起点开始，如今卡尔达诺成为加货币的先驱。该项目含括了驻在世界各国的专家们，并且研发生成67,000多行代码，同时拥有在亚洲及其它国家中不断成长茁壮的卡尔达诺社区。一路上，卡尔达诺为加密货币制定了新兴标准、具有最佳的实践，如同行评审和软件工程的高水平保证方法。<!--break-->

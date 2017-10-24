@@ -10,7 +10,7 @@ slug: cardano-help-desk-tour-arrives-in-tokyo
 categories: press
 image: blog-4-1.jpg
 author: jane_wild
-produce_text: 以下のブログはIOHKによって記述され、Cardano財団が発信しています。
+produce_text: This blog article has been produced by IOHK and syndicated by Cardano Foundation for wider distribution.
 ---
 
 2年以上前に大阪のミートアップイベントで考案されたその技術は現在、最先端の暗号通貨となりました。プロジェクトは世界中の専門家を集結させ、67,000行以上のコードを生成し、またアジアを中心とした強力なコミュニティがあります。それに伴い、カルダノは査読、ソフトウェア工学における保証性の高い手法を用いるなど、暗号通貨に新たな基準を定めました。<!--break-->

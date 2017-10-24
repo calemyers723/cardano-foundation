@@ -9,15 +9,15 @@ defaulturl: /press/how-cardano-transaction-fees-work/
 slug: how-cardano-transaction-fees-work
 categories: press
 image: blog-5.jpg
-author: jane_wild
-produce_text: The following blog article has been produced by IOHK and syndicated by Cardano Foundation for wider distribution.
+author: lars_brunjes
+produce_text: This blog article has been produced by IOHK and syndicated by Cardano Foundation for wider distribution.
 ---
 
 ### Why do we need transaction fees?
 
 There are two main reasons why transaction fees are needed for a cryptocurrency like Cardano:
 
-People who run full Cardano nodes spend time, money and effort to run the protocol, for which they should be compensated and rewarded. In contrast to Bitcoin, where new currency is created with each mined block, in Cardano, transaction fees are the only source of income for participants in the protocol.
+People who run full Cardano nodes spend time, money and effort to run the protocol, for which they should be compensated and rewarded. In contrast to Bitcoin, where new currency is created with each mined block, in Cardano, transaction fees are the only source of income for participants in the protocol<!--break-->.
 
 The second reason for transaction fees is the prevention of DDoS (Distributed Denial of Service) attacks. In a DDoS attack, an attacker tries to flood the network with dummy transactions, and if he has to pay a sufficiently high fee for each of those dummy transactions, this form of attack will become prohibitively expensive for him.
 
