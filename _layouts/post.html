@@ -24,10 +24,10 @@ layout: post
                   </div>
                   <img src="/images/blog/{{page.image}}" alt="">
                 </div>
-                <i class="produce-text">{{ page.produce_text }}</i>
                 <div class="post">
                   {{ page.content }}
                 </div>
+                <i class="produce-text">{{ page.produce_text }}</i>
                 {% include disqus.html %}
               </div>
               {% assign author = site.data[authors_with_lan][page.author] %}
