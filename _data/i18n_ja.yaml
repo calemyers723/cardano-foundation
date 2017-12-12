@@ -101,3 +101,8 @@ project_stackholders_desc_2: カルダノ財団の使命は「カルダノテク
 project_stackholders_desc_3: IOHKはカルダノ・ブロックチェーンを構築する世界クラスのブロックチェーン・エンジニアリング企業です。
 project_stackholders_desc_4: Emurgoはカルダノ・エコシステム上の商用アプリケーションの育成を担当しています。
 
+# newsletter
+nl_email_placeholder: 'メールアドレスを入力してください'
+nl_fullname_placeholder: 'フルネーム'
+nl_submit_value: '登録'
+

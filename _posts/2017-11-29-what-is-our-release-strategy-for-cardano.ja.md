@@ -25,7 +25,7 @@ produce_text: A new development approach from IOHK engineers will bring benefits
 
 Byronのリリースにて行った“ビッグ・バン”リリースの問題点は、すべて機能をまとめあげ、同時にリリースしたことであり、それが大きなボトルネックになったということです。リリースというコンセプトから機能の追加を可能なだけ引き離すということは、遅れてしまっている機能の完成を待つことによってリリースが遅れるということが、将来的になくなるということです。短期的なフィードバックループは、カルダノの邁進において貴重なコミュニティからのフィードバックを集めることを容易にし、ユーザー、貢献者、およびステークホルダーの方々に対して予測可能なタイムフレームを提供できることも可能にします。
 
-<img src="/images/blog/blog-6-2.svg" alt="Release Strategy Diagram" style="width: 100%; height: auto!important;">
+<img src="/images/blog/blog-6-3.jpg" alt="Release Strategy Diagram" style="width: 100%; height: auto!important;">
 
 しかしながら、このアジャイルなアプローチを、同じ製品を開発している複数のチームに応用することは、統合とマージの面で少し複雑です。そこで私たちは、よく知られた、成功例のあるGitブランチモデル、git-flowを使って管理をしていきます。
 

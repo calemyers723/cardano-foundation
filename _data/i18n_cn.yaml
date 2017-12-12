@@ -101,3 +101,7 @@ project_stackholders_desc_2: 卡尔达诺基金会的使命是“规范，保护
 project_stackholders_desc_3: IOHK是一家世界级的区块链工程公司，负责构建卡尔达诺区块链。
 project_stackholders_desc_4: Emurgo负责促进建立在卡尔达诺生态系统上的商业应用。
 
+# newsletter
+nl_email_placeholder: '请输入您的电子邮件'
+nl_fullname_placeholder: '全名'
+nl_submit_value: '订阅'

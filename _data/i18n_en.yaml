@@ -101,3 +101,7 @@ project_stackholders_desc_2: The Cardano Foundation’s mission is to “standar
 project_stackholders_desc_3: IOHK is a world class blockchain engineering company responsible for building the Cardano blockchain.
 project_stackholders_desc_4: Emurgo is responsible for fostering commercial applications being built upon the Cardano ecosystem.
 
+# newsletter
+nl_email_placeholder: 'Enter your email'
+nl_fullname_placeholder: 'Type your name'
+nl_submit_value: 'Subscribe'
