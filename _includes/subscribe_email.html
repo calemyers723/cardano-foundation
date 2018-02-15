@@ -568,7 +568,13 @@
   </div>
   <div class="_form-thank-you" style="display:none;">
   </div>
-</form><script type="text/javascript">
+</form>
+<!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+
+<script type="text/javascript">
 window.cfields = {"4":"language"};
 window._show_thank_you = function(id, message, trackcmp_url) {
   var form = document.getElementById('_form_' + id + '_'), thank_you = form.querySelector('._form-thank-you');
@@ -863,15 +869,28 @@ window._load_script = function(url, callback) {
     e.preventDefault();
     if (validate_form()) {
       // use this trick to get the submit button & disable it using plain javascript
-      document.querySelector('[id^="_form"][id$="_submit"]').disabled = true;
-            var serialized = _form_serialize(document.getElementById('_form_5_'));
-      var err = form_to_submit.querySelector('._form_error');
-      err ? err.parentNode.removeChild(err) : false;
-      _load_script('https://cardanofoundation.activehosted.com/proc.php?' + serialized + '&jsonp=true');
+
+      // document.querySelector('[id^="_form"][id$="_submit"]').disabled = true;
+      //       var serialized = _form_serialize(document.getElementById('_form_5_'));
+      // var err = form_to_submit.querySelector('._form_error');
+      // err ? err.parentNode.removeChild(err) : false;
+      // _load_script('https://cardanofoundation.activehosted.com/proc.php?' + serialized + '&jsonp=true');
+
+
+      hbspt.forms.create({
+        portalId: '4268286',
+        formId: 'b9826147-5b89-4303-96de-2e46205a0aca'
+      });
     }
     return false;
   };
   addEvent(form_to_submit, 'submit', form_submit);
 })();
 
+</script>
+
+
+
+<script>
+ 
 </script>
