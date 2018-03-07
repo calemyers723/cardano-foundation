@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2017-04-18
+display_date: 2017-04-18
 title: "卡尔达诺：具有隐私和法规的区块链"
 subtitle: ""
 language: cn

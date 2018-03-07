@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2017-04-18
+display_date: 2017-04-18
 title: "カルダノ:プライバシーと規制を兼ね備えたブロックチェーン"
 subtitle: ""
 language: en

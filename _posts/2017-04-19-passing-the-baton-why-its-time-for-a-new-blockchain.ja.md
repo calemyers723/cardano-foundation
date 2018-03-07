@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2017-04-19
+display_date: 2017-04-19
 title: "バトンパス：何故今新しいブロックチェーンが求められているのか？"
 subtitle: ""
 language: en

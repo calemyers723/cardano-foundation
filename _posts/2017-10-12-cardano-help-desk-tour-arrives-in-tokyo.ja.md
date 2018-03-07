@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2017-10-12
+display_date: 2017-10-12
 title: "Cardanoヘルプデスクツアーが東京に到着"
 subtitle: ""
 language: en

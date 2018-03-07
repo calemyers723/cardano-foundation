@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2017-10-12
+display_date: 2017-10-12
 title: "Cardano help desk tour arrives in Tokyo"
 subtitle: ""
 language: en

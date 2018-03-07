@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2017-10-12
+display_date: 2017-10-12
 title: "Cardano、記念すべきローンチを東京のイベントにて行う"
 subtitle: ""
 language: en

@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2018-01-04
+display_date: 2018-01-04
 title: "私が今回尋ねたのは、ADAが使用可能になった世界で最初の企業となったバルセロナのホテル・ギネブラだ。一泊しその支配人と会ってきた。"
 subtitle: ""
 language: en

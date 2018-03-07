@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2017-10-12
+display_date: 2017-10-12
 title: "卡尔达诺透过东京举办的庆祝会象征着它正式启动"
 subtitle: ""
 language: en

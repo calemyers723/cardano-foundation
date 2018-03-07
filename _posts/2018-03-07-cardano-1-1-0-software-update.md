@@ -1,6 +1,7 @@
 ---
 layout: post
-date: 2018-03-06
+date: 2018-03-07
+display_date: 2018-03-07
 title: "Cardano 1.1.0 software update"
 subtitle: ""
 language: en
@@ -10,12 +11,14 @@ slug: cardano-1-1-0-software-update
 categories: press
 image: blog-9-1.jpg
 author: george_agapov
-produce_text: A major package of improvements and fixes is ready for users
+produce_text: This blog article has been produced by IOHK and syndicated by Cardano Foundation for wider distribution.
 ---
+
+<p style="font-size: 22px;">A major package of improvements and fixes is ready for users</p>
 
 The software update today is the first major release for Cardano since the mainnet was launched at the end of September and it consists of a great deal of work from the development team.<!--break-->
 
-The release contains a few new features that are aimed at improving the user experience. And it also contains a set of important fixes for many of the bugs that were identified since the last release, Cardano SL 1.0.3. [Here is Charles Hoskinson, CEO of IOHK, with a video update about this release](https://www.pscp.tv/w/1dRJZeyZOagGB), and below we outline the most significant changes delivered.
+The release contains a few new features that are aimed at improving the user experience. And it also contains a set of important fixes for many of the bugs that were identified since the last release, Cardano SL 1.0.3. [Here is Charles Hoskinson, CEO of IOHK, with a video update about this release](https://www.pscp.tv/w/1dRJZeyZOagGB), and below we outline the most significant changes delivered. Users will notice the changes take effect tomorrow.
 
 The team has been working hard to address the issues some users have experienced with Daedalus and this update contains fixes for some of the problems.
 
@@ -28,8 +31,6 @@ With this release, Daedalus will detect when the time on a user’s machine is o
 Several other instances of the user being stuck on the “Connecting to network” screen were fixed. Many issues that can lead to this have been partially or completely fixed. Problem areas include node shutdown, networking and block retrieval mechanisms.
 
 A new “Support request” feature enables users to report a problem directly from Daedalus. This will automatically include log files along with the problem report. By always including log files, this feature will help the development team to investigate and solve the problems that users are experiencing. This feature is accessible from the main user interface and from the loading screen when there is a delay while connecting to the network or when blockchain syncing stops.
-
-Wallet recovery has been made a background operation: when the wallet is being restored from the recovery phrase, instead of blocking the user interface a friendly notification is displayed to indicate the process is in progress.
 
 Blockchain retrieval performance and reliability has been gradually improved, in particular bugs have been fixed that caused significant slowdown in syncing to the network after reaching 99.9%, and caused occasional network disconnections. Handling of whether Daedalus is connected or disconnected is improved, and a lost internet connection is now detected and brings the user to the loading screen to indicate that wallet is not currently operational.
 

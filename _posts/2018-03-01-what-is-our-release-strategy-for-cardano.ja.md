@@ -1,6 +1,7 @@
 ---
 layout: post
-date: 2017-11-29
+date: 2018-03-01
+display_date: 2017-11-29
 title: "カルダノのリリース戦略"
 subtitle: ""
 language: en

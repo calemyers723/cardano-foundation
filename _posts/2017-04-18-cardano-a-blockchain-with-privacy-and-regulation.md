@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2017-04-18
+display_date: 2017-04-18
 title: "Cardano: A Blockchain with Privacy and Regulation"
 subtitle: ""
 language: en

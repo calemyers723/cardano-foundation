@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2017-10-12
+display_date: 2017-10-12
 title: "Cardano marks its launch with Tokyo event"
 subtitle: ""
 language: en

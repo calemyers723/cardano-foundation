@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2018-01-02
+display_date: 2018-01-02
 title: "IELE：ブロックチェーンのための新しい仮想マシン"
 subtitle: ""
 language: en

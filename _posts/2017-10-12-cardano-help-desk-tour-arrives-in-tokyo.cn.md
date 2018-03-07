@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2017-10-12
+display_date: 2017-10-12
 title: "卡尔达诺技术支援平台巡回服务团队已抵达东京"
 subtitle: ""
 language: en

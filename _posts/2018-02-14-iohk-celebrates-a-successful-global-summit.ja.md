@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2018-02-14
+display_date: 2018-02-14
 title: "リズボンIOHKグローバルサミット"
 subtitle: ""
 language: en

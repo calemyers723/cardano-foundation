@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2018-01-04
+display_date: 2018-01-04
 title: "The hotel that became the world’s first business to accept Ada"
 subtitle: ""
 language: en

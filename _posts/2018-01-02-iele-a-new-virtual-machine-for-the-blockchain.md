@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2018-01-02
+display_date: 2018-01-02
 title: "Protected: IELE: A New Virtual Machine for the Blockchain"
 subtitle: ""
 language: en

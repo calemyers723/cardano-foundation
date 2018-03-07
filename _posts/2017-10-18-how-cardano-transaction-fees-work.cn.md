@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2017-10-20
+display_date: 2017-10-20
 title: "卡尔达诺的交易手续费如何运用？"
 subtitle: ""
 language: en

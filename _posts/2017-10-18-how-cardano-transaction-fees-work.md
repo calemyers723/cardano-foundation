@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2017-10-20
+display_date: 2017-10-20
 title: "How Cardano's transaction fees work"
 subtitle: ""
 language: en

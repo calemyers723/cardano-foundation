@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2017-04-19
+display_date: 2017-04-19
 title: "传递接力棒：为什么现在正是新区块链的"
 subtitle: ""
 language: cn

@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2017-10-20
+display_date: 2017-10-20
 title: "カルダノの取引手数料はどうなっているか"
 subtitle: ""
 language: en
