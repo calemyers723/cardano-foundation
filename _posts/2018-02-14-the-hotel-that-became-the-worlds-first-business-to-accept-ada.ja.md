@@ -10,18 +10,18 @@ slug: iohk-celebrates-a-successful-global-summit
 categories: press
 image: blog-8-1.jpg
 author: jeremy_wood
-produce_text: ブログ投稿者：Jeremy
+produce_text: This blog article has been produced by IOHK and syndicated by Cardano Foundation for wider distribution.
 ---
 
 通常の研究や開発はもちろん、社員のほとんどがミートアップに参加するためにリスボンに向かったため、1月はIOHKにとっていつもより忙しいスタートとなりました。このような一週間にわたるイベントは、参加している全員がプロジェクトを進めたいと思って集まっているので、非常に忙しく、大変なものですが、顔と顔を合わせて一緒に食事をしたり、お互いのことを知るいい機会なので楽しくもあります。<!--break-->
 
-グローバルサミットが終わりやっとまとめをする時間がとれたのですが、一番印象に残っているのはIOHKにどれだけのエネルギーと努力が注がれているのかということです。[treasury](https://www.youtube.com/watch?v=Hyh3h_yX-S0)や委任機能など、[カルダノ](https://cardanoroadmap.com/)にとっていくつか前進がありました。イベント中は、講演、ワークショップ、会議が開かれました。しかし、その以外の時間でも自発的にたくさんのディスカッションが行われました。会議室は常に予約で埋まっていて、休憩中の15分間でさえ意見交換が行われていました。ホテルに戻っても、あちらこちらでIOHKの関係者がパソコンを囲って真剣な話し合いをしていました。
+グローバルサミットが終わりやっとまとめをする時間がとれたのですが、一番印象に残っているのはIOHKにどれだけのエネルギーと努力が注がれているのかということです。[Treasury](https://www.youtube.com/watch?v=Hyh3h_yX-S0)や委任機能など、[カルダノ](https://cardanoroadmap.com/jp/)にとっていくつか前進がありました。イベント中は、講演、ワークショップ、会議が開かれました。しかし、その以外の時間でも自発的にたくさんのディスカッションが行われました。会議室は常に予約で埋まっていて、休憩中の15分間でさえ意見交換が行われていました。ホテルに戻っても、あちらこちらでIOHKの関係者がパソコンを囲って真剣な話し合いをしていました。
 
 <figure class="alignright">
   <img src="/images/blog/blog-8-2.jpg" alt="View from Hotel Ginebra, Barcelona" width="220" height="">
 </figure>
 
-リスボンで開催されたイベントはIOHKリサーチが遂げた大きな成長について知るとても良い機会となりました。IOHKのチーフサイエンティストであるAggelos Kiayias博士は、第一原則に基づいて精密に構築され、ピアレビューを受けたウロボロスおよびカルダノを支えるプルーフ・オブ・ステーク・プロトコルの今後の計画を発表しました。プロトコルの開発が進むと、スピードの改善、シャーディングの提供、そして将来的には接続されているサイドチェーンの間で資産のやりとりが可能になります。
+リスボンで開催されたイベントはIOHKリサーチが遂げた大きな成長について知るとても良い機会となりました。IOHKのチーフサイエンティストであるAggelos Kiayias博士は、第一原則に基づいて精密に構築され、ピアレビューを受けた[ウロボロス](https://iohk.io/research/papers/#9BKRHCSI)およびカルダノを支えるプルーフ・オブ・ステーク・プロトコルの今後の計画を発表しました。プロトコルの開発が進むと、スピードの改善、シャーディングの提供、そして将来的には接続されているサイドチェーンの間で資産のやりとりが可能になります。
 
 Aggelos博士は、次のように述べました。「本当に仕事に集中した一週間でした。IOHK関係者のほとんどのがリスボンで一つ屋根の下にいたのですから。研究の面では、インセンティブ、委任機能、ウォレットのセキュリティ、マルチシグマ能力、サイドチェーン、スマートコントラクトのサポート等を含む、最重要課題において大きな前進を果たしました。」
 
@@ -43,7 +43,7 @@ Neil Davies博士は、複雑な課題に対処する際の繊細なタスクに
 
 リスボンで進展したのはカルダノ開発のみではありません。
 
-[ZenCash](https://zensystem.io/)、[カルダノ財団](https://cardanofoundation.org/)、[Emurgo](https://emurgo.io/)の代表者を含むパートナー企業も参加しました。
+[ZenCash](https://zensystem.io/)、[カルダノ財団](https://cardanofoundation.org/ja/)、[Emurgo](https://emurgo.io/home-ja/)の代表者を含むパートナー企業も参加しました。
 
 カルダノ財団の マイケルパーソンズ会長は、「リスボンでのIOHKグローバルサミットに参加し、仕事・社会・文化など様々な面で有益な経験を得る事ができました。」IOHKエグゼクティブや技術リーダー複数名と会話をする機会があり、また、カルダノグループのウェブキャストにも参加しました。IOHKにはリスボン市内ツアーも企画していただき、地元のポルトガル料理（新鮮な鱸は最高！）を食べる機会もありました。全体的に、印象的で有意義なイベントであったと思います。既に次回に期待しています。
 
@@ -53,21 +53,19 @@ Emurgoからは 2名の代表者が参加しました。代表者の村崎俊介
 
 もちろん、会社設立以来2年間での道のりを振り返る機会にもなりました。今回はIOHKプロジェクトに携わる100名以上がリスボンに集まり、前回のマルタで集まった際の参加者約35名、前々回のリガの参加者20名未満を大きく上回りました。IOHKは急成長を遂げ、社員数、プロジェクト数を増やすべく組織形態の調節を行っています。
 
-[リガ、マルタ、リボンの写真を挿入]
-
 <figure style="width: 100%;">
   <img src="/images/blog/blog-8-4.jpg" alt="Alfred and Yvonne" style="width: 100%">
-  <figcaption style="text-align: left; margin-bottom: 20px;">IOHK in Riga 2016</figcaption>
+  <figcaption style="text-align: left; margin-bottom: 20px;">リガ(2016)</figcaption>
 </figure>
 
 <figure style="width: 100%;">
   <img src="/images/blog/blog-8-5.jpg" alt="Alfred and Yvonne" style="width: 100%">
-  <figcaption style="text-align: left; margin-bottom: 20px;">IOHK in Malta 2017</figcaption>
+  <figcaption style="text-align: left; margin-bottom: 20px;">マルタ(2017)</figcaption>
 </figure>
 
 <figure style="width: 100%;">
   <img src="/images/blog/blog-8-6.jpg" alt="Alfred and Yvonne" style="width: 100%">
-  <figcaption style="text-align: left; margin-bottom: 20px;">IOHK in Lisbon 2018</figcaption>
+  <figcaption style="text-align: left; margin-bottom: 20px;">リボン(2018)</figcaption>
 </figure>
 
 Charles Hoskinson氏は、プレゼンテーションで来年のビジネス目標と長期のビジネス目標を公表しました。同氏は、IOHKのオープンソースソフトウェア開発と高度な保証方法における先駆的なアプローチについて強調し、IOHKがどのように暗号化業界をリードしてきたかについて説明しました。

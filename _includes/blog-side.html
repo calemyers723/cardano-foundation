@@ -21,7 +21,9 @@
     </div>
   </div>
   <p class="latest">{% if blog_index %}LATEST FROM BLOG{% else %}LATEST FROM AUTHOR{% endif %}</p>
+  {% assign loop_index = 0 %}
   {% for post in site.posts %}
+    {% if loop_index < 5 %}
     {% assign post_author = site.data[authors_with_lan][post.author] %}
     {% if post.language != page.language %}
       {% continue %}
@@ -44,6 +46,8 @@
     </div>
     {% endif %}
     {% endif %}
+    {% endif %}
+    {% assign loop_index = loop_index | plus: 1 %}
   {% endfor %}
 
   {% if blog_index %}

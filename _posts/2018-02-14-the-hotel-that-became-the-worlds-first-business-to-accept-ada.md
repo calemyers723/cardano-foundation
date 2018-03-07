@@ -10,7 +10,7 @@ slug: iohk-celebrates-a-successful-global-summit
 categories: press
 image: blog-8-1.jpg
 author: jeremy_wood
-produce_text: I visited Hotel Ginebra in Barcelona to stay a night and meet the manager.
+produce_text: This blog article has been produced by IOHK and syndicated by Cardano Foundation for wider distribution.
 ---
 
 January got off to a busier start than normal for IOHK because on top of all the usual research and development being carried out, pretty much the entire company traveled to Lisbon for our latest meetup. These week-long events are always hectic and challenging – where everyone comes together to push forward work on projects - but they are also fun, allowing people to meet face to face<!--break-->, sit down over a meal, and get to know each other.
