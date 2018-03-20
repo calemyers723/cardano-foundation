@@ -55,9 +55,7 @@ There will be two more time-based releases in the next couple of months containi
 <style type="text/css">
   .videoframe {
     position: relative;
-    padding-bottom: 56.25%;
     padding-top: 0px;
-    height: 0;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 </style>

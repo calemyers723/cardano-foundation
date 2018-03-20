@@ -9,6 +9,7 @@ markdown: kramdown
 array: []
 
 gems:           ['jekyll-paginate', 'jekyll-multiple-languages']
+# gems:           ['jekyll-multiple-languages']
 
 languages:          ['en', 'ja', 'cn']
 language_default:   'en'

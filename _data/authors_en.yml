@@ -2,11 +2,8 @@ john_oconnor:
   name: John O’Connor
   email: test@author.com
   web: http://twitter.com/
-  title: Head of Strategy and Communications
-  img: john.png
-  linkedin: test
-  twitter: test
-  github: test
+  title: Director of African Operations at IOHK
+  img: john-oconnor.png
 
 alan_mcsherry:
   name: Alan McSherry
@@ -40,7 +37,7 @@ lars_brunjes:
 
 domen_kozar:
   name: Domen Kožar
-  title: DevOps Lead Engineer
+  title: DevOps Lead Engineer at IOHK
   img: domen-kozar.png
 
 grigore_rosu:
@@ -55,6 +52,6 @@ olga_gonzalez:
 
 george_agapov:
   name: George Agapov
-  title: Cardano SL Core Developer
+  title: Cardano SL Core Developer at IOHK
   img: george-agapov.png
   
