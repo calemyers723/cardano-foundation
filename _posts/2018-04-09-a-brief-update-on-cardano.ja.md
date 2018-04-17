@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2018-04-17
-display_date: 2018-04-17
+date: 2018-04-09
+display_date: 2018-04-09
 title: "カルダノの進展に関する最新情報"
 subtitle: ""
 language: ja
