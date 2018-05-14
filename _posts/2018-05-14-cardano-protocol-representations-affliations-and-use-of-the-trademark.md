@@ -11,7 +11,6 @@ slug: cardano-protocol-representations-affliations-and-use-of-the-trademark
 categories: press
 image: blog-12-1.jpg
 author: michael_parsons
-produce_text: This blog article has been produced by IOHK and syndicated by Cardano Foundation for wider distribution.
 ---
 
 Cardano Foundation would like to take this opportunity to improve the community understanding on affiliations, representations and use of trademarks.<!--break-->
