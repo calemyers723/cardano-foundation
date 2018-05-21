@@ -17,7 +17,7 @@ Cardano Foundation would like to take this opportunity to provide clarity about 
 
 We have chosen to do this at this time as our partners are looking for clear direction on how to approach public statements and furthermore the Cardano community regularly approach us for guidance and advice in this area. The Cardano community are a highly motivated and fast-growing group comprised of developers, technologists, original and new purchasers, business partners and ‘philosophically aligned’ advocates. It is our job to assist them in every way we can and support the growth of the project in the best possible manner.
 
-Cardano Foundation was founded with [five objectives](https://cardanofoundation.org/foundation/), one of these objectives is to Protect, Evolve and Enrich the Cardano ecosystem. One of the ways Cardano Foundation has sought to deliver on this objective is by protecting the Cardano brand and trademark for the benefit of the project.
+Cardano Foundation was founded with [five objectives](https://cardanofoundation.org/foundation/), one of these objectives is to Protect, Enhance and Evolve the Cardano Ecosystem. One of the ways Cardano Foundation has sought to deliver on this objective is by protecting the Cardano brand and trademark for the benefit of the project.
 
 Since its inception, Cardano Foundation has therefore proactively secured all relevant Cardano related trademarks on behalf of the project, including the Cardano name, exploding star logo and Ada symbol. These assets were not only secured in the Foundations home country, Switzerland, but in many other global target territories. Further information about our rights will be provided in our policy and can be made available on request.
 
