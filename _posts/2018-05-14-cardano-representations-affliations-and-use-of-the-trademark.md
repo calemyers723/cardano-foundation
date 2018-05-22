@@ -2,7 +2,7 @@
 layout: post
 date: 2018-05-14
 display_date: 2018-05-14
-title: "Cardano representations, affliations and use of the trademark"
+title: "Cardano representations, affiliations and use of the trademark"
 subtitle: ""
 language: en
 permalink: /press/cardano-representations-affliations-and-use-of-the-trademark/
