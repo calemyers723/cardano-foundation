@@ -2,7 +2,7 @@
 layout: post
 date: 2018-05-14
 display_date: 2018-05-14
-title: "卡尔达诺代理、相关及注册商标的使用政策"
+title: "卡尔达诺品牌，机构关系及注册商标的使用政策"
 subtitle: ""
 language: en
 permalink: /press/cardano-representations-affliations-and-use-of-the-trademark/
