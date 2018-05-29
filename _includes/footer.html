@@ -2,6 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-24 col-md-24">
+        {% unless page.layout == 'privacy' %}
         <div class="row">
           <div class="col-md-6 col-xs-24">
             <h4>{{ site.data[lan].join_our_community }}</h4>
@@ -37,53 +38,21 @@
           <div class="col-xs-24">
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
               <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingOne">
-                  <h4 class="panel-title">
-                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      {{ site.data[lan].data_protection_policy }}
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                  <ol>
-                    <li>{{ site.data[lan].data_protection_policy_content_1 }}</li>
-                    <li>{{ site.data[lan].data_protection_policy_content_2 }}</li>
-                    <li>{{ site.data[lan].data_protection_policy_content_3 }}</li>
-                    <li>{{ site.data[lan].data_protection_policy_content_4 }}</li>
-                    <li>{{ site.data[lan].data_protection_policy_content_5 }}</li>
-                    <li>{{ site.data[lan].data_protection_policy_content_6 }}</li>
-                    <li>{{ site.data[lan].data_protection_policy_content_7 }}</li>
-                    <li>{{ site.data[lan].data_protection_policy_content_8 }}</li>
-                  </ol>
-                </div>
               </div>
             </div>
           </div>
         </div>
+        {% endunless %}
         <hr>
         <div class="row copy-section">
           <div class="col-xs-24">
             <p class="copy-right">{{ site.data[lan].copy_right_text_1 }}</p>
-            <p class="copy-right" style="text-transform: uppercase;">&copy;{{ site.data[lan].copy_right_text_2 }}</p>
+            <p class="copy-right">&copy;2017 CARDANO FOUNDATION ALL RIGHTS RESERVED </p><div style="text-align: center;"><a href="/legal/privacy-policy/" style="font-size: 13px;">Privacy Policy</a> - <a href="/legal/cookie-policy/" style="font-size: 13px;">Cookie Policy</a> - <a href="/legal/terms-of-use/" style="font-size: 13px;">Terms of Use</a></div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <script type="text/javascript">
-    var trackcmp_email = "";
-    var trackcmp = document.createElement("script");
-    trackcmp.async = true;
-    trackcmp.type = "text/javascript";
-    trackcmp.src = "//trackcmp.net/visit?actid=251940219&e=" + encodeURIComponent(trackcmp_email) + "&r=" + encodeURIComponent(document.referrer) + "&u=" + encodeURIComponent(window.location.href);
-    var trackcmp_s = document.getElementsByTagName("script");
-    if (trackcmp_s.length) {
-        trackcmp_s[0].parentNode.appendChild(trackcmp);
-    } else {
-      var trackcmp_h = document.getElementsByTagName("head");
-      trackcmp_h.length && trackcmp_h[0].appendChild(trackcmp);
-    }
-  </script>
 </section>
 </div><!-- /#page -->
 
