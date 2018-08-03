@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2018-08-01
-display_date: 2018-08-01
+date: 2018-08-02
+display_date: 2018-08-02
 title: "Going Beyond the Cardano Code"
 subtitle: ""
 language: en
@@ -17,7 +17,7 @@ In December 2017, Cardano Foundation appointed [FP Complete](https://www.fpcompl
 
 The objective of undertaking this independant and thorough approach to code review and engineering practice is to align with Cardano’s development philosophy of research driven, scientific best practice and rigorous peer-review.
 
-The partnership with [FP Complete](https://www.fpcomplete.com/) was successfully implemented with FP Complete having since produced a number of of Cardano audit reports. These include detailed ‘private’ audits for use within the project (i.e. where highlighted issues may be security sensitive ) and slightly modified versions ‘public’ versions for general release. These comprehensive and highly specific audit reports cover many aspects of the project and code base and this deep audit work is ongoing.
+The partnership with [FP Complete](https://www.fpcomplete.com/) was successfully implemented with FP Complete having since produced a number of Cardano audit reports. These include detailed ‘private’ audits for use within the project (i.e. where highlighted issues may be security sensitive ) and slightly modified versions ‘public’ versions for general release. These comprehensive and highly specific audit reports cover many aspects of the project and code base and this deep audit work is ongoing.
 
 The audit process continues to track the development and engineering practices of the Cardano software build whilst the project progresses through further stages of release. There is no end date planned for the audit, our intention is to continue at least until the projects core objectives of full decentralisation and functionality described in the roadmap is in place. An update on the release of recent public audit reports and the public release process going forward will be provided in the near future.
 
@@ -51,7 +51,7 @@ As a commitment to the Haskell community and the open source software movement i
 
 We hope these audit releases will benefit the wider Haskell developer community, encourage a public discussion around commonly used code and help support and encourage a process for vetting dependencies for safety and security concerns.
 
-The first of such reports is available [here on cardano.org](https://www.cardano.org/en/home/) and will review the Haskell [binary package](https://github.com/kolmodin/binary) providing high performance, pure binary serialisation.
+The first of such reports is available [here on cardano.org](https://www.cardano.org/en/haskell-library-reports/) and will review the Haskell [binary package](https://github.com/kolmodin/binary) providing high performance, pure binary serialisation.
 
 The binary package is also one of the core libraries in GHC, the most commonly used native Haskell compiler and is therefore widely used in the Haskell community with far-reaching implications. The binary package is used by the Cardano project in the following areas:
 
