@@ -13,6 +13,8 @@ image: blog-13-1.jpg
 author: steve_wagendorp
 ---
 
+[View reports](https://www.cardano.org/en/haskell-library-reports/)
+
 In December 2017, Cardano Foundation appointed [FP Complete](https://www.fpcomplete.com/), a renowned Haskell software development and DevOps consultancy, to conduct a third-party, independent audit of Cardano settlement layer.<!--break--> This includes the code, technical documentation and operating procedures of IOHK, Cardano’s development team.
 
 The objective of undertaking this independant and thorough approach to code review and engineering practice is to align with Cardano’s development philosophy of research driven, scientific best practice and rigorous peer-review.
